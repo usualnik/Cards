@@ -6,19 +6,19 @@ public class Card : MonoBehaviour
     public event Action<CardState> OnCardStateChanged;
     public enum CardState
     {
-        None,
+        InHand,
         OnConveyor,
         InBuffer,
         InBox
     }
 
-    [SerializeField] private CardState _cardState = CardState.None;
+    [SerializeField] private CardState _cardState = CardState.InHand;
   
     [SerializeField] private CardDataSo cardData;
 
     private void Start()
     {
-        ChangeCardState(CardState.OnConveyor); // Init card on coveyor
+        ChangeCardState(CardState.InHand); // Init card in hand
     }
 
     public void ChangeCardState(CardState cardState)
@@ -28,4 +28,5 @@ public class Card : MonoBehaviour
     }
 
     public CardDataSo GetCardDataSO() => cardData;
+    public CardState GetCardState() => _cardState;
 }

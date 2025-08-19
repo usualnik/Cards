@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 6698541556386100885}
   - component: {fileID: 2394174645946489387}
   - component: {fileID: 1544869416616504936}
+  - component: {fileID: 217685891482040552}
   m_Layer: 6
   m_Name: TestCard
   m_TagString: Untagged
@@ -178,3 +179,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 0.2
+--- !u!114 &217685891482040552
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 378613644698448923}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1008a0ec0d61f984fb41a6a181c4e821, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

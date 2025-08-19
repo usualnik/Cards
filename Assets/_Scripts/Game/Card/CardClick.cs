@@ -11,9 +11,26 @@ public class CardClick : MonoBehaviour
 
     private void OnMouseDown()
     {
-        if (_card != null && CardsInHandManager.Instance != null)
+        switch (_card.GetCardState())
         {
-            CardsInHandManager.Instance.SendPackToConveyor(_card);
+            case Card.CardState.InHand:
+                if (_card != null && CardsInHandManager.Instance != null)
+                {
+                    CardsInHandManager.Instance.SendPackToConveyor(_card);                    
+                }
+                break;
+            case Card.CardState.OnConveyor:
+                break;
+            case Card.CardState.InBuffer:
+                if (_card != null && Buffer.Instance != null)
+                {
+                    Buffer.Instance.SendPackToConveyor(_card);                    
+                }
+                break;
+            case Card.CardState.InBox:
+                break;
         }
+
+       
     }
 }

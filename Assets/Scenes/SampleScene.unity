@@ -331,7 +331,7 @@ Camera:
     width: 1
     height: 1
   near clip plane: 0.3
-  far clip plane: 100
+  far clip plane: 1
   field of view: 58
   orthographic: 1
   orthographic size: 2.5
@@ -359,7 +359,7 @@ Transform:
   m_GameObject: {fileID: 161806180}
   serializedVersion: 2
   m_LocalRotation: {x: 0.13052616, y: 0, z: 0, w: 0.9914449}
-  m_LocalPosition: {x: -40, y: 0.65, z: -12.63}
+  m_LocalPosition: {x: 0, y: 4.3100004, z: -13.17}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -946,6 +946,62 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4279835546365257894, guid: 5aedfe70aecd37c419db0adf9de6b350, type: 3}
+      propertyPath: horizontalOffset
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4279835546365257894, guid: 5aedfe70aecd37c419db0adf9de6b350, type: 3}
+      propertyPath: flightCurve.m_Curve.Array.data[0].time
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4279835546365257894, guid: 5aedfe70aecd37c419db0adf9de6b350, type: 3}
+      propertyPath: flightCurve.m_Curve.Array.data[1].time
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4279835546365257894, guid: 5aedfe70aecd37c419db0adf9de6b350, type: 3}
+      propertyPath: scaleCurve.m_Curve.Array.data[1].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4279835546365257894, guid: 5aedfe70aecd37c419db0adf9de6b350, type: 3}
+      propertyPath: flightCurve.m_Curve.Array.data[0].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4279835546365257894, guid: 5aedfe70aecd37c419db0adf9de6b350, type: 3}
+      propertyPath: flightCurve.m_Curve.Array.data[1].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4279835546365257894, guid: 5aedfe70aecd37c419db0adf9de6b350, type: 3}
+      propertyPath: rotationCurve.m_Curve.Array.data[0].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4279835546365257894, guid: 5aedfe70aecd37c419db0adf9de6b350, type: 3}
+      propertyPath: rotationCurve.m_Curve.Array.data[1].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4279835546365257894, guid: 5aedfe70aecd37c419db0adf9de6b350, type: 3}
+      propertyPath: scaleCurve.m_Curve.Array.data[0].tangentMode
+      value: 34
+      objectReference: {fileID: 0}
+    - target: {fileID: 4279835546365257894, guid: 5aedfe70aecd37c419db0adf9de6b350, type: 3}
+      propertyPath: scaleCurve.m_Curve.Array.data[1].tangentMode
+      value: 34
+      objectReference: {fileID: 0}
+    - target: {fileID: 4279835546365257894, guid: 5aedfe70aecd37c419db0adf9de6b350, type: 3}
+      propertyPath: flightCurve.m_Curve.Array.data[0].tangentMode
+      value: 34
+      objectReference: {fileID: 0}
+    - target: {fileID: 4279835546365257894, guid: 5aedfe70aecd37c419db0adf9de6b350, type: 3}
+      propertyPath: flightCurve.m_Curve.Array.data[1].tangentMode
+      value: 34
+      objectReference: {fileID: 0}
+    - target: {fileID: 4279835546365257894, guid: 5aedfe70aecd37c419db0adf9de6b350, type: 3}
+      propertyPath: rotationCurve.m_Curve.Array.data[0].tangentMode
+      value: 34
+      objectReference: {fileID: 0}
+    - target: {fileID: 4279835546365257894, guid: 5aedfe70aecd37c419db0adf9de6b350, type: 3}
+      propertyPath: rotationCurve.m_Curve.Array.data[1].tangentMode
+      value: 34
+      objectReference: {fileID: 0}
     - target: {fileID: 4404939282172322901, guid: 5aedfe70aecd37c419db0adf9de6b350, type: 3}
       propertyPath: m_Name
       value: BlueCard
@@ -1460,6 +1516,62 @@ PrefabInstance:
       propertyPath: m_Name
       value: RedCard (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 4929341301763353462, guid: 569f446896bfc8640b9658b74a0ab7c4, type: 3}
+      propertyPath: horizontalOffset
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4929341301763353462, guid: 569f446896bfc8640b9658b74a0ab7c4, type: 3}
+      propertyPath: flightCurve.m_Curve.Array.data[0].time
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4929341301763353462, guid: 569f446896bfc8640b9658b74a0ab7c4, type: 3}
+      propertyPath: flightCurve.m_Curve.Array.data[1].time
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4929341301763353462, guid: 569f446896bfc8640b9658b74a0ab7c4, type: 3}
+      propertyPath: scaleCurve.m_Curve.Array.data[1].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4929341301763353462, guid: 569f446896bfc8640b9658b74a0ab7c4, type: 3}
+      propertyPath: flightCurve.m_Curve.Array.data[0].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4929341301763353462, guid: 569f446896bfc8640b9658b74a0ab7c4, type: 3}
+      propertyPath: flightCurve.m_Curve.Array.data[1].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4929341301763353462, guid: 569f446896bfc8640b9658b74a0ab7c4, type: 3}
+      propertyPath: rotationCurve.m_Curve.Array.data[0].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4929341301763353462, guid: 569f446896bfc8640b9658b74a0ab7c4, type: 3}
+      propertyPath: rotationCurve.m_Curve.Array.data[1].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4929341301763353462, guid: 569f446896bfc8640b9658b74a0ab7c4, type: 3}
+      propertyPath: scaleCurve.m_Curve.Array.data[0].tangentMode
+      value: 34
+      objectReference: {fileID: 0}
+    - target: {fileID: 4929341301763353462, guid: 569f446896bfc8640b9658b74a0ab7c4, type: 3}
+      propertyPath: scaleCurve.m_Curve.Array.data[1].tangentMode
+      value: 34
+      objectReference: {fileID: 0}
+    - target: {fileID: 4929341301763353462, guid: 569f446896bfc8640b9658b74a0ab7c4, type: 3}
+      propertyPath: flightCurve.m_Curve.Array.data[0].tangentMode
+      value: 34
+      objectReference: {fileID: 0}
+    - target: {fileID: 4929341301763353462, guid: 569f446896bfc8640b9658b74a0ab7c4, type: 3}
+      propertyPath: flightCurve.m_Curve.Array.data[1].tangentMode
+      value: 34
+      objectReference: {fileID: 0}
+    - target: {fileID: 4929341301763353462, guid: 569f446896bfc8640b9658b74a0ab7c4, type: 3}
+      propertyPath: rotationCurve.m_Curve.Array.data[0].tangentMode
+      value: 34
+      objectReference: {fileID: 0}
+    - target: {fileID: 4929341301763353462, guid: 569f446896bfc8640b9658b74a0ab7c4, type: 3}
+      propertyPath: rotationCurve.m_Curve.Array.data[1].tangentMode
+      value: 34
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1687,6 +1799,62 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2145753268}
     m_Modifications:
+    - target: {fileID: 4279835546365257894, guid: 5aedfe70aecd37c419db0adf9de6b350, type: 3}
+      propertyPath: horizontalOffset
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4279835546365257894, guid: 5aedfe70aecd37c419db0adf9de6b350, type: 3}
+      propertyPath: flightCurve.m_Curve.Array.data[0].time
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4279835546365257894, guid: 5aedfe70aecd37c419db0adf9de6b350, type: 3}
+      propertyPath: flightCurve.m_Curve.Array.data[1].time
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4279835546365257894, guid: 5aedfe70aecd37c419db0adf9de6b350, type: 3}
+      propertyPath: scaleCurve.m_Curve.Array.data[1].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4279835546365257894, guid: 5aedfe70aecd37c419db0adf9de6b350, type: 3}
+      propertyPath: flightCurve.m_Curve.Array.data[0].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4279835546365257894, guid: 5aedfe70aecd37c419db0adf9de6b350, type: 3}
+      propertyPath: flightCurve.m_Curve.Array.data[1].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4279835546365257894, guid: 5aedfe70aecd37c419db0adf9de6b350, type: 3}
+      propertyPath: rotationCurve.m_Curve.Array.data[0].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4279835546365257894, guid: 5aedfe70aecd37c419db0adf9de6b350, type: 3}
+      propertyPath: rotationCurve.m_Curve.Array.data[1].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4279835546365257894, guid: 5aedfe70aecd37c419db0adf9de6b350, type: 3}
+      propertyPath: scaleCurve.m_Curve.Array.data[0].tangentMode
+      value: 34
+      objectReference: {fileID: 0}
+    - target: {fileID: 4279835546365257894, guid: 5aedfe70aecd37c419db0adf9de6b350, type: 3}
+      propertyPath: scaleCurve.m_Curve.Array.data[1].tangentMode
+      value: 34
+      objectReference: {fileID: 0}
+    - target: {fileID: 4279835546365257894, guid: 5aedfe70aecd37c419db0adf9de6b350, type: 3}
+      propertyPath: flightCurve.m_Curve.Array.data[0].tangentMode
+      value: 34
+      objectReference: {fileID: 0}
+    - target: {fileID: 4279835546365257894, guid: 5aedfe70aecd37c419db0adf9de6b350, type: 3}
+      propertyPath: flightCurve.m_Curve.Array.data[1].tangentMode
+      value: 34
+      objectReference: {fileID: 0}
+    - target: {fileID: 4279835546365257894, guid: 5aedfe70aecd37c419db0adf9de6b350, type: 3}
+      propertyPath: rotationCurve.m_Curve.Array.data[0].tangentMode
+      value: 34
+      objectReference: {fileID: 0}
+    - target: {fileID: 4279835546365257894, guid: 5aedfe70aecd37c419db0adf9de6b350, type: 3}
+      propertyPath: rotationCurve.m_Curve.Array.data[1].tangentMode
+      value: 34
+      objectReference: {fileID: 0}
     - target: {fileID: 4404939282172322901, guid: 5aedfe70aecd37c419db0adf9de6b350, type: 3}
       propertyPath: m_Name
       value: BlueCard (1)
@@ -1771,7 +1939,7 @@ Transform:
   m_GameObject: {fileID: 876580201}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 2.521, y: 0.10286079, z: -3.319}
+  m_LocalPosition: {x: 2.334, y: 0.10286079, z: -3.319}
   m_LocalScale: {x: 0.87, y: 0.2, z: 0.5}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2057,6 +2225,62 @@ PrefabInstance:
       propertyPath: m_Name
       value: RedCard (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 4929341301763353462, guid: 569f446896bfc8640b9658b74a0ab7c4, type: 3}
+      propertyPath: horizontalOffset
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4929341301763353462, guid: 569f446896bfc8640b9658b74a0ab7c4, type: 3}
+      propertyPath: flightCurve.m_Curve.Array.data[0].time
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4929341301763353462, guid: 569f446896bfc8640b9658b74a0ab7c4, type: 3}
+      propertyPath: flightCurve.m_Curve.Array.data[1].time
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4929341301763353462, guid: 569f446896bfc8640b9658b74a0ab7c4, type: 3}
+      propertyPath: scaleCurve.m_Curve.Array.data[1].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4929341301763353462, guid: 569f446896bfc8640b9658b74a0ab7c4, type: 3}
+      propertyPath: flightCurve.m_Curve.Array.data[0].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4929341301763353462, guid: 569f446896bfc8640b9658b74a0ab7c4, type: 3}
+      propertyPath: flightCurve.m_Curve.Array.data[1].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4929341301763353462, guid: 569f446896bfc8640b9658b74a0ab7c4, type: 3}
+      propertyPath: rotationCurve.m_Curve.Array.data[0].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4929341301763353462, guid: 569f446896bfc8640b9658b74a0ab7c4, type: 3}
+      propertyPath: rotationCurve.m_Curve.Array.data[1].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4929341301763353462, guid: 569f446896bfc8640b9658b74a0ab7c4, type: 3}
+      propertyPath: scaleCurve.m_Curve.Array.data[0].tangentMode
+      value: 34
+      objectReference: {fileID: 0}
+    - target: {fileID: 4929341301763353462, guid: 569f446896bfc8640b9658b74a0ab7c4, type: 3}
+      propertyPath: scaleCurve.m_Curve.Array.data[1].tangentMode
+      value: 34
+      objectReference: {fileID: 0}
+    - target: {fileID: 4929341301763353462, guid: 569f446896bfc8640b9658b74a0ab7c4, type: 3}
+      propertyPath: flightCurve.m_Curve.Array.data[0].tangentMode
+      value: 34
+      objectReference: {fileID: 0}
+    - target: {fileID: 4929341301763353462, guid: 569f446896bfc8640b9658b74a0ab7c4, type: 3}
+      propertyPath: flightCurve.m_Curve.Array.data[1].tangentMode
+      value: 34
+      objectReference: {fileID: 0}
+    - target: {fileID: 4929341301763353462, guid: 569f446896bfc8640b9658b74a0ab7c4, type: 3}
+      propertyPath: rotationCurve.m_Curve.Array.data[0].tangentMode
+      value: 34
+      objectReference: {fileID: 0}
+    - target: {fileID: 4929341301763353462, guid: 569f446896bfc8640b9658b74a0ab7c4, type: 3}
+      propertyPath: rotationCurve.m_Curve.Array.data[1].tangentMode
+      value: 34
+      objectReference: {fileID: 0}
     - target: {fileID: 5917047571324878326, guid: 569f446896bfc8640b9658b74a0ab7c4, type: 3}
       propertyPath: m_Enabled
       value: 0
@@ -2109,6 +2333,62 @@ PrefabInstance:
     - target: {fileID: 3247127656962784806, guid: 5aedfe70aecd37c419db0adf9de6b350, type: 3}
       propertyPath: m_Enabled
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4279835546365257894, guid: 5aedfe70aecd37c419db0adf9de6b350, type: 3}
+      propertyPath: horizontalOffset
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4279835546365257894, guid: 5aedfe70aecd37c419db0adf9de6b350, type: 3}
+      propertyPath: flightCurve.m_Curve.Array.data[0].time
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4279835546365257894, guid: 5aedfe70aecd37c419db0adf9de6b350, type: 3}
+      propertyPath: flightCurve.m_Curve.Array.data[1].time
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4279835546365257894, guid: 5aedfe70aecd37c419db0adf9de6b350, type: 3}
+      propertyPath: scaleCurve.m_Curve.Array.data[1].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4279835546365257894, guid: 5aedfe70aecd37c419db0adf9de6b350, type: 3}
+      propertyPath: flightCurve.m_Curve.Array.data[0].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4279835546365257894, guid: 5aedfe70aecd37c419db0adf9de6b350, type: 3}
+      propertyPath: flightCurve.m_Curve.Array.data[1].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4279835546365257894, guid: 5aedfe70aecd37c419db0adf9de6b350, type: 3}
+      propertyPath: rotationCurve.m_Curve.Array.data[0].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4279835546365257894, guid: 5aedfe70aecd37c419db0adf9de6b350, type: 3}
+      propertyPath: rotationCurve.m_Curve.Array.data[1].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4279835546365257894, guid: 5aedfe70aecd37c419db0adf9de6b350, type: 3}
+      propertyPath: scaleCurve.m_Curve.Array.data[0].tangentMode
+      value: 34
+      objectReference: {fileID: 0}
+    - target: {fileID: 4279835546365257894, guid: 5aedfe70aecd37c419db0adf9de6b350, type: 3}
+      propertyPath: scaleCurve.m_Curve.Array.data[1].tangentMode
+      value: 34
+      objectReference: {fileID: 0}
+    - target: {fileID: 4279835546365257894, guid: 5aedfe70aecd37c419db0adf9de6b350, type: 3}
+      propertyPath: flightCurve.m_Curve.Array.data[0].tangentMode
+      value: 34
+      objectReference: {fileID: 0}
+    - target: {fileID: 4279835546365257894, guid: 5aedfe70aecd37c419db0adf9de6b350, type: 3}
+      propertyPath: flightCurve.m_Curve.Array.data[1].tangentMode
+      value: 34
+      objectReference: {fileID: 0}
+    - target: {fileID: 4279835546365257894, guid: 5aedfe70aecd37c419db0adf9de6b350, type: 3}
+      propertyPath: rotationCurve.m_Curve.Array.data[0].tangentMode
+      value: 34
+      objectReference: {fileID: 0}
+    - target: {fileID: 4279835546365257894, guid: 5aedfe70aecd37c419db0adf9de6b350, type: 3}
+      propertyPath: rotationCurve.m_Curve.Array.data[1].tangentMode
+      value: 34
       objectReference: {fileID: 0}
     - target: {fileID: 4404939282172322901, guid: 5aedfe70aecd37c419db0adf9de6b350, type: 3}
       propertyPath: m_Name
@@ -2260,6 +2540,62 @@ PrefabInstance:
     - target: {fileID: 4768453272736327557, guid: 569f446896bfc8640b9658b74a0ab7c4, type: 3}
       propertyPath: m_Name
       value: RedCard (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4929341301763353462, guid: 569f446896bfc8640b9658b74a0ab7c4, type: 3}
+      propertyPath: horizontalOffset
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4929341301763353462, guid: 569f446896bfc8640b9658b74a0ab7c4, type: 3}
+      propertyPath: flightCurve.m_Curve.Array.data[0].time
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4929341301763353462, guid: 569f446896bfc8640b9658b74a0ab7c4, type: 3}
+      propertyPath: flightCurve.m_Curve.Array.data[1].time
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4929341301763353462, guid: 569f446896bfc8640b9658b74a0ab7c4, type: 3}
+      propertyPath: scaleCurve.m_Curve.Array.data[1].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4929341301763353462, guid: 569f446896bfc8640b9658b74a0ab7c4, type: 3}
+      propertyPath: flightCurve.m_Curve.Array.data[0].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4929341301763353462, guid: 569f446896bfc8640b9658b74a0ab7c4, type: 3}
+      propertyPath: flightCurve.m_Curve.Array.data[1].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4929341301763353462, guid: 569f446896bfc8640b9658b74a0ab7c4, type: 3}
+      propertyPath: rotationCurve.m_Curve.Array.data[0].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4929341301763353462, guid: 569f446896bfc8640b9658b74a0ab7c4, type: 3}
+      propertyPath: rotationCurve.m_Curve.Array.data[1].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4929341301763353462, guid: 569f446896bfc8640b9658b74a0ab7c4, type: 3}
+      propertyPath: scaleCurve.m_Curve.Array.data[0].tangentMode
+      value: 34
+      objectReference: {fileID: 0}
+    - target: {fileID: 4929341301763353462, guid: 569f446896bfc8640b9658b74a0ab7c4, type: 3}
+      propertyPath: scaleCurve.m_Curve.Array.data[1].tangentMode
+      value: 34
+      objectReference: {fileID: 0}
+    - target: {fileID: 4929341301763353462, guid: 569f446896bfc8640b9658b74a0ab7c4, type: 3}
+      propertyPath: flightCurve.m_Curve.Array.data[0].tangentMode
+      value: 34
+      objectReference: {fileID: 0}
+    - target: {fileID: 4929341301763353462, guid: 569f446896bfc8640b9658b74a0ab7c4, type: 3}
+      propertyPath: flightCurve.m_Curve.Array.data[1].tangentMode
+      value: 34
+      objectReference: {fileID: 0}
+    - target: {fileID: 4929341301763353462, guid: 569f446896bfc8640b9658b74a0ab7c4, type: 3}
+      propertyPath: rotationCurve.m_Curve.Array.data[0].tangentMode
+      value: 34
+      objectReference: {fileID: 0}
+    - target: {fileID: 4929341301763353462, guid: 569f446896bfc8640b9658b74a0ab7c4, type: 3}
+      propertyPath: rotationCurve.m_Curve.Array.data[1].tangentMode
+      value: 34
       objectReference: {fileID: 0}
     - target: {fileID: 5917047571324878326, guid: 569f446896bfc8640b9658b74a0ab7c4, type: 3}
       propertyPath: m_Enabled
@@ -2672,6 +3008,62 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4279835546365257894, guid: 5aedfe70aecd37c419db0adf9de6b350, type: 3}
+      propertyPath: horizontalOffset
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4279835546365257894, guid: 5aedfe70aecd37c419db0adf9de6b350, type: 3}
+      propertyPath: flightCurve.m_Curve.Array.data[0].time
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4279835546365257894, guid: 5aedfe70aecd37c419db0adf9de6b350, type: 3}
+      propertyPath: flightCurve.m_Curve.Array.data[1].time
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4279835546365257894, guid: 5aedfe70aecd37c419db0adf9de6b350, type: 3}
+      propertyPath: scaleCurve.m_Curve.Array.data[1].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4279835546365257894, guid: 5aedfe70aecd37c419db0adf9de6b350, type: 3}
+      propertyPath: flightCurve.m_Curve.Array.data[0].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4279835546365257894, guid: 5aedfe70aecd37c419db0adf9de6b350, type: 3}
+      propertyPath: flightCurve.m_Curve.Array.data[1].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4279835546365257894, guid: 5aedfe70aecd37c419db0adf9de6b350, type: 3}
+      propertyPath: rotationCurve.m_Curve.Array.data[0].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4279835546365257894, guid: 5aedfe70aecd37c419db0adf9de6b350, type: 3}
+      propertyPath: rotationCurve.m_Curve.Array.data[1].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4279835546365257894, guid: 5aedfe70aecd37c419db0adf9de6b350, type: 3}
+      propertyPath: scaleCurve.m_Curve.Array.data[0].tangentMode
+      value: 34
+      objectReference: {fileID: 0}
+    - target: {fileID: 4279835546365257894, guid: 5aedfe70aecd37c419db0adf9de6b350, type: 3}
+      propertyPath: scaleCurve.m_Curve.Array.data[1].tangentMode
+      value: 34
+      objectReference: {fileID: 0}
+    - target: {fileID: 4279835546365257894, guid: 5aedfe70aecd37c419db0adf9de6b350, type: 3}
+      propertyPath: flightCurve.m_Curve.Array.data[0].tangentMode
+      value: 34
+      objectReference: {fileID: 0}
+    - target: {fileID: 4279835546365257894, guid: 5aedfe70aecd37c419db0adf9de6b350, type: 3}
+      propertyPath: flightCurve.m_Curve.Array.data[1].tangentMode
+      value: 34
+      objectReference: {fileID: 0}
+    - target: {fileID: 4279835546365257894, guid: 5aedfe70aecd37c419db0adf9de6b350, type: 3}
+      propertyPath: rotationCurve.m_Curve.Array.data[0].tangentMode
+      value: 34
+      objectReference: {fileID: 0}
+    - target: {fileID: 4279835546365257894, guid: 5aedfe70aecd37c419db0adf9de6b350, type: 3}
+      propertyPath: rotationCurve.m_Curve.Array.data[1].tangentMode
+      value: 34
+      objectReference: {fileID: 0}
     - target: {fileID: 4404939282172322901, guid: 5aedfe70aecd37c419db0adf9de6b350, type: 3}
       propertyPath: m_Name
       value: BlueCard (2)
@@ -2977,6 +3369,10 @@ PrefabInstance:
     - target: {fileID: 8000009903872587587, guid: df2e7bddedd1f644685d8b259a6d23cd, type: 3}
       propertyPath: m_Name
       value: Box (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8000009903872587587, guid: df2e7bddedd1f644685d8b259a6d23cd, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3458,7 +3854,7 @@ MonoBehaviour:
           z: 0
           w: 1
     - Position:
-        x: 4.192895
+        x: 4.0248947
         y: 0
         z: -0.099989414
       TangentIn:
@@ -3664,7 +4060,7 @@ Transform:
   m_GameObject: {fileID: 1996171281}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -40, y: -2.8, z: -8}
+  m_LocalPosition: {x: 0, y: 2.11, z: -12.76}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -3794,6 +4190,62 @@ PrefabInstance:
     - target: {fileID: 4768453272736327557, guid: 569f446896bfc8640b9658b74a0ab7c4, type: 3}
       propertyPath: m_Name
       value: RedCard (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4929341301763353462, guid: 569f446896bfc8640b9658b74a0ab7c4, type: 3}
+      propertyPath: horizontalOffset
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4929341301763353462, guid: 569f446896bfc8640b9658b74a0ab7c4, type: 3}
+      propertyPath: flightCurve.m_Curve.Array.data[0].time
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4929341301763353462, guid: 569f446896bfc8640b9658b74a0ab7c4, type: 3}
+      propertyPath: flightCurve.m_Curve.Array.data[1].time
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4929341301763353462, guid: 569f446896bfc8640b9658b74a0ab7c4, type: 3}
+      propertyPath: scaleCurve.m_Curve.Array.data[1].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4929341301763353462, guid: 569f446896bfc8640b9658b74a0ab7c4, type: 3}
+      propertyPath: flightCurve.m_Curve.Array.data[0].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4929341301763353462, guid: 569f446896bfc8640b9658b74a0ab7c4, type: 3}
+      propertyPath: flightCurve.m_Curve.Array.data[1].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4929341301763353462, guid: 569f446896bfc8640b9658b74a0ab7c4, type: 3}
+      propertyPath: rotationCurve.m_Curve.Array.data[0].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4929341301763353462, guid: 569f446896bfc8640b9658b74a0ab7c4, type: 3}
+      propertyPath: rotationCurve.m_Curve.Array.data[1].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4929341301763353462, guid: 569f446896bfc8640b9658b74a0ab7c4, type: 3}
+      propertyPath: scaleCurve.m_Curve.Array.data[0].tangentMode
+      value: 34
+      objectReference: {fileID: 0}
+    - target: {fileID: 4929341301763353462, guid: 569f446896bfc8640b9658b74a0ab7c4, type: 3}
+      propertyPath: scaleCurve.m_Curve.Array.data[1].tangentMode
+      value: 34
+      objectReference: {fileID: 0}
+    - target: {fileID: 4929341301763353462, guid: 569f446896bfc8640b9658b74a0ab7c4, type: 3}
+      propertyPath: flightCurve.m_Curve.Array.data[0].tangentMode
+      value: 34
+      objectReference: {fileID: 0}
+    - target: {fileID: 4929341301763353462, guid: 569f446896bfc8640b9658b74a0ab7c4, type: 3}
+      propertyPath: flightCurve.m_Curve.Array.data[1].tangentMode
+      value: 34
+      objectReference: {fileID: 0}
+    - target: {fileID: 4929341301763353462, guid: 569f446896bfc8640b9658b74a0ab7c4, type: 3}
+      propertyPath: rotationCurve.m_Curve.Array.data[0].tangentMode
+      value: 34
+      objectReference: {fileID: 0}
+    - target: {fileID: 4929341301763353462, guid: 569f446896bfc8640b9658b74a0ab7c4, type: 3}
+      propertyPath: rotationCurve.m_Curve.Array.data[1].tangentMode
+      value: 34
       objectReference: {fileID: 0}
     - target: {fileID: 5917047571324878326, guid: 569f446896bfc8640b9658b74a0ab7c4, type: 3}
       propertyPath: m_Enabled
@@ -3943,7 +4395,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3096447115125979606, guid: 0b108fc9ca4d57546bdde89acb7ad58c, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -5.941
+      value: -6.54
       objectReference: {fileID: 0}
     - target: {fileID: 3096447115125979606, guid: 0b108fc9ca4d57546bdde89acb7ad58c, type: 3}
       propertyPath: m_LocalRotation.w
@@ -3981,6 +4433,10 @@ PrefabInstance:
       propertyPath: _headPos
       value: 
       objectReference: {fileID: 4877561455593608133}
+    - target: {fileID: 8688171391282355103, guid: 0b108fc9ca4d57546bdde89acb7ad58c, type: 3}
+      propertyPath: _delayBetweenCards
+      value: 0.1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

@@ -50,12 +50,13 @@ public class CardsInHandManager : MonoBehaviour
             if (card.GetCardDataSO().name == targetName)
             {
                 cardsToSend.Add(card);
+                card.ChangeCardState(Card.CardState.OnConveyor);
             }
         }
        
         foreach (var card in cardsToSend)
         {
-            card.GetComponent<CardMovement>().enabled = true;
+            card.GetComponent<CardAnimation>().SendCardToConveyorAnimation();
             column.Remove(card);
            
             yield return new WaitForSeconds(_delayBetweenCards);

@@ -33,6 +33,7 @@ public class CardMovement : MonoBehaviour
 
     private void Card_OnCardStateChanged(Card.CardState cardState)
     {
+        progress = 0f;
         _canMove = cardState == Card.CardState.OnConveyor ? true : false;
     }
 

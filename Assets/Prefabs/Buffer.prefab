@@ -153,3 +153,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d7e777d706a63804cb5468436a147d72, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _headPos: {fileID: 0}
+  _delayBetweenCards: 0.2
+  _cardsInBuffer: []

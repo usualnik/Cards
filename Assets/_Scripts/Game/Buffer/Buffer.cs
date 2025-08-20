@@ -11,7 +11,6 @@ public class Buffer : MonoBehaviour
     [SerializeField] private List<Card> _cardsInBuffer = new List<Card>(); // MAX capacity - 20 card
     private Vector3 _bufferCardOffset = new Vector3(0.2f,0,0);
 
-
     private void Awake()
     {
         if (Instance == null)
@@ -39,17 +38,7 @@ public class Buffer : MonoBehaviour
     }
 
     private void PutCardInBuffer(Card card)
-    {        
-        if (_cardsInBuffer.Count > 0)
-        {
-            Card lastCard = _cardsInBuffer[_cardsInBuffer.Count - 1];
-            card.transform.position = lastCard.transform.position + _bufferCardOffset;
-        }
-        else 
-        {
-            card.transform.position = _headPos.position;
-        }
-
+    {
         _cardsInBuffer.Add(card);
         card.ChangeCardState(Card.CardState.InBuffer);
     }
@@ -77,18 +66,21 @@ public class Buffer : MonoBehaviour
         {
             if (card.GetCardDataSO().name == targetName)
             {
-                cardsToSend.Add(card);               
+                
+                cardsToSend.Add(card);
+                
             }
         }
 
         foreach (var card in cardsToSend)
         {
-            card.ChangeCardState(Card.CardState.OnConveyor);
-            //card.GetComponent<CardAnimation>().SendCardToConveyorAnimation();            
+            card.GetComponent<CardFromBufferAnimation>().SendCardToConveyorAnimation();
             _cardsInBuffer.Remove(card);
 
             yield return new WaitForSeconds(_delayBetweenCards);
         }
     }
+    public int GetBufferCardsListCount() => _cardsInBuffer.Count;
+    public List<Card> GetBufferCardsList() => _cardsInBuffer;
 
 }

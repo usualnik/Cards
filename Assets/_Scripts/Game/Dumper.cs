@@ -23,7 +23,7 @@ public class Dumper : MonoBehaviour
         if (other.TryGetComponent<Card>(out Card card))
         {
             OnDumpCard?.Invoke(card);
-            //Destroy(other.gameObject);
+            card.GetComponent<CardFromDumperAnimation>().SendCardToBufferAnimation();
         }
     }
 }

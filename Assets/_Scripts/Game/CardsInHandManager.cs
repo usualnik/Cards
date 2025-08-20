@@ -56,7 +56,7 @@ public class CardsInHandManager : MonoBehaviour
        
         foreach (var card in cardsToSend)
         {
-            card.GetComponent<CardAnimation>().SendCardToConveyorAnimation();
+            card.GetComponent<CardFromHandAnimation>().SendCardToConveyorAnimation();
             column.Remove(card);
            
             yield return new WaitForSeconds(_delayBetweenCards);

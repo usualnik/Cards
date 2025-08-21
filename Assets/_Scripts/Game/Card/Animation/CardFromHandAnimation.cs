@@ -124,11 +124,7 @@ public class CardFromHandAnimation : MonoBehaviour
             collider2D.enabled = true;
         }
 
-        // Можно добавить события после завершения анимации
-        Debug.Log("Card animation completed!");
-
-        // Опционально: уничтожить объект после анимации
-        // Destroy(gameObject);
+       
 
        
         transform.Rotate(0, 90, 0);        

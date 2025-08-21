@@ -21,15 +21,15 @@ public class Box : MonoBehaviour
         else
         {
 
-            if (cardsInBox.Count > 0)
-            {
-                Card lastCard = cardsInBox[cardsInBox.Count - 1];
-                card.transform.position = lastCard.transform.position + _headTransformOffset;
-            }
-            else
-            {
-                card.transform.position = _headTransform.position;
-            }
+            //if (cardsInBox.Count > 0)
+            //{
+            //    Card lastCard = cardsInBox[cardsInBox.Count - 1];
+            //    card.transform.position = lastCard.transform.position + _headTransformOffset;
+            //}
+            //else
+            //{
+            //    card.transform.position = _headTransform.position;
+            //}
 
             card.transform.Rotate(0, 90, 0);
 
@@ -56,4 +56,7 @@ public class Box : MonoBehaviour
     {
         gameObject.SetActive(true);
     }
+
+    public Transform GetBoxHeadTransform() => _headTransform;
+    public int GetCardsInBoxCount() => cardsInBox.Count;
 }

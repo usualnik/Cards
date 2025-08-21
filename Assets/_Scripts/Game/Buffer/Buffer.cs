@@ -59,27 +59,76 @@ public class Buffer : MonoBehaviour
 
     private IEnumerator SendMatchingCardsWithDelay(string targetName)
     {
-
         List<Card> cardsToSend = new List<Card>();
 
         foreach (var card in _cardsInBuffer)
         {
             if (card.GetCardDataSO().name == targetName)
             {
-                
                 cardsToSend.Add(card);
-                
-            }
+            }else
+                break;
         }
 
         foreach (var card in cardsToSend)
         {
             card.GetComponent<CardFromBufferAnimation>().SendCardToConveyorAnimation();
             _cardsInBuffer.Remove(card);
+            yield return new WaitForSeconds(_delayBetweenCards);
+        }
+
+        yield return new WaitForSeconds(_delayBetweenCards);
+
+        // Анимируем перемещение оставшихся карт с учетом индекса
+        for (int i = 0; i < _cardsInBuffer.Count; i++)
+        {
+            var card = _cardsInBuffer[i];
+
+            // Рассчитываем позицию с offset
+            Vector3 targetPosition = _headPos.position + CalculateCardOffset(i);
+            Quaternion targetRotation = _headPos.rotation;
+
+            // Получаем или добавляем компонент анимации
+            var animationComponent = card.GetComponent<RepositionCardInBufferAnimation>();
+            if (animationComponent == null)
+            {
+                animationComponent = card.gameObject.AddComponent<RepositionCardInBufferAnimation>();
+            }
+
+            // Настраиваем параметры анимации
+            animationComponent.animationDuration = 0.6f;
+            animationComponent.jumpHeight = 1.2f;
+            animationComponent.horizontalOffset = 0f;
+
+            // Запускаем анимацию
+            animationComponent.AnimateToPosition(targetPosition, targetRotation, i);
 
             yield return new WaitForSeconds(_delayBetweenCards);
         }
+
+        yield return new WaitUntil(AllBufferAnimationsComplete);
     }
+
+    private Vector3 CalculateCardOffset(int index)
+    {
+        // Например, смещение по оси X для каждой следующей карты
+        return new Vector3(index * 0.2f, 0, 0);
+    }
+
+    private bool AllBufferAnimationsComplete()
+    {
+        foreach (var card in _cardsInBuffer)
+        {
+            var animationComponent = card.GetComponent<RepositionCardInBufferAnimation>();
+            if (animationComponent != null && animationComponent.IsAnimating())
+            {
+                return false;
+            }
+        }
+        return true;
+    }
+
+   
     public int GetBufferCardsListCount() => _cardsInBuffer.Count;
     public List<Card> GetBufferCardsList() => _cardsInBuffer;
 

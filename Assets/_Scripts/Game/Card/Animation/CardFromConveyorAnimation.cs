@@ -1,10 +1,8 @@
-using System;
 using UnityEngine;
 
-public class CardFromDumperAnimation : MonoBehaviour
+public class CardFromConveyorAnimation : MonoBehaviour
 {
-    private Transform _bufferHeadTransform;
-    private Vector3 _bufferHeadOffset = new Vector3(0.2f, 0, 0);
+    private Transform _boxHeadTransform;   
     private Vector3 _initialPosition;
     private Quaternion _initialRotation;
     private Vector3 _initialScale;
@@ -18,25 +16,23 @@ public class CardFromDumperAnimation : MonoBehaviour
     public AnimationCurve rotationCurve = AnimationCurve.EaseInOut(0, 0, 1, 180f);
 
     [Header("Buffer Stack Settings")]
-    public Vector3 cardOffset = new Vector3(0.5f, 0, 0); 
-    public Vector3 cardRotationOffset = Vector3.left; 
-    public bool useLocalOffset = true; 
+    public Vector3 cardOffset = new Vector3(0.5f, 0, 0);
+    public Vector3 cardRotationOffset = Vector3.left;
+    public bool useLocalOffset = true;
 
     private bool _isAnimating = false;
     private float _animationProgress = 0f;
-    private int _targetBufferIndex = 0;
+    private int _targetBoxIndex = 0;
 
-    private void Start()
-    {
-        _bufferHeadTransform = FindAnyObjectByType<BufferHead>().transform;
-    }
 
-    public void SendCardToBufferAnimation()
+    public void SendCardToBoxAnimation(Box box)
     {
-        if (_isAnimating || _bufferHeadTransform == null) return;
+        _boxHeadTransform = box.GetBoxHeadTransform();
+
+        if (_isAnimating || _boxHeadTransform == null) return;
 
         // Определяем индекс карты в буфере
-        _targetBufferIndex = Buffer.Instance.GetBufferCardsListCount();
+        _targetBoxIndex = box.GetCardsInBoxCount();
 
         // Сохраняем начальные параметры
         _initialPosition = transform.position;
@@ -81,7 +77,6 @@ public class CardFromDumperAnimation : MonoBehaviour
         }
 
         AnimateCard();
-        
     }
 
     private void AnimateCard()
@@ -104,7 +99,7 @@ public class CardFromDumperAnimation : MonoBehaviour
     private Vector3 Calculate2DPosition(float progress)
     {
         Vector3 startPos = _initialPosition;
-        Vector3 endPos = CalculateFinalPosition();       
+        Vector3 endPos = CalculateFinalPosition(); // Конечная позиция с учетом смещения
 
         // Синусоидальная траектория в 2D (вправо/влево)
         Vector3 direction = (endPos - startPos).normalized;
@@ -117,17 +112,17 @@ public class CardFromDumperAnimation : MonoBehaviour
 
     private Vector3 CalculateFinalPosition()
     {
-        Vector3 basePosition = _bufferHeadTransform.position - _bufferHeadOffset;
+        Vector3 basePosition = _boxHeadTransform.position;
 
         if (useLocalOffset)
         {
             // Локальное смещение относительно буфера
-            return basePosition + _bufferHeadTransform.TransformDirection(cardOffset * _targetBufferIndex);
+            return basePosition + _boxHeadTransform.TransformDirection(cardOffset * _targetBoxIndex);
         }
         else
         {
             // Глобальное смещение
-            return basePosition + cardOffset * _targetBufferIndex;
+            return basePosition + cardOffset * _targetBoxIndex;
         }
     }
 
@@ -136,7 +131,7 @@ public class CardFromDumperAnimation : MonoBehaviour
         if (useLocalOffset)
         {
             // Сохраняем вращение буфера + дополнительное смещение
-            return _bufferHeadTransform.rotation * Quaternion.Euler(cardRotationOffset);
+            return _boxHeadTransform.rotation * Quaternion.Euler(cardRotationOffset);
         }
         else
         {
@@ -150,8 +145,7 @@ public class CardFromDumperAnimation : MonoBehaviour
         _isAnimating = false;
 
         // Устанавливаем финальную позицию с учетом смещения
-        transform.position = CalculateFinalPosition();    
-
+        transform.position = CalculateFinalPosition();
         transform.rotation = CalculateFinalRotation();
         transform.localScale = _initialScale * scaleCurve.Evaluate(1f);
 
@@ -167,6 +161,8 @@ public class CardFromDumperAnimation : MonoBehaviour
         {
             collider2D.enabled = true;
         }
+
+        
     }
-   
 }
+

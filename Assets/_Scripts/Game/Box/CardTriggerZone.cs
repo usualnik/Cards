@@ -3,6 +3,7 @@ using static Box;
 
 public class CardTriggerZone : MonoBehaviour
 {
+    
     public enum WaitingForCard
     {
         Red,
@@ -26,12 +27,14 @@ public class CardTriggerZone : MonoBehaviour
                 case WaitingForCard.Red:
                     if (card.GetCardDataSO().Title == "RedCard")
                     {
+                        card.GetComponent<CardFromConveyorAnimation>().SendCardToBoxAnimation(box);
                         box.AddCardToBox(card);
                     }
                     break;
                 case WaitingForCard.Blue:
                     if (card.GetCardDataSO().Title == "BlueCard")
                     {
+                        card.GetComponent<CardFromConveyorAnimation>().SendCardToBoxAnimation(box);
                         box.AddCardToBox(card);
                     }
                     break;

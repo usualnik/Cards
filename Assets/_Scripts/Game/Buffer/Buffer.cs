@@ -8,7 +8,7 @@ public class Buffer : MonoBehaviour
     [SerializeField] private Transform _headPos;
     [SerializeField] private float _delayBetweenCards = 0.2f;
 
-    [SerializeField] private List<Card> _cardsInBuffer = new List<Card>(); // MAX capacity - 20 card
+    private List<Card> _cardsInBuffer = new List<Card>(); // MAX capacity - 20 card
     private Vector3 _bufferCardOffset = new Vector3(0.2f,0,0);
 
     private void Awake()

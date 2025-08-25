@@ -4,6 +4,9 @@ using UnityEngine;
 public class Card : MonoBehaviour
 {
     public event Action<CardState> OnCardStateChanged;
+    public event System.Action<Card> OnCardDestroyed;
+
+   
     public enum CardState
     {
         InHand,
@@ -20,7 +23,10 @@ public class Card : MonoBehaviour
     {
         ChangeCardState(CardState.InHand); // Init card in hand
     }
-
+    private void OnDestroy()
+    {       
+        OnCardDestroyed?.Invoke(this);
+    }
     public void ChangeCardState(CardState cardState)
     {      
         this._cardState = cardState;

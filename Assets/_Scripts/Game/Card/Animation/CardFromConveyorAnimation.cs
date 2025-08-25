@@ -112,7 +112,7 @@ public class CardFromConveyorAnimation : MonoBehaviour
 
     private Vector3 CalculateFinalPosition()
     {
-        Vector3 basePosition = _boxHeadTransform.position;
+        Vector3 basePosition = _boxHeadTransform.position == null ? Vector3.forward : _boxHeadTransform.position;
 
         if (useLocalOffset)
         {

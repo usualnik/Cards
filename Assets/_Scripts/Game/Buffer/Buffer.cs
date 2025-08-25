@@ -1,15 +1,23 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class Buffer : MonoBehaviour
 {
+   
     public static Buffer Instance { get; private set; }
+    public event Action<List<Card>> OnSendCardsToConveyor;
+    public event Action OnBufferFull;
+
     [SerializeField] private Transform _headPos;
     [SerializeField] private float _delayBetweenCards = 0.2f;
 
     private List<Card> _cardsInBuffer = new List<Card>(); // MAX capacity - 20 card
     private Vector3 _bufferCardOffset = new Vector3(0.2f,0,0);
+
+
+    private const int MAX_CARDS_IN_BUFFER = 20;
 
     private void Awake()
     {
@@ -39,8 +47,16 @@ public class Buffer : MonoBehaviour
 
     private void PutCardInBuffer(Card card)
     {
-        _cardsInBuffer.Add(card);
-        card.ChangeCardState(Card.CardState.InBuffer);
+        if (_cardsInBuffer.Count <= MAX_CARDS_IN_BUFFER)
+        {
+            _cardsInBuffer.Add(card);
+            card.ChangeCardState(Card.CardState.InBuffer);
+        }
+        else 
+        {
+            OnBufferFull?.Invoke();
+        }
+        
     }
 
     public void SendPackToConveyor(Card clickedCard)
@@ -63,12 +79,14 @@ public class Buffer : MonoBehaviour
 
         foreach (var card in _cardsInBuffer)
         {
-            if (card.GetCardDataSO().name == targetName)
+            if (card.GetCardDataSO().name == targetName && Receiver.Instance.GetCanAcceptMore(cardsToSend.Count))
             {
                 cardsToSend.Add(card);
             }else
                 break;
         }
+
+        OnSendCardsToConveyor?.Invoke(cardsToSend);
 
         foreach (var card in cardsToSend)
         {

@@ -155,4 +155,3 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _headPos: {fileID: 0}
   _delayBetweenCards: 0.2
-  _cardsInBuffer: []

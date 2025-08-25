@@ -65,7 +65,7 @@ public class CardsInHandManager : MonoBehaviour
         // Собираем карты для отправки
         foreach (var card in column)
         {
-            if (card.GetCardDataSO().name == targetName)
+            if (card.GetCardDataSO().name == targetName && Receiver.Instance.GetCanAcceptMore(cardsToSend.Count))
             {
                 cardsToSend.Add(card);
                 card.ChangeCardState(Card.CardState.OnConveyor);
@@ -76,7 +76,7 @@ public class CardsInHandManager : MonoBehaviour
             }
         }
 
-        OnSendCardsToConveyor(cardsToSend);
+        OnSendCardsToConveyor?.Invoke(cardsToSend);
 
         // Отправляем карты на конвейер
         foreach (var card in cardsToSend)

@@ -1,9 +1,8 @@
+using JetBrains.Annotations;
 using UnityEngine;
-using static Box;
 
-public class CardTriggerZone : MonoBehaviour
-{
-    
+public class BoxTriggerHandler : MonoBehaviour
+{    
     public enum WaitingForCard
     {
         Red,
@@ -12,6 +11,7 @@ public class CardTriggerZone : MonoBehaviour
     [SerializeField] private WaitingForCard boxType;
 
     private Box box;
+    
 
     private void Start()
     {
@@ -29,6 +29,9 @@ public class CardTriggerZone : MonoBehaviour
                     {
                         card.GetComponent<CardFromConveyorAnimation>().SendCardToBoxAnimation(box);
                         box.AddCardToBox(card);
+
+                        if(!box.GetIsFull())
+                            Receiver.Instance.RemoveCardFromConveyor(card);
                     }
                     break;
                 case WaitingForCard.Blue:
@@ -36,11 +39,19 @@ public class CardTriggerZone : MonoBehaviour
                     {
                         card.GetComponent<CardFromConveyorAnimation>().SendCardToBoxAnimation(box);
                         box.AddCardToBox(card);
+
+                        if (!box.GetIsFull())
+                            Receiver.Instance.RemoveCardFromConveyor(card);
+                        
                     }
                     break;
                 default:
                     break;
             }
         }
+
+        
     }
+
+   
 }

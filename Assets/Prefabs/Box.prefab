@@ -66,7 +66,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d1a510ec7b9cc9d4d88c5706c2894af5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _boxHeadTransform: {fileID: 154593319621895436}
   boxType: 0
 --- !u!1 &5845784047179334566
 GameObject:
@@ -255,3 +254,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _headTransform: {fileID: 154593319621895436}
+  cardsInBox: []

@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.Splines;
 
 public class Receiver : MonoBehaviour
 {
@@ -10,8 +11,6 @@ public class Receiver : MonoBehaviour
     [SerializeField] private List<Card> _cardsOnConveyor = new List<Card>(20);
     [SerializeField] private TextMeshProUGUI _receiverCardsAmountText;
 
-    //private bool _canAcceptCards = false;
-    //private bool _canAcceptMoreCards = false;
     private const int MAX_CARDS_ON_CONVEYOR = 20;
 
     private void Awake()

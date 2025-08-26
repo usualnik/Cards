@@ -51,6 +51,7 @@ public class Buffer : MonoBehaviour
         {
             _cardsInBuffer.Add(card);
             card.ChangeCardState(Card.CardState.InBuffer);
+            card.GetComponent<CardMovement>().SetSplineContainer(Conveyor.Instance.GetMainSplineContainer());
         }
         else 
         {

@@ -15,7 +15,7 @@ public class CardClick : MonoBehaviour
         {
             case Card.CardState.InHand:
                 if (_card != null && CardsInHandManager.Instance != null && Receiver.Instance.GetCanAcceptCards())
-                {
+                {                    
                     CardsInHandManager.Instance.SendPackToConveyor(_card);                    
                 }
                 break;

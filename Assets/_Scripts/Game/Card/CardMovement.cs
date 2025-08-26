@@ -20,7 +20,7 @@ public class CardMovement : MonoBehaviour
     private void Start()
     {
         //Refs
-        _splineContainer = GameObject.FindAnyObjectByType<SplineContainer>();
+        _splineContainer = Conveyor.Instance.GetMainSplineContainer();
 
         //Events
         _card.OnCardStateChanged += Card_OnCardStateChanged;
@@ -56,4 +56,9 @@ public class CardMovement : MonoBehaviour
         transform.right = tangent;
     }
    
+    public void SetSplineContainer(SplineContainer splineContainer)
+    {       
+        _splineContainer = splineContainer;
+        progress = 0;
+    }
 }

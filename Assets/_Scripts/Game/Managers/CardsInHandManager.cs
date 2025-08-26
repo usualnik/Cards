@@ -10,7 +10,7 @@ public class CardsInHandManager : MonoBehaviour
 
     [SerializeField] private List<Card> _firstColumn;
     [SerializeField] private List<Card> _secondColumn;
-    [SerializeField] private float _delayBetweenCards = 0.2f;
+    private float _delayBetweenCards = 0.2f;
     [SerializeField] private Vector3 _cardSpacing = new Vector3(0, 0.2f, 0.1f); 
     [SerializeField] private Transform _firstColumnStartPoint; 
     [SerializeField] private Transform _secondColumnStartPoint;
@@ -81,6 +81,8 @@ public class CardsInHandManager : MonoBehaviour
         // Отправляем карты на конвейер
         foreach (var card in cardsToSend)
         {
+            AudioManager.Instance.Play("Sent");
+
             card.GetComponent<CardFromHandAnimation>().SendCardToConveyorAnimation();
             column.Remove(card);
 

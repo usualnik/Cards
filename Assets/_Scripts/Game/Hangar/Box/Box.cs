@@ -4,52 +4,64 @@ using UnityEngine;
 
 public class Box : MonoBehaviour
 {
-	
     public event Action<Box> OnDestroyBox;
 
-	[SerializeField] private Transform _headTransform;
-
-	[SerializeField] private List<Card> cardsInBox = new List<Card>(6);
-
-	private Vector3 _headTransformOffset = new Vector3(0, 0, -0.2f);
+    [SerializeField] private Transform _headTransform;
+    [SerializeField] private List<Card> cardsInBox = new List<Card>(6);
 
     private const int MaxCardsInBox = 6;
-
-    private bool _isFull;
+    private bool _isDestroyScheduled = false;
 
     private void FixedUpdate()
     {
-        if (cardsInBox.Count >= MaxCardsInBox)
+       
+        if (cardsInBox.Count >= MaxCardsInBox && !_isDestroyScheduled)
         {
-            Invoke(nameof(DestroyIfMaxCards), 0.5f);
+            ScheduleDestruction();
         }
     }
 
-
     public void AddCardToBox(Card card)
-	{
-        if (cardsInBox.Count >= MaxCardsInBox)
-        {
-            Invoke(nameof(DestroyIfMaxCards), 0.5f);
-        }
-        else
-        {
-            card.transform.Rotate(0, 90, 0);
+    {
+        if (card == null) return;
 
-            if(card != null)
-            {
-                cardsInBox.Add(card);
-                card.ChangeCardState(Card.CardState.InBox);
-            }          
+        
+        if (cardsInBox.Count >= MaxCardsInBox || _isDestroyScheduled)
+        {
+            return; 
         }
 
+        card.transform.Rotate(0, 90, 0);
+        AudioManager.Instance.Play("SlotTouched");
+        cardsInBox.Add(card);
+        card.ChangeCardState(Card.CardState.InBox);
+
+        
+        if (cardsInBox.Count >= MaxCardsInBox && !_isDestroyScheduled)
+        {
+            ScheduleDestruction();
+        }
+    }
+
+    private void ScheduleDestruction()
+    {
+        _isDestroyScheduled = true;
+        Invoke(nameof(DestroyIfMaxCards), 0.5f);
     }
 
     private void DestroyIfMaxCards()
     {
-        foreach (Card card in cardsInBox) 
-        { 
-            Destroy(card.gameObject);
+        if (!_isDestroyScheduled) return;
+
+        Debug.Log("Box destroyed");
+        AudioManager.Instance.Play("SlotFilled");
+       
+        foreach (Card card in cardsInBox)
+        {
+            if (card != null && card.gameObject != null)
+            {
+                Destroy(card.gameObject);
+            }
         }
 
         cardsInBox.Clear();
@@ -57,10 +69,14 @@ public class Box : MonoBehaviour
         gameObject.transform.SetParent(null);
 
         OnDestroyBox?.Invoke(this);
-        
+        _isDestroyScheduled = false;
     }
 
     public Transform GetBoxHeadTransform() => _headTransform;
     public int GetCardsInBoxCount() => cardsInBox.Count;
-    public bool GetIsFull() => _isFull = cardsInBox.Count < MaxCardsInBox ? false : true;
+
+    public bool GetIsFull()
+    {
+        return cardsInBox.Count >= MaxCardsInBox;
+    }
 }

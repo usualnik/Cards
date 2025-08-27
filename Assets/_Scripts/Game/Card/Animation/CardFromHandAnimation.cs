@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 
 public class CardFromHandAnimation : MonoBehaviour
@@ -124,11 +125,9 @@ public class CardFromHandAnimation : MonoBehaviour
             collider2D.enabled = true;
         }
 
-       
 
-       
-        transform.Rotate(0, 90, 0);        
-        gameObject.GetComponent<CardMovement>().enabled = true;
+        transform.Rotate(0, 90, 0);
+        
+
     }
- 
 }

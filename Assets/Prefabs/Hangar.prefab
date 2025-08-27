@@ -156,7 +156,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7079d7842be635543b6aab80a4372e5e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _sortedBoxesList: []
+  _sortedBoxesList:
+  - {fileID: 0}
+  - {fileID: 0}
   _storageTransform: {fileID: 743569510504273175}
   _secondBoxTransform: {fileID: 2119466782078913962}
   _firstBoxTransform: {fileID: 4346724353487278703}

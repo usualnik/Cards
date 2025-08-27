@@ -7,7 +7,7 @@ public class Conveyor : MonoBehaviour
 
 
     [SerializeField] private SplineContainer _mainSplineContainer;
-    [SerializeField] private SplineContainer _teleportSplineContainer;
+    
 
     private void Awake()
     {
@@ -28,13 +28,4 @@ public class Conveyor : MonoBehaviour
         else return null;
     }
 	
-    public SplineContainer GetTeleportSplineContainer()
-    {
-        if (_teleportSplineContainer)
-        {
-            return _teleportSplineContainer;
-        }else return null;
-    }
-
-
 }

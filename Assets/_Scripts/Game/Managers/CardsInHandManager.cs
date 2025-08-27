@@ -76,6 +76,7 @@ public class CardsInHandManager : MonoBehaviour
             }
         }
 
+
         OnSendCardsToConveyor?.Invoke(cardsToSend);
 
         // Отправляем карты на конвейер

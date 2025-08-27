@@ -2,7 +2,6 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
-using UnityEngine.Splines;
 
 public class Receiver : MonoBehaviour
 {
@@ -11,6 +10,11 @@ public class Receiver : MonoBehaviour
     [SerializeField] private List<Card> _cardsOnConveyor = new List<Card>(20);
     [SerializeField] private TextMeshProUGUI _receiverCardsAmountText;
 
+    private Queue<Card> _conveyorQueue = new Queue<Card>();
+    private bool _isProcessingQueue = false;
+
+    [SerializeField] private float _delayBetweenCards = 0.2f;
+    
     private const int MAX_CARDS_ON_CONVEYOR = 20;
 
     private void Awake()
@@ -40,8 +44,8 @@ public class Receiver : MonoBehaviour
     }
 
     private void FixedUpdate()
-    {       
-       CleanNullCardsFromConveyor();
+    {
+        CleanNullCardsFromConveyor();
     }
 
     private void Dumper_OnDumpCard(Card card)
@@ -52,12 +56,14 @@ public class Receiver : MonoBehaviour
     private void CardsInHandManager_OnSendCardsToConveyor(List<Card> sendedCards)
     {
         AddCardsToConveyor(sendedCards);
+        StartCoroutine(PutCardsInQueue(sendedCards));
         StartCoroutine(UpdateReceiverText(sendedCards));
     }
 
     private void Buffer_OnSendCardsToConveyor(List<Card> sendedCards)
     {
         AddCardsToConveyor(sendedCards);
+        StartCoroutine(PutCardsInQueue(sendedCards));
         StartCoroutine(UpdateReceiverText(sendedCards));
     }
 
@@ -65,12 +71,11 @@ public class Receiver : MonoBehaviour
     {
         foreach (Card card in sendedCards)
         {
-           
             if (card != null && card.gameObject != null && !_cardsOnConveyor.Contains(card))
             {
                 _cardsOnConveyor.Add(card);
-
                 card.OnCardDestroyed += HandleCardDestroyed;
+
             }
         }
     }
@@ -83,12 +88,10 @@ public class Receiver : MonoBehaviour
 
     private void UpdateReceiverText()
     {
-        
         CleanNullCardsFromConveyor();
         _receiverCardsAmountText.text = string.Format("{0} / {1}", _cardsOnConveyor.Count, MAX_CARDS_ON_CONVEYOR);
     }
 
-    
     private void CleanNullCardsFromConveyor()
     {
         for (int i = _cardsOnConveyor.Count - 1; i >= 0; i--)
@@ -99,7 +102,7 @@ public class Receiver : MonoBehaviour
             }
         }
     }
-        
+
     private void HandleCardDestroyed(Card card)
     {
         RemoveCardFromConveyor(card);
@@ -121,7 +124,6 @@ public class Receiver : MonoBehaviour
     {
         if (card != null)
         {
-            // Отписываемся от события
             card.OnCardDestroyed -= HandleCardDestroyed;
 
             if (_cardsOnConveyor.Contains(card))
@@ -131,4 +133,49 @@ public class Receiver : MonoBehaviour
         }
         UpdateReceiverText();
     }
+
+    public IEnumerator PutCardsInQueue(List<Card> cards)
+    {
+        yield return new WaitForSeconds(1f); // delay so animation can complete
+
+        foreach (var card in cards)
+        {
+            if (card != null && card.gameObject != null)
+            {
+                _conveyorQueue.Enqueue(card);
+            }
+        }
+
+        // Запускаем обработку очереди, если она еще не запущена
+        if (!_isProcessingQueue && _conveyorQueue.Count > 0)
+        {
+            StartCoroutine(ProcessConveyorQueue());
+        }
+    }
+
+    private IEnumerator ProcessConveyorQueue()
+    {
+        _isProcessingQueue = true;
+
+        while (_conveyorQueue.Count > 0)
+        {
+            Card card = _conveyorQueue.Dequeue();
+
+            if (card != null && card.gameObject != null)
+            {
+                // Включаем движение карты
+                CardMovement movement = card.GetComponent<CardMovement>();
+                if (movement != null)
+                {
+                    movement.enabled = true;
+                }
+            }
+
+            // Ждем перед обработкой следующей карты
+            yield return new WaitForSeconds(_delayBetweenCards);
+        }
+
+        _isProcessingQueue = false;
+    }
+
 }

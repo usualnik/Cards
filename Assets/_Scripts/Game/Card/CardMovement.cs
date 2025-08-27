@@ -3,7 +3,8 @@ using UnityEngine.Splines;
 
 public class CardMovement : MonoBehaviour
 {
-    [SerializeField] private float speed = 0.2f;    
+    [SerializeField] private float mainSplineSpeed = 0.2f; 
+
 
     private float progress = 0f;
 
@@ -47,7 +48,7 @@ public class CardMovement : MonoBehaviour
 
     private void Move()
     {
-        progress = Mathf.Repeat(progress + speed * Time.deltaTime, 1f);
+        progress = Mathf.Repeat(progress + mainSplineSpeed * Time.deltaTime, 1f);
 
         Vector3 position = _splineContainer.EvaluatePosition(progress);
         Vector3 tangent = _splineContainer.EvaluateTangent(progress);
@@ -56,9 +57,12 @@ public class CardMovement : MonoBehaviour
         transform.right = tangent;
     }
    
-    public void SetSplineContainer(SplineContainer splineContainer)
+    public void SetSplineContainer(SplineContainer splineContainer, float speed)
     {       
-        _splineContainer = splineContainer;
-        progress = 0;
+            _splineContainer = splineContainer;
+            progress = 0;
+            mainSplineSpeed = speed;      
+       
+        
     }
 }

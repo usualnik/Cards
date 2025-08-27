@@ -37,28 +37,27 @@ public class Hangar : MonoBehaviour
 
             if (i == 0)
             {
-                box.transform.SetParent(_firstBoxTransform, true);
+                //box.transform.SetParent(_firstBoxTransform, false);
                 box.transform.position = _firstBoxTransform.position;
-                //var cardTrigger = box.GetComponentInChildren<CardTriggerZone>();
-                //if (cardTrigger != null) cardTrigger.gameObject.SetActive(true);
-                //else
-                //{
-                //    Debug.Log("F U");
-                //}
+                box.transform.rotation = _firstBoxTransform.rotation;
+                
+              
             }
             else if (i == 1)
             {
-                box.transform.SetParent(_secondBoxTransform, true);
+                //box.transform.SetParent(_secondBoxTransform, false);
                 box.transform.position = _secondBoxTransform.position;
-                //var cardTrigger = box.GetComponentInChildren<CardTriggerZone>();
-                //if (cardTrigger != null) cardTrigger.gameObject.SetActive(false);
+                box.transform.rotation = _secondBoxTransform.rotation;
+               
+              
             }
             else
             {
-                box.transform.SetParent(_storageTransform, true);
+                //box.transform.SetParent(_storageTransform, false);
                 box.transform.position = _storageTransform.position;
-                //var cardTrigger = box.GetComponentInChildren<CardTriggerZone>();
-                //if (cardTrigger != null) cardTrigger.gameObject.SetActive(false);
+                box.transform.rotation = _storageTransform.rotation;
+                
+              
             }
         }
     }

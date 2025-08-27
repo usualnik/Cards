@@ -12,9 +12,11 @@ public class Buffer : MonoBehaviour
 
     [SerializeField] private Transform _headPos;
     [SerializeField] private float _delayBetweenCards = 0.2f;
+    [SerializeField] private float _speedAfterBuffer = 0.2f;
 
     private List<Card> _cardsInBuffer = new List<Card>(); // MAX capacity - 20 card
     private Vector3 _bufferCardOffset = new Vector3(0.2f,0,0);
+
 
 
     private const int MAX_CARDS_IN_BUFFER = 20;
@@ -51,7 +53,7 @@ public class Buffer : MonoBehaviour
         {
             _cardsInBuffer.Add(card);
             card.ChangeCardState(Card.CardState.InBuffer);
-            card.GetComponent<CardMovement>().SetSplineContainer(Conveyor.Instance.GetMainSplineContainer());
+            card.GetComponent<CardMovement>().SetSplineContainer(Conveyor.Instance.GetMainSplineContainer(), _speedAfterBuffer);
         }
         else 
         {

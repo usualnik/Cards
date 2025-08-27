@@ -123,13 +123,10 @@ public class CardFromBufferAnimation : MonoBehaviour
         {
             collider2D.enabled = true;
         }
-
         
-
-
         transform.Rotate(0, 90, 0);
         gameObject.GetComponent<Card>().ChangeCardState(Card.CardState.OnConveyor);
-        gameObject.GetComponent<CardMovement>().enabled = true;
+        //gameObject.GetComponent<CardMovement>().enabled = true;
     }
 
 }

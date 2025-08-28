@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -10,6 +11,8 @@ public class GameManager : MonoBehaviour
 
     [SerializeField] private List<Card> _cardsOnScene = new List<Card>();
     [SerializeField] private List<Box> _boxOnScene = new List<Box>();
+
+    private const int MAIN_MENU_BUILD_INDEX = 1;
 
     private void Awake()
     {
@@ -84,6 +87,15 @@ public class GameManager : MonoBehaviour
 
     private void Buffer_OnBufferFull()
     {
+        PlayerData.Instance.SetHearts(PlayerData.Instance.GetHearts() - 1);
+
         Time.timeScale = 0f;
+    }
+
+    public void QuitGame()
+    {
+        PlayerData.Instance.SetHearts(PlayerData.Instance.GetHearts() - 1);
+
+        SceneManager.LoadScene(MAIN_MENU_BUILD_INDEX);
     }
 }

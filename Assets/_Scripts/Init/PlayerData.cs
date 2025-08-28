@@ -1,19 +1,31 @@
 using System;
+using System.Collections;
 using UnityEngine;
 //using YG;
 
 [System.Serializable]
 public class Data
 {
-    public int currentLevelIndex = 1, highScore = 0;  
+    public int Coins;
+    public int Gems;
+    public int Hearts;
+    public int Skips;
+    public int CurrentLevel = 1;
+
 }
 
 public class PlayerData : MonoBehaviour
 {
     public static PlayerData Instance { get; private set; }
-
+    
+    public event Action OnCoinsValueChanged;
+    public event Action OnGemsValueChanged;
+    public event Action OnHeartsValueChanged;
+    public event Action OnSkipsValueChanged;
     public event Action OnCurrentLevelChanged;
-    public event Action OnHighScoreChanged;  
+
+    public event Action OnDataLoaded;
+
 
     [SerializeField] private Data data;
 
@@ -41,11 +53,21 @@ public class PlayerData : MonoBehaviour
         //{
         //    SetPlayerData(YG2.saves.YandexServerData);
         //}
+
+        //---------------------STUB--------------------
+        StartCoroutine(SetPlayerDataWithDelay());
+    }
+
+    private IEnumerator SetPlayerDataWithDelay()
+    {
+        yield return new WaitForSeconds(0.2f);
+        SetPlayerData(null);
     }
 
     private void SetPlayerData(Data yandexServerData)
     {
-        this.data = yandexServerData;
+        //this.data = yandexServerData;
+        OnDataLoaded?.Invoke();
     }
     private void SavePlayerDataToYandex()
     {
@@ -54,24 +76,89 @@ public class PlayerData : MonoBehaviour
     }
 
     #region Get
-    public int GetCurrentLevelIndex() => data.currentLevelIndex;
-    public int GetHighScore() => data.highScore;
-   
-    #endregion       
+    public int GetCoins() => data.Coins;
+    public int GetGems() => data.Gems;
+    public int GetHearts() => data.Hearts;
+    public int GetSkips() => data.Skips;
+    public int GetCurrentLevel() => data.CurrentLevel;
+
+    #endregion
 
     #region Set
-    public void SetCurrentLevel(int level)
+    
+    public void SetCoins(int value)
     {
-        data.currentLevelIndex = level;
-        OnCurrentLevelChanged?.Invoke();
-        SavePlayerDataToYandex();
+        var temp = data.Coins;     
+        
+        data.Coins = value;
 
+        if (data.Coins < 0)
+        {
+            data.Coins = temp;
+        }
+        else
+        {
+            OnCoinsValueChanged?.Invoke(); 
+        }
     }
-    public void SetHighScore(int highScore) 
+    public void SetGems(int value)
     {
-        data.highScore = highScore;
-        OnHighScoreChanged?.Invoke();
-        SavePlayerDataToYandex();       
+        var temp = data.Gems;
+
+        data.Gems = value;
+        if (data.Gems < 0)
+        {
+            data.Gems = temp;
+        }
+        else
+        {
+            OnGemsValueChanged?.Invoke();
+        }
+       
+    }
+    public void SetHearts(int value)
+    {
+        var temp = data.Hearts;
+
+        data.Hearts = value;
+        
+        if (data.Hearts < 0)
+        {
+            data.Hearts = temp;
+        }
+        else
+        {
+            OnHeartsValueChanged?.Invoke();
+        }       
+        
+    }
+    public void SetSkips(int value)
+    {
+        var temp = data.Skips;
+        
+        data.Skips = value;
+
+        if (data.Skips < 0)
+        { 
+            data.Skips = temp;
+        }else
+        {
+            OnSkipsValueChanged?.Invoke();
+        }
+        
+    }
+    public void SetCurrentLevel(int value)
+    {
+        var temp = data.CurrentLevel;
+        data.CurrentLevel = value;
+        if (data.CurrentLevel < 0)
+        {
+            data.CurrentLevel = temp;
+        }
+        else
+        {
+            OnCurrentLevelChanged?.Invoke();
+        }
     }
     #endregion
 

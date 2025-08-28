@@ -6,11 +6,9 @@ public class BackgroundMusic : MonoBehaviour
 {
     public static BackgroundMusic Instance { get; private set; }
 
-
     private AudioSource _audioSource;
 
     private bool _isPlaying;
-   
 
     void Awake()
     {
@@ -31,9 +29,9 @@ public class BackgroundMusic : MonoBehaviour
         _isPlaying = true;
 
     }
- 
+
     public void ToggleMute()
-    {       
+    {
 
         if (_isPlaying)
         {
@@ -52,4 +50,6 @@ public class BackgroundMusic : MonoBehaviour
         _audioSource.clip = audioClip;
         _audioSource.Play();
     }
+
+    public bool IsPlaying() => _isPlaying;
 }

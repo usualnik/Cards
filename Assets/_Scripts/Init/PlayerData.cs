@@ -151,6 +151,7 @@ public class PlayerData : MonoBehaviour
     {
         var temp = data.CurrentLevel;
         data.CurrentLevel = value;
+       
         if (data.CurrentLevel < 0)
         {
             data.CurrentLevel = temp;
@@ -159,6 +160,14 @@ public class PlayerData : MonoBehaviour
         {
             OnCurrentLevelChanged?.Invoke();
         }
+
+        if (data.CurrentLevel >= 15)
+        {
+            data.CurrentLevel = 15;
+            OnCurrentLevelChanged?.Invoke();
+        }       
+           
+        
     }
     #endregion
 

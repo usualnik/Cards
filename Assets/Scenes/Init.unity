@@ -164,7 +164,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   data:
-    Coins: 0
+    Coins: 60
     Gems: 0
     Hearts: 5
     Skips: 1

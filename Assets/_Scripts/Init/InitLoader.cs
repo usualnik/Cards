@@ -7,15 +7,10 @@ public class InitLoader : MonoBehaviour
 
     void Start()
     {
-        PlayerData.Instance.OnDataLoaded += PlayerData_OnDataLoaded;
+         Invoke(nameof(LoadMainMenu),0.1f); // load main menu after player data initialized   
     }
-    private void OnDestroy()
-    {
-        PlayerData.Instance.OnDataLoaded -= PlayerData_OnDataLoaded;
-
-    }
-
-    private void PlayerData_OnDataLoaded()
+   
+    private void LoadMainMenu()
     {
         SceneManager.LoadScene(MAIN_MENU_BUILD_INDEX);
     }

@@ -7,6 +7,7 @@ public class BuySkip : MonoBehaviour
 
     private const int COINS_AMOUNT_TO_BUY_SKIP = 50;
     private const int GEMS_AMOUNT_TO_BUY_SKIP = 5;
+    private const int INSUFFICIENT_RESOURCES_WINDOW_INDEX = 3;
 
 
     private void Awake()
@@ -37,7 +38,7 @@ public class BuySkip : MonoBehaviour
         }
         else
         {
-            // do nothing
+            WindowManager.Instance.OpenWindow(INSUFFICIENT_RESOURCES_WINDOW_INDEX);
         }
     }
 }

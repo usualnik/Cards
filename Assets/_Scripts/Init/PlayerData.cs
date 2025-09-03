@@ -1,17 +1,25 @@
+using NUnit.Framework;
 using System;
 using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
-//using YG;
+using YG;
+
 
 [System.Serializable]
 public class Data
 {
-    public int Coins;
-    public int Gems;
-    public int Hearts;
-    public int Skips;
+    public int Coins = 0;
+    public int Gems = 0;
+    public int Hearts = 5;
+    public int Skips = 0;
+    public int SkipsProgress = 1;
     public int CurrentLevel = 1;
 
+    public List<int> _openedThemesIndexes = new List<int>();
+    public List<int> _openedColorsIndexes = new List<int>();
+    public int CurrentChosenThemeIndex = 0;
+    public int CurrentChosenColorIndex = 0;
 }
 
 public class PlayerData : MonoBehaviour
@@ -23,10 +31,8 @@ public class PlayerData : MonoBehaviour
     public event Action OnHeartsValueChanged;
     public event Action OnSkipsValueChanged;
     public event Action OnCurrentLevelChanged;
-
-    public event Action OnDataLoaded;
-
-
+    public event Action OnSkipsProgressChanged;
+   
     [SerializeField] private Data data;
 
 
@@ -48,31 +54,34 @@ public class PlayerData : MonoBehaviour
 
     private void Start()
     {
-        //if (YG2.saves.YandexServerData != null && YG2.saves.YandexServerData != data 
-        //    && YG2.saves.YandexServerData.currentLevelIndex > 0) 
-        //{
-        //    SetPlayerData(YG2.saves.YandexServerData);
-        //}
-
-        //---------------------STUB--------------------
-        StartCoroutine(SetPlayerDataWithDelay());
+        if (YG2.saves.YandexServerData != null && YG2.saves.YandexServerData != data)           
+        {
+           LoadPlayerData();
+        }
+        else
+        {
+           InitFirstTimePlayingData();
+        }
     }
 
-    private IEnumerator SetPlayerDataWithDelay()
+    private void InitFirstTimePlayingData()
     {
-        yield return new WaitForSeconds(0.2f);
-        SetPlayerData(null);
+        //build new data
+        data = new Data();
+
+        //Add default theme and color
+        data._openedColorsIndexes.Add(0);
+        data._openedThemesIndexes.Add(0);
     }
 
-    private void SetPlayerData(Data yandexServerData)
+    private void LoadPlayerData()
     {
-        //this.data = yandexServerData;
-        OnDataLoaded?.Invoke();
+        this.data = YG2.saves.YandexServerData;
     }
     private void SavePlayerDataToYandex()
     {
-        //YG2.saves.YandexServerData = this.data;
-        //YG2.SaveProgress();
+        YG2.saves.YandexServerData = this.data;
+        YG2.SaveProgress();
     }
 
     #region Get
@@ -81,11 +90,16 @@ public class PlayerData : MonoBehaviour
     public int GetHearts() => data.Hearts;
     public int GetSkips() => data.Skips;
     public int GetCurrentLevel() => data.CurrentLevel;
+    public int GetSkipsProgress() => data.SkipsProgress;
+    public List<int> GetOpenedThemesIndexesList() => data._openedThemesIndexes;
+    public List<int> GetOpenedColorsIndexesList() => data._openedColorsIndexes;
+    public int GetCurrentChosenThemeIndex() => data.CurrentChosenThemeIndex;
+    public int GetCurrentChosenColorIndex() => data.CurrentChosenColorIndex;
 
     #endregion
 
     #region Set
-    
+
     public void SetCoins(int value)
     {
         var temp = data.Coins;     
@@ -98,6 +112,7 @@ public class PlayerData : MonoBehaviour
         }
         else
         {
+            SavePlayerDataToYandex();
             OnCoinsValueChanged?.Invoke(); 
         }
     }
@@ -112,6 +127,8 @@ public class PlayerData : MonoBehaviour
         }
         else
         {
+            SavePlayerDataToYandex();
+
             OnGemsValueChanged?.Invoke();
         }
        
@@ -121,16 +138,27 @@ public class PlayerData : MonoBehaviour
         var temp = data.Hearts;
 
         data.Hearts = value;
-        
+
+
+        if (data.Hearts > 15)
+        {
+            data.Hearts = 15;
+            OnCurrentLevelChanged?.Invoke();
+            return;
+        }
+
         if (data.Hearts < 0)
         {
             data.Hearts = temp;
         }
         else
         {
+            SavePlayerDataToYandex();
+
             OnHeartsValueChanged?.Invoke();
-        }       
-        
+        }
+
+
     }
     public void SetSkips(int value)
     {
@@ -143,9 +171,19 @@ public class PlayerData : MonoBehaviour
             data.Skips = temp;
         }else
         {
+            SavePlayerDataToYandex();
+
             OnSkipsValueChanged?.Invoke();
-        }
-        
+        }        
+    }
+
+    public void SetSkipsProgress(int value)
+    {
+        data.SkipsProgress = value;
+
+        SavePlayerDataToYandex();
+
+        OnSkipsProgressChanged?.Invoke();
     }
     public void SetCurrentLevel(int value)
     {
@@ -158,17 +196,36 @@ public class PlayerData : MonoBehaviour
         }
         else
         {
-            OnCurrentLevelChanged?.Invoke();
-        }
+            SavePlayerDataToYandex();
 
-        if (data.CurrentLevel >= 15)
-        {
-            data.CurrentLevel = 15;
             OnCurrentLevelChanged?.Invoke();
-        }       
-           
+        }   
+         
         
     }
+
+    public void SetOpenedThemeIndex(int openedThemeIndex)
+    {
+        data._openedThemesIndexes.Add(openedThemeIndex);
+        SavePlayerDataToYandex();
+    }
+    public void SetOpenedColorIndex(int openedColorIndex)
+    {
+        data._openedColorsIndexes.Add(openedColorIndex);
+        SavePlayerDataToYandex();
+    }
+
+    public void SetCurrentChosenThemeIndex(int currentChosenThemeIndex)
+    {
+        data.CurrentChosenThemeIndex = currentChosenThemeIndex;
+        SavePlayerDataToYandex();
+    }
+    public void SetCurrentChosenColorIndex(int currentChosenColorIndex)
+    {
+        data.CurrentChosenColorIndex = currentChosenColorIndex;
+        SavePlayerDataToYandex();
+    }
+
     #endregion
 
 }

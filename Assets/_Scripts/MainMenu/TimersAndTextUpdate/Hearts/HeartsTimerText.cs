@@ -13,7 +13,8 @@ public class HeartsTimerText : MonoBehaviour
     {
         if (HeartsTimer.Instance.GetIsRunning())
         {
-            _heartsTimerText.text = "+1 in " + HeartsTimer.Instance.GetFormattedProgress();
+
+            _heartsTimerText.text = "+1 " + HeartsTimer.Instance.GetFormattedProgress();
         }
         else
         {

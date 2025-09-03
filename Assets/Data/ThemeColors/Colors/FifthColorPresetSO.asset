@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0bb8c78dbec3bb048b82f689f4736b0e, type: 3}
+  m_Name: FifthColorPresetSO
+  m_EditorClassIdentifier: 
+  Name: Fifth
+  RuName: "\u041F\u044F\u0442\u044B\u0439"
+  Index: 4
+  Price: 25
+  Colors:
+  - {r: 0.21960786, g: 0.47450984, b: 0.47450984, a: 0}
+  - {r: 0.40000004, g: 0.6392157, b: 0.64705884, a: 0}
+  - {r: 0.98823535, g: 0.9686275, b: 0.53333336, a: 0}
+  - {r: 0.97647065, g: 0.90196085, b: 0.3372549, a: 0}
+  - {r: 0.74509805, g: 0.6666667, b: 0.21176472, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}

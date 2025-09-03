@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0bb8c78dbec3bb048b82f689f4736b0e, type: 3}
+  m_Name: FourthColorPresetSO
+  m_EditorClassIdentifier: 
+  Name: Fourth
+  RuName: "\u0427\u0435\u0442\u0432\u0435\u0440\u0442\u044B\u0439"
+  Index: 3
+  Price: 20
+  Colors:
+  - {r: 0.9803922, g: 0.91372555, b: 0.9490197, a: 0}
+  - {r: 0.9490197, g: 0.7294118, b: 0.80392164, a: 0}
+  - {r: 0.91372555, g: 0.3921569, b: 0.5019608, a: 0}
+  - {r: 0.7490196, g: 0.20392159, b: 0.25490198, a: 0}
+  - {r: 0.3137255, g: 0.41960788, b: 0.45882356, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}

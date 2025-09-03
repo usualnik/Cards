@@ -5,7 +5,8 @@ using UnityEngine.UI;
 public class SkipButton : MonoBehaviour
 {
     private Button _skipButton;
-
+    private const int INSUFFICIENT_RESOURCES_WINDOW_INDEX = 3;
+    
     private void Awake()
     {
         _skipButton = GetComponent<Button>();
@@ -27,6 +28,10 @@ public class SkipButton : MonoBehaviour
         {
             PlayerData.Instance.SetSkips(PlayerData.Instance.GetSkips() - 1);
             PlayerData.Instance.SetCurrentLevel(PlayerData.Instance.GetCurrentLevel() + 1);
+        }
+        else
+        {
+            WindowManager.Instance.OpenWindow(INSUFFICIENT_RESOURCES_WINDOW_INDEX);
         }
     }
 

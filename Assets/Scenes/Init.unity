@@ -164,11 +164,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   data:
-    Coins: 60
+    Coins: 0
     Gems: 0
     Hearts: 5
-    Skips: 1
+    Skips: 0
+    SkipsProgress: 1
     CurrentLevel: 1
+    _openedThemesIndexes: 
+    _openedColorsIndexes: 
 --- !u!1 &1911334233
 GameObject:
   m_ObjectHideFlags: 0

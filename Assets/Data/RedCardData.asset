@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: RedCardData
   m_EditorClassIdentifier: 
   Title: RedCard
-  Prefab: {fileID: 378613644698448923, guid: bf8bd7df343932242bf202602410ff9a, type: 3}
+  Prefab: {fileID: 4768453272736327557, guid: 569f446896bfc8640b9658b74a0ab7c4, type: 3}

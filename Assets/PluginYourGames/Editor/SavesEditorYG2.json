@@ -1,0 +1,33 @@
+{
+    "stringKeys": [],
+    "stringValues": [],
+    "floatKeys": [],
+    "floatValues": [],
+    "intKeys": [],
+    "intValues": [],
+    "intExample": 5,
+    "strExample": "Hello!",
+    "boolExample": [
+        false,
+        false,
+        false,
+        false
+    ],
+    "idSave": 6,
+    "YandexServerData": {
+        "Coins": 12,
+        "Gems": 0,
+        "Hearts": 5,
+        "Skips": 0,
+        "SkipsProgress": 1,
+        "CurrentLevel": 1,
+        "_openedThemesIndexes": [
+            0
+        ],
+        "_openedColorsIndexes": [
+            0
+        ],
+        "CurrentChosenThemeIndex": 0,
+        "CurrentChosenColorIndex": 0
+    }
+}

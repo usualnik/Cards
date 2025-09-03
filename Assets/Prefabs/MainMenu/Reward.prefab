@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 724962499195055046}
   - component: {fileID: 2556498874812049694}
+  - component: {fileID: 5568301841961523036}
   m_Layer: 5
   m_Name: Reward
   m_TagString: Untagged
@@ -82,6 +83,18 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &5568301841961523036
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1053122265683207939}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d84cacb6736895743afbc77de179b0e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &3850777075584904907
 GameObject:
   m_ObjectHideFlags: 0

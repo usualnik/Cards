@@ -482,7 +482,7 @@ MonoBehaviour:
     m_RotationOrder: 4
   cardOffset: {x: 0, y: 0, z: -0.2}
   cardRotationOffset: {x: 0, y: 90, z: 0}
-  useLocalOffset: 0
+  useLocalOffset: 1
 --- !u!114 &960989007954332262
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -620,7 +620,7 @@ Transform:
   m_GameObject: {fileID: 7053207527548204971}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 0.65, y: 0, z: 0}
+  m_LocalPosition: {x: 0.65, y: 0.5, z: 0}
   m_LocalScale: {x: 0.7, y: 0.5, z: 0.7}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -717,7 +717,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 7cf654be34dbd2c4aa7f225980afcdba, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 7cf654be34dbd2c4aa7f225980afcdba, type: 3}
       propertyPath: m_LocalPosition.z

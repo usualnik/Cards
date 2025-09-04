@@ -5,22 +5,14 @@
     "floatValues": [],
     "intKeys": [],
     "intValues": [],
-    "intExample": 5,
-    "strExample": "Hello!",
-    "boolExample": [
-        false,
-        false,
-        false,
-        false
-    ],
-    "idSave": 6,
+    "idSave": 19,
     "YandexServerData": {
-        "Coins": 12,
+        "Coins": 0,
         "Gems": 0,
         "Hearts": 5,
         "Skips": 0,
         "SkipsProgress": 1,
-        "CurrentLevel": 1,
+        "CurrentLevel": 20,
         "_openedThemesIndexes": [
             0
         ],

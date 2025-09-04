@@ -98,4 +98,11 @@ public class GameManager : MonoBehaviour
 
         SceneManager.LoadScene(MAIN_MENU_BUILD_INDEX);
     }
+
+    public void LoadMainMenu()
+    {
+        PlayerData.Instance.SetCurrentLevel(PlayerData.Instance.GetCurrentLevel() + 1);
+
+        SceneManager.LoadScene(MAIN_MENU_BUILD_INDEX);
+    }
 }

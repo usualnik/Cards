@@ -27,18 +27,18 @@ PrefabInstance:
     - target: {fileID: 6698541556386100885, guid: f2c09b9f5a719d8489fe7ae034656b54, type: 3}
       propertyPath: cardData
       value: 
-      objectReference: {fileID: 11400000, guid: 043027838d950a34badf2ac6f2a3a762, type: 2}
+      objectReference: {fileID: 11400000, guid: 2369359aa11706c40be9ca58bec6f948, type: 2}
     - target: {fileID: 6698541556386100885, guid: f2c09b9f5a719d8489fe7ae034656b54, type: 3}
       propertyPath: _cardState
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8627820427441247387, guid: f2c09b9f5a719d8489fe7ae034656b54, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.099999994
+      value: 0.10000001
       objectReference: {fileID: 0}
     - target: {fileID: 8627820427441247387, guid: f2c09b9f5a719d8489fe7ae034656b54, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.40000018
+      value: 0.40000013
       objectReference: {fileID: 0}
     - target: {fileID: 8627820427441247387, guid: f2c09b9f5a719d8489fe7ae034656b54, type: 3}
       propertyPath: m_LocalPosition.x

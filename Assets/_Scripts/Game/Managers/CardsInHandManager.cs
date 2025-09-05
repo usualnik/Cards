@@ -10,12 +10,20 @@ public class CardsInHandManager : MonoBehaviour
 
     [SerializeField] private List<Card> _firstColumn;
     [SerializeField] private List<Card> _secondColumn;
+    [SerializeField] private List<Card> _thirdColumn;
+    [SerializeField] private List<Card> _fourthColumn; 
+    [SerializeField] private List<Card> _fifthColumn;
+    [SerializeField] private List<Card> _sixthColumn;
     private float _delayBetweenCards = 0.2f;
     [SerializeField] private Vector3 _cardSpacing = new Vector3(0, 0.2f, 0.1f); 
     [SerializeField] private Transform _firstColumnStartPoint; 
     [SerializeField] private Transform _secondColumnStartPoint;
+    [SerializeField] private Transform _thirdColumnStartPoint;
+    [SerializeField] private Transform _fourthColumnStartPoint;
+    [SerializeField] private Transform _fifthColumnStartPoint;
+    [SerializeField] private Transform _sixthColumnStartPoint;
 
-   
+
 
     private void Awake()
     {
@@ -31,17 +39,33 @@ public class CardsInHandManager : MonoBehaviour
     }
     private void Start()
     {
-        RearrangeCardsInColumn(_firstColumn,_firstColumnStartPoint);
-        RearrangeCardsInColumn(_secondColumn, _secondColumnStartPoint);
+        if(_firstColumn.Count > 0)
+            RearrangeCardsInColumn(_firstColumn,_firstColumnStartPoint);
+
+        if (_secondColumn.Count > 0)
+            RearrangeCardsInColumn(_secondColumn, _secondColumnStartPoint);
+
+        if (_thirdColumn.Count > 0)
+            RearrangeCardsInColumn(_thirdColumn, _thirdColumnStartPoint);
+
+        if (_fourthColumn.Count > 0)
+            RearrangeCardsInColumn(_fourthColumn, _fourthColumnStartPoint);
+        
+        if (_fifthColumn.Count > 0)
+            RearrangeCardsInColumn(_fifthColumn, _fifthColumnStartPoint);
+       
+        if(_sixthColumn.Count > 0)
+            RearrangeCardsInColumn(_sixthColumn, _sixthColumnStartPoint);
     }
 
     public List<Card> GetFirstColumn() => _firstColumn;
     public List<Card> GetSecondColumn() => _secondColumn;
+    public List<Card> GetThirdColumn() => _thirdColumn;
+    public List<Card> GetFourthColumn() => _fourthColumn;
 
     public void SendPackToConveyor(Card clickedCard)
     {
         string targetCardName = clickedCard.GetCardDataSO().name;
-
        
 
         if (_firstColumn.Contains(clickedCard))
@@ -52,8 +76,25 @@ public class CardsInHandManager : MonoBehaviour
         {
             StartCoroutine(SendMatchingCardsWithDelay(_secondColumn, targetCardName, _secondColumnStartPoint));
         }
-        else
+        else if (_thirdColumn.Contains(clickedCard))
         {
+            StartCoroutine(SendMatchingCardsWithDelay(_thirdColumn, targetCardName, _thirdColumnStartPoint));
+           
+        }
+        else if (_fourthColumn.Contains(clickedCard))
+        {
+            StartCoroutine(SendMatchingCardsWithDelay(_fourthColumn, targetCardName, _fourthColumnStartPoint));
+        }
+        else if (_fifthColumn.Contains(clickedCard))
+        {
+            StartCoroutine(SendMatchingCardsWithDelay(_fifthColumn, targetCardName, _fifthColumnStartPoint));
+        }
+        else if (_sixthColumn.Contains(clickedCard))
+        {
+            StartCoroutine(SendMatchingCardsWithDelay(_sixthColumn, targetCardName, _sixthColumnStartPoint));
+        }
+        else
+        { 
             Debug.LogWarning("Clicked card not found in any column");
         }
     }

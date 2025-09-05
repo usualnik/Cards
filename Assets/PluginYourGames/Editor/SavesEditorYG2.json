@@ -5,14 +5,14 @@
     "floatValues": [],
     "intKeys": [],
     "intValues": [],
-    "idSave": 19,
+    "idSave": 1,
     "YandexServerData": {
         "Coins": 0,
         "Gems": 0,
-        "Hearts": 5,
+        "Hearts": 4,
         "Skips": 0,
         "SkipsProgress": 1,
-        "CurrentLevel": 20,
+        "CurrentLevel": 2,
         "_openedThemesIndexes": [
             0
         ],

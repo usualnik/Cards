@@ -39,7 +39,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: 0.72365016, z: -0, w: 0.69016707}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.6, z: 0.4}
+  m_LocalScale: {x: 0.10000001, y: 0.60000014, z: 0.40000013}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4111159585316233291}
@@ -177,17 +177,17 @@ MonoBehaviour:
     - serializedVersion: 3
       time: 0
       value: 1
-      inSlope: -0.48599434
-      outSlope: -0.48599434
+      inSlope: -0.6518387
+      outSlope: -0.6518387
       tangentMode: 34
       weightedMode: 0
       inWeight: 0
       outWeight: 0.33333334
     - serializedVersion: 3
-      time: 1.029007
-      value: 0.49990845
-      inSlope: -0.48599434
-      outSlope: -0.48599434
+      time: 0.99458313
+      value: 0.3516922
+      inSlope: -0.6518387
+      outSlope: -0.6518387
       tangentMode: 34
       weightedMode: 0
       inWeight: 0.33333334
@@ -480,7 +480,7 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  cardOffset: {x: 0, y: 0, z: -0.2}
+  cardOffset: {x: 0, y: 0, z: -0.12}
   cardRotationOffset: {x: 0, y: 90, z: 0}
   useLocalOffset: 1
 --- !u!114 &960989007954332262

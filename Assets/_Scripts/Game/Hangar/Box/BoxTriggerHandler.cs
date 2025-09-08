@@ -1,5 +1,3 @@
-using JetBrains.Annotations;
-using UnityEditor.Recorder;
 using UnityEngine;
 
 public class BoxTriggerHandler : MonoBehaviour

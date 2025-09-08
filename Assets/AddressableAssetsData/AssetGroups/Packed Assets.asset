@@ -1,0 +1,1188 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Packed Assets
+  m_EditorClassIdentifier: 
+  m_GroupName: Packed Assets
+  m_GUID: 69921240a4f1e474b9cadde270c05df7
+  m_SerializeEntries:
+  - m_GUID: 0188627aec75261408a82b1c390fef14
+    m_Address: Assets/Textures/CardThemes/Crystals/C5/C5.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 01d0c94942856a24cbeab863a727da55
+    m_Address: Assets/Textures/CardThemes/Medieval Weapons/MW3/MW3.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 02975e9cb67c16346ba166864ccdcad8
+    m_Address: Assets/Materials/Cards/Decals/DecalMaterial.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 03087c7d3d7bf3b4bade8f6515b0136d
+    m_Address: Assets/Graphics/CardFactoryUiAssets/QuitButtonBG.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 03f0cda2e63248f4291cc09eb836bc8a
+    m_Address: Assets/Data/ThemeColors/Theme/FirstThemePresetSO.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 043027838d950a34badf2ac6f2a3a762
+    m_Address: Assets/Data/RedCardData.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 05ea496363f8c594388212cb6e33215d
+    m_Address: Assets/Models/ContainerTemplate.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 073344d908524bf4eb4bd45cc8b6e93f
+    m_Address: Assets/Textures/CardThemes/Animals/A4/A4_normal.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0a3bdeb69734f3f43b32fac1782b4f50
+    m_Address: Assets/Textures/CardThemes/Default/D2/D2_ambient.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0b108fc9ca4d57546bdde89acb7ad58c
+    m_Address: Assets/Prefabs/Game/Cards/Buffer/Buffer.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0c0347374b5f82c49b4b4b970e55f503
+    m_Address: Assets/Textures/CardThemes/Fruits/F2/F2.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0c26f4b0b8da9244b881f0ebdb9dc258
+    m_Address: Assets/Graphics/CardFactoryUiAssets/GemReward.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0c33ba0a4a6678e4e8bcfc1020313d50
+    m_Address: Assets/Textures/CardThemes/Medieval Weapons/MW1/MW1_ambient.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0d62fa764f7ec1d419e8915965aa403b
+    m_Address: Assets/Prefabs/Game/System/Manager.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0d9b33c3a78060641888de5f789dd4bc
+    m_Address: Assets/Graphics/CardFactoryUiAssets/GetGemsButton.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0e280805ea4d1ab47b7b2de6526b1089
+    m_Address: Assets/Graphics/CardFactoryUiAssets/BuyGemBG.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0f016876c71d56647b633ed421e7a469
+    m_Address: Assets/Data/ThemeColors/Theme/SecondThemePresetSO.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0fc2ef8038b0f074aa4c7b71a22b473c
+    m_Address: Assets/Textures/CardThemes/Pets/P4/P4_ambient.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 10fc4df2da32a41aaa32d77bc913491c
+    m_Address: Assets/Settings/SampleSceneProfile.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 13ae560b15d470141af4108ff1125c78
+    m_Address: Assets/Prefabs/Game/Hangar/Hangar Variant.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 13b030754dc36c049bf65b17264da38f
+    m_Address: Assets/Models/Buffer.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 15982fca8d7c6ed4191c27f5be513086
+    m_Address: Assets/Graphics/CardFactoryUiAssets/CoinBG.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 15c179f0a268f094b9ab60c81f84a552
+    m_Address: Assets/Textures/CardThemes/Medieval Weapons/MW6/MW6.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 17f7a64950587624991c9ca7cd12ffd9
+    m_Address: Assets/Textures/CardThemes/Animals/A3/A3_ambient.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 180261cdabbf1394fb617551c59fb75d
+    m_Address: Assets/Textures/CardThemes/Fruits/F5/F5_normal.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1956558957e3f4340b25a1c9d8ee5070
+    m_Address: Assets/Graphics/CardFactoryUiAssets/BuySkipCoinBG.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1b4d097578aa2944b97f1f58e1b4d41b
+    m_Address: Assets/Textures/CardThemes/Pets/P1/P1.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1c5ee84f298acf84f90551e7bfe2d00b
+    m_Address: Assets/Textures/CardThemes/Pets/P5/P5_ambient.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1d3376bcdcf39c743a3bda0abcc3b015
+    m_Address: Assets/Audio/SlotFilled.mp3
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1d993b0ed58e4044ba15f777d836d164
+    m_Address: Assets/Textures/RibbonTexture/rubber_roughness.jpg
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1dbcca756e5e4354dbcb34e7d820be2e
+    m_Address: Assets/Textures/CardThemes/Default/D6/D6.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1dde141f50253fd469d64e1e3433ce5c
+    m_Address: Assets/Graphics/CardFactoryUiAssets/WatchAdBG.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1f649387cc49b0643b139c65b4670a48
+    m_Address: Assets/Textures/CardThemes/Fruits/F6/F6_ambient.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2098a2f7937a03342bd71987d0fc5939
+    m_Address: Assets/Textures/CardThemes/Crystals/C6/C6_ambient.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 21f300ac3e0403644ad94c540ac7ba06
+    m_Address: Assets/Textures/CardThemes/Animals/A1/A1_ambient.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2369359aa11706c40be9ca58bec6f948
+    m_Address: Assets/Data/PinkCardData.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2476868754ed3c54daba967fcbbf42f8
+    m_Address: Assets/Textures/CardThemes/Animals/A6/A6.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 25874441d1a0c87489fa3c292b71914b
+    m_Address: Assets/Data/ThemeColors/Colors/FifthColorPresetSO.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 259f5404d092aee4ab176a6aaba66270
+    m_Address: Assets/Textures/CardThemes/Pets/P4/P4_normal.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2675988a75e648f4085cb168c5ddb231
+    m_Address: Assets/Data/BlueCardData.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 26d8db8d9e3050440b72d13a725910d6
+    m_Address: Assets/Textures/CardThemes/Medieval Weapons/MW5/MW5.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 274ea02bbeadec146b4748239953a9bb
+    m_Address: Assets/Textures/CardThemes/Animals/A2/A2_normal.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2986e8fd932980c42941c49eb6a0cced
+    m_Address: Assets/Textures/CardThemes/Default/D3/D3_normal.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2a0fd42bfd5b1774ca8ffb64e21fa1f9
+    m_Address: Assets/Textures/MetalTexture/metal_height.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2b78e59b10dd9b44fa65fe58c3b619a1
+    m_Address: Assets/Textures/CardThemes/Crystals/C1/C1_ambient.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2b99b7cbe1c14c342b4aeec70920f01f
+    m_Address: Assets/Textures/CardThemes/Pets/P6/P6.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2d2aeadb09d079f4daa34cfc3879809d
+    m_Address: Assets/Textures/CardThemes/Crystals/C4/C4.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2d7a6ed2bf15dff4a835e130ac51e8a3
+    m_Address: Assets/Graphics/CardFactoryUiAssets/SoundDisabled.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2f78cbb7555a17246a485928017af200
+    m_Address: Assets/Data/GreenCardData.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2f92694210671f3469d4652cf8e3d301
+    m_Address: Assets/Textures/CardThemes/Fruits/F3/F3_normal.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2f9722aa2caee7e459f80cb6960511c1
+    m_Address: Assets/Data/ThemeColors/Theme/FifthThemePresetSO.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2faf73b69cc14cf40ad83a09ba690fb7
+    m_Address: Assets/Models/Hangar.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 302d01b6b939ac94587c5c0bf11ad493
+    m_Address: Assets/Textures/CardThemes/Crystals/C3/C3_normal.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 302e7d11c048b21448339c1ecb1100e0
+    m_Address: Assets/Prefabs/Game/System/Directional Light.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 305e0aae9c7892b448c4e7bb6ad98ad9
+    m_Address: Assets/Textures/CardThemes/Crystals/C6/C6.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 321c4c5f90d45d9458f699a5a9b94c28
+    m_Address: Assets/Textures/CardThemes/Medieval Weapons/MW4/MW4.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 330fd7ab27b5be14cb329cbca59b48db
+    m_Address: Assets/Textures/CardThemes/Animals/A1/A1_normal.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 337e7c88b3f28714794117a9143fccd0
+    m_Address: Assets/Textures/CardThemes/Crystals/C3/C3_ambient.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 33847e83d9ccb9f4bbd79be2293583e8
+    m_Address: Assets/Prefabs/Game/Conveyor/Conveyor.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 352c706bbc7029b4fb8ef437ea8ce82b
+    m_Address: Assets/Textures/CardThemes/Crystals/C2/C2_ambient.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 37e46e2c74da2fe4e8000b3e15403399
+    m_Address: Assets/Graphics/CardFactoryUiAssets/MusicDisabled.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 38073127a146bc947bef67b6b9339f94
+    m_Address: Assets/Graphics/CardFactoryUiAssets/GemChest.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 388e7216e9defe5419a51084f9fd43f3
+    m_Address: Assets/Prefabs/Common UI/SoundButton .prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3a17c7cddc9146a4195ebbe10ea298ce
+    m_Address: Assets/Textures/CardThemes/Pets/P3/P3_ambient.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3adc04d2ac10aad4383546d010826761
+    m_Address: Assets/Textures/CardThemes/Medieval Weapons/MW2/MW2_normal.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3ba34dc4ecbca9449932f6943d4897af
+    m_Address: Assets/Textures/CardThemes/Medieval Weapons/MW6/MW6_ambient.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3bdeebdf714600245877fcfffec5c345
+    m_Address: Assets/Data/ThemeColors/Colors/FirstColorPresetSO.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3c9957027259a2e49be6bf3a485c00de
+    m_Address: Assets/Textures/CardThemes/Fruits/F4/F4_ambient.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3decd498c9d1b1e42a3d3bf28ea3ee1d
+    m_Address: Assets/Textures/CardThemes/Pets/P4/P4.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3ee7924c0980f94489006c4b8d275e4e
+    m_Address: Assets/Textures/CardThemes/Medieval Weapons/MW5/MW5_normal.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3f0a84ee9920963479c639532b9d1651
+    m_Address: Assets/Textures/CardThemes/Default/D3/D3.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 413cccf55540c184c99cb2671fe399d6
+    m_Address: Assets/Textures/CardThemes/Animals/A6/A6_normal.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 414cafe13cbc34943a6e01ddf51fa399
+    m_Address: Assets/Data/ThemeColors/Theme/FourthThemePresetSO.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4232aa3083741b347ae78efa3876ba8b
+    m_Address: Assets/Graphics/CardFactoryUiAssets/ActivityCoundownBG.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 43f62f849445d5f4cb1ed96137e57dfa
+    m_Address: Assets/Textures/CardThemes/Fruits/F5/F5_ambient.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 44756df8944011b4eb1a91c2f0d6a6f3
+    m_Address: Assets/Textures/CardThemes/Fruits/F2/F2_ambient.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 450d2f097631a9f4da259936d8db63c1
+    m_Address: Assets/Textures/CardThemes/Fruits/F4/F4.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 471c724973282fd4ab55f854dc5c1f3c
+    m_Address: Assets/Data/TestCardData.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 49c66f60e53b655498e010b8a50317b9
+    m_Address: Assets/Prefabs/Game/System/System.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4c4fc47470d746145b6e5267d5fba30d
+    m_Address: Assets/Textures/CardThemes/Default/D2/D2_normal.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4eb56b383583e934a8ef75033d9b7850
+    m_Address: Assets/Materials/RibbonMat.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4efbdb08c66dca84cbad8cf1b44f43a7
+    m_Address: Assets/Textures/CardThemes/Crystals/C3/C3.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4f463f83b60334245a3c78ecac557881
+    m_Address: Assets/Audio/ButtonPress.mp3
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4fe0049c2a3d8a3458f7fbbe6a5e611f
+    m_Address: Assets/Graphics/CardFactoryUiAssets/SkipCount.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 50781855f092e5d45a42b3b4ac135fdc
+    m_Address: Assets/Textures/CardThemes/Pets/P2/P2.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 516ef0fbc9b4bb54e90cbd1f5caad075
+    m_Address: Assets/Materials/Cards/YellowCard.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5565f406b20229b4a9fd068b5e09a753
+    m_Address: Assets/Textures/CardThemes/Pets/P5/P5_normal.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 55a5420eed901074a98938dae69c29ef
+    m_Address: Assets/Graphics/CardFactoryUiAssets/Next.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 569f446896bfc8640b9658b74a0ab7c4
+    m_Address: Assets/Prefabs/Game/Cards/RedCard.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5aedfe70aecd37c419db0adf9de6b350
+    m_Address: Assets/Prefabs/Game/Cards/BlueCard.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5b03ac9b7da6e1d429554125b6013973
+    m_Address: Assets/Prefabs/Game/Cards/GreenCard.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5cbb5f1e7c4f9444a886459baedc2f34
+    m_Address: Assets/Prefabs/Game/System/Global Volume.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5cf60b82513c5ee4f901a864b9bcae55
+    m_Address: Assets/Textures/CardThemes/Animals/A4/A4_ambient.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5f1c3b770e0815842bb3a71f5277ec97
+    m_Address: Assets/Textures/CardThemes/Crystals/C2/C2_normal.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5f482049aa053e846b0737a59dca404f
+    m_Address: Assets/Textures/CardThemes/Fruits/F1/F1_ambient.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5f82bfc40ee38af46912e406539988c9
+    m_Address: Assets/Materials/Prototyping.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 611ba6a06340ac5499903c83989d2f3e
+    m_Address: Assets/Textures/CardThemes/Default/D6/D6_normal.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 624d8801ec792b940b3e4936f525b6d7
+    m_Address: Assets/Textures/CardThemes/Default/D1/D1_normal.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 63134c854289ed74e920275524ceb79c
+    m_Address: Assets/Textures/CardThemes/Fruits/F1/F1.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6402dc5caf4e79a468e56aedce6f08f0
+    m_Address: Assets/Data/CyanCardData.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 64be401e83affee479844d18d1feb827
+    m_Address: Assets/Textures/CardThemes/Medieval Weapons/MW6/MW6_normal.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6669cfb91fb1b384ab29a7df4d67281b
+    m_Address: Assets/Graphics/CardFactoryUiAssets/RewardUnavailableBG.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 674a586ec2403184490d6c95d9abc7d4
+    m_Address: Assets/Textures/CardThemes/Medieval Weapons/MW1/MW1_normal.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 688364601a1c3ae41a0b5997b6bb5b6e
+    m_Address: Assets/Prefabs/Game/Conveyor/Conveyor Variant.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 699deb855d8ac624da905d070ad6b51f
+    m_Address: Assets/Graphics/CardFactoryUiAssets/MusicEnabled.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 69a99005b559a4342a1e21efc473d7d7
+    m_Address: Assets/Textures/CardThemes/Animals/A5/A5.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6e289f1dd9010eb408de89e155e67a8e
+    m_Address: Assets/Textures/CardThemes/Animals/A5/A5_ambient.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6f2b7089ec17fbd469ef6397c86771cc
+    m_Address: Assets/Graphics/CardFactoryUiAssets/LevelCountBG.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 71a7838cd8e1a82489b06066656f8e75
+    m_Address: Assets/Materials/Cards/CyanCard.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7359998ccfd77ce42b2eceffb59c4f09
+    m_Address: Assets/Textures/RibbonTexture/rubber_ao.jpg
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 75789ed5f9bc27442a13dd144fd6ca90
+    m_Address: Assets/Textures/MetalTexture/metal_normal.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 77f1dc4fe6bf32d448a681fb082787d6
+    m_Address: Assets/Textures/CardThemes/Animals/A2/A2.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7816cccd6ba96094993ac1ed9da92e71
+    m_Address: Assets/Materials/MetalMat.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 785d52d9099cec64bbb8e78976e4305c
+    m_Address: Assets/Textures/CardThemes/Medieval Weapons/MW3/MW3_ambient.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 793185c9588fa654b86d6bfe20a0c550
+    m_Address: Assets/Textures/CardThemes/Fruits/F6/F6_normal.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7ba569b6b2422a34bbf294c97fb6c845
+    m_Address: Assets/Materials/Cards/RedCard.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7cf654be34dbd2c4aa7f225980afcdba
+    m_Address: Assets/Models/CardTemplate.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7e26972843f763a418d2833699875b49
+    m_Address: Assets/Textures/CardThemes/Medieval Weapons/MW1/MW1.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7e35f0209f1bf92419109ea1b7352e7b
+    m_Address: Assets/Textures/CardThemes/Default/D6/D6_ambient.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7f534f41a174bea44886ac7bc84a8710
+    m_Address: Assets/Textures/CardThemes/Medieval Weapons/MW4/MW4_normal.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7f8ea1e4cff59584db6e86e89bcfe286
+    m_Address: Assets/Textures/CardThemes/Default/D5/D5.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 81f7dd33fa34be042bf5de6c67a8a659
+    m_Address: Assets/Textures/CardThemes/Pets/P2/P2_ambient.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 832f69ba4255673428312d4de138e4a5
+    m_Address: Assets/Prefabs/Game/Box/Boxes.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 84c662bbae808f049bee4f1b244ee48a
+    m_Address: Assets/Textures/CardThemes/Default/D4/D4_normal.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 872b3778ba6527b46aa4ad3b89ee4467
+    m_Address: Assets/Textures/CardThemes/Pets/P1/P1_normal.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 87ad1da6ad8ba4b44ad44c0a5a166164
+    m_Address: Assets/Textures/CardThemes/Fruits/F4/F4_normal.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 88321d37b6580704d871bcc54f80272b
+    m_Address: Assets/Animations/Idle.anim
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 88d415751a82f374fb3d27446065b0b7
+    m_Address: Assets/Audio/SlotTouched.mp3
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 89c5666e49fa35446aa2dd0ae1273e1a
+    m_Address: Assets/Textures/CardThemes/Crystals/C5/C5_ambient.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8a73674bc3e8ce642969c83077e85e7a
+    m_Address: Assets/Textures/CardThemes/Fruits/F1/F1_normal.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8ac55b12f8db05d4a9cba84e0f4d62d1
+    m_Address: Assets/Graphics/CardFactoryUiAssets/GemsBG.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8adc59e831749cc429e6bb9230740ce6
+    m_Address: Assets/Materials/Cards/BlueCard.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8ae132d5dda7cac4fa0fc2e65a4698bc
+    m_Address: Assets/Textures/RibbonTexture/rubber_height.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8be04f8acc257f649a6a6a681c04a106
+    m_Address: Assets/Textures/CardThemes/Pets/P6/P6_ambient.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9129e9cb103f7b4479ce75d4eb1b51f8
+    m_Address: Assets/Textures/CardThemes/Animals/A6/A6_ambient.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9228cf4331bdfa840890bc8629bb2844
+    m_Address: Assets/Data/ThemeColors/Colors/FourthColorPresetSO.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 93b5c1455c36a3e48a914d395f14a91b
+    m_Address: Assets/Graphics/CardFactoryUiAssets/GetLivesButton.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 94a280a4394ade849999d2faf2542167
+    m_Address: Assets/Textures/CardThemes/Pets/P2/P2_normal.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 95a27864c2f1a2c4e99c28c8e174a1be
+    m_Address: Assets/Data/YellowCardData.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 95b471925c75dea47abca2dab76e2dc2
+    m_Address: Assets/Graphics/CardFactoryUiAssets/LivesBG.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 978aaa9e6a7eee548bc9f5216084f22a
+    m_Address: Assets/Audio/MusicGame.mp3
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 97e6486f24b41144ba61884376f70d0e
+    m_Address: Assets/Textures/CardThemes/Crystals/C5/C5_normal.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 994b6cab76e1f9646aa522f3c1ae848b
+    m_Address: Assets/Textures/CardThemes/Crystals/C4/C4_normal.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 999e29e6488ec114489f086133109deb
+    m_Address: Assets/Graphics/CardFactoryUiAssets/SkipButton.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9a028aaf158802049b97ab33eaa7c0b0
+    m_Address: Assets/Graphics/CardFactoryUiAssets/ThemeSelect.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9c7adf8d3abf6fb479cf881f3271ecd2
+    m_Address: Assets/Textures/MetalTexture/metal_ao.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9d361871ada1c0b4ca200042b7f6c084
+    m_Address: Assets/Textures/CardThemes/Pets/P3/P3_normal.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9f2983ed7b4c42548b3c7a5a9bafc2f6
+    m_Address: Assets/Textures/CardThemes/Default/D4/D4_ambient.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9f2aac972eb5dde40987ab1303b82efc
+    m_Address: Assets/Textures/CardThemes/Medieval Weapons/MW4/MW4_ambient.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a55b89122e1b08c4fb742d7114f77b31
+    m_Address: Assets/Prefabs/Game/Cards/CyanCard.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a5a356f46c774a94d8438ab56dbe1d17
+    m_Address: Assets/Textures/CardThemes/Pets/P6/P6_normal.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a5c8db7ec2435e84bb181d0cf68c2b75
+    m_Address: Assets/Prefabs/Game/Cards/Main Camera.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a6e267e32eed3534bac8c29cc6252efa
+    m_Address: Assets/Data/ThemeColors/Theme/SixthThemePresetSO.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a7fca119ee55aa748a596411c3a2048a
+    m_Address: Assets/Prefabs/Game/Conveyor/ConveyorLent.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ab5ee9c602f95714dac6c94b6396d9d0
+    m_Address: Assets/Data/ThemeColors/Theme/ThirdThemePresetSO.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: adf38835787a35f478bf9bf4fdfc1af1
+    m_Address: Assets/Data/ThemeColors/Colors/SecondColorPresetSO.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ae0bfda71e76bed47af2aacd3336b051
+    m_Address: Assets/Textures/MetalTexture/metal_metallic.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ae5ae5edfb025eb4aa78263c0b9f3928
+    m_Address: Assets/Textures/CardThemes/Fruits/F2/F2_normal.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: afdd5ad361e6ee445aee2f46459c71d2
+    m_Address: Assets/Textures/CardThemes/Crystals/C1/C1.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b29eeff66c770b042a742734a3bc51fc
+    m_Address: Assets/Graphics/CardFactoryUiAssets/MusicBG.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b454c4445122005459ac3a136052118f
+    m_Address: Assets/Prefabs/Common UI/MusicButton.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b4961088c98f45346aeed00244435b74
+    m_Address: Assets/Textures/CardThemes/Animals/A3/A3_normal.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b4b2a10f39bbd6e4695b5ba952b0bd16
+    m_Address: Assets/Graphics/CardFactoryUiAssets/CoinReward.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b5475bca1a6203f42bce157b6c62c5df
+    m_Address: Assets/Textures/CardThemes/Fruits/F3/F3_ambient.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b798b6200c6e1f64f9ac72394d74b25d
+    m_Address: Assets/Audio/Lose.mp3
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b7a0a32a5d0749a40b41db16699b5077
+    m_Address: Assets/Textures/CardThemes/Pets/P1/P1_ambient.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b7ee6a28c2890354695526ab443c5722
+    m_Address: Assets/Graphics/CardFactoryUiAssets/CoinChest.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b8c779242653e5e4095b2ba3cb81f299
+    m_Address: Assets/Graphics/CardFactoryUiAssets/SoundBG.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b983164767c73914ba776f31b6864a6f
+    m_Address: Assets/Graphics/CardFactoryUiAssets/ActivityRewardBG.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ba61dfc27ad412141b10a7bf61a7178c
+    m_Address: Assets/Materials/Hangar.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bc5e3cef024d2604e8e544b572d003c6
+    m_Address: Assets/Textures/CardThemes/Medieval Weapons/MW2/MW2.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bdb3b68d20daf6640b2eb724cb446c4c
+    m_Address: Assets/Graphics/CardFactoryUiAssets/SkipReward.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: be34c4ba0bc17d747b92af205a4cc667
+    m_Address: Assets/Prefabs/Game/Hangar/Hangar.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bfe09fef14eca6f47ace92c552c6e45d
+    m_Address: Assets/Textures/CardThemes/Fruits/F6/F6.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c10d7c1276e012146b2e09d01a4179d1
+    m_Address: Assets/Materials/Cards/PinkCard.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c1754d4afd7c69147bcdbe51b83a69dd
+    m_Address: Assets/Textures/MetalTexture/metal_roughness.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c2137713fb7f59743852e28b45eed34a
+    m_Address: Assets/Textures/CardThemes/Default/D1/D1_ambient.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c23a2e4f37141174696a446d4c42e215
+    m_Address: Assets/Textures/CardThemes/Default/D4/D4.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c3a2e6dd37a6e064aa3b330367fb3ac8
+    m_Address: Assets/Prefabs/Game/System/EventSystem.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c45b04c57842b854cae3b7cd0228bc78
+    m_Address: Assets/Graphics/CardFactoryUiAssets/ActivityPrizesButton.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c47047f7c30d3a04cacb567d128ea784
+    m_Address: Assets/Textures/CardThemes/Default/D1/D1.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c57a27fd23be7f949afd8a9aff602777
+    m_Address: Assets/Graphics/CardFactoryUiAssets/StoreSkip.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c6703db4641177a48a0abdb0ba5d3432
+    m_Address: Assets/Materials/LentArrowMaterial.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c914325c897614d488f1b1c3ab663284
+    m_Address: Assets/Textures/CardThemes/Medieval Weapons/MW2/MW2_ambient.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ca228b198330a664cb0fe746f7b4e26a
+    m_Address: Assets/Graphics/CardFactoryUiAssets/Close+WatchAds.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ca4f6ae1a6b97b747a6b9c0c37b1ae8d
+    m_Address: Assets/Textures/CardThemes/Default/D3/D3_ambient.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cabd01e8a23c421489668ff6038e01ec
+    m_Address: Assets/Data/ThemeColors/Colors/SixthColorPresetSO.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: caf0239e06d670f4d8c05e3ce7cb8c09
+    m_Address: Assets/Textures/CardThemes/Medieval Weapons/MW5/MW5_ambient.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cf5a93fb11dc270468ec1e373616fc04
+    m_Address: Assets/Graphics/CardFactoryUiAssets/LifeCountdownBG.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cfb34c748981be34497d87419fad8581
+    m_Address: Assets/Textures/CardThemes/Default/D2/D2.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d1b2a7cf89151e247b981e50ad6389a3
+    m_Address: Assets/Graphics/CardFactoryUiAssets/PlayButton.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d25b9601158fa6a46a9f57ebad602397
+    m_Address: Assets/Graphics/CardFactoryUiAssets/Previous.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d386d699a92713942bc327671219b7f1
+    m_Address: Assets/Graphics/CardFactoryUiAssets/SoundEnabled.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d3f6ef20a1ca1ef4ea69029c3ecfef45
+    m_Address: Assets/Prefabs/Game/Cards/YellowCard.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d43bdbcfa62ae1a449c0941fffe481b6
+    m_Address: Assets/Textures/CardThemes/Crystals/C4/C4_ambient.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d489b5a51f6431049b9e8ed2fbe71143
+    m_Address: Assets/Graphics/CardFactoryUiAssets/Store+Back.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d4c44767e63135a4e807e2e028aa664c
+    m_Address: Assets/Textures/CardThemes/Default/D5/D5_normal.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d4dcc2ed044c38e44a05b1afe6d70985
+    m_Address: Assets/Graphics/CardFactoryUiAssets/InsufficientResourceBG.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d4e803ff05c0a14479df1cc1242ca440
+    m_Address: Assets/Textures/CardThemes/Animals/A4/A4.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d55bd16fcd519ea43b6bb51327bbacd1
+    m_Address: Assets/Materials/Cards/GreenCard.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d57ccb54b3b15134c9990741064271ff
+    m_Address: Assets/Data/ThemeColors/Colors/ThirdColorPresetSO.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d58c441ed00509349935aabf6d2281cf
+    m_Address: Assets/Textures/CardThemes/Animals/A3/A3.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d76e159cbf306004b8c6aea941db63ef
+    m_Address: Assets/Textures/CardThemes/Crystals/C6/C6_normal.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d8d61d8d541404645b9883838723415d
+    m_Address: Assets/Audio/MusicUI.mp3
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d93f0cff99fb2c9418e03427ec91417e
+    m_Address: Assets/Graphics/CardFactoryUiAssets/ColorSelect.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d974a16624a4c2b4b863ce362c055f1e
+    m_Address: Assets/Textures/CardThemes/Pets/P5/P5.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: da3aa5e5f77bacb4eab9da1dce12212a
+    m_Address: Assets/Textures/CardThemes/Animals/A5/A5_normal.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dca54e2d758aea448ad269a410495431
+    m_Address: Assets/Textures/CardThemes/Crystals/C2/C2.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: de2d4e45756a66d419a17e506974d1cd
+    m_Address: Assets/Graphics/CardFactoryUiAssets/GetCoinButton.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: df2e7bddedd1f644685d8b259a6d23cd
+    m_Address: Assets/Prefabs/Game/Box/Box.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dfdf0da0a7b6f4842ab7a93f6a1b6ce1
+    m_Address: Assets/Audio/Win.mp3
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e43377285e418a04e97b692c4fb9f337
+    m_Address: Assets/Textures/CardThemes/Animals/A2/A2_ambient.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e5f08f3fceea76549a9c5b72f6cfd448
+    m_Address: Assets/Audio/Sent.mp3
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e735a2181017cd141b03e12ec5a2b588
+    m_Address: Assets/Graphics/CardFactoryUiAssets/BuyCoinBG.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ea57e7590b6c3f3468a3765d68561f09
+    m_Address: Assets/Animations/TestCard.controller
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ebd41fbcb25ee2843a474dfef4d6f159
+    m_Address: Assets/Textures/CardThemes/Fruits/F3/F3.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: efa0a90790431bd448a0d5a2f8dbdb08
+    m_Address: Assets/Prefabs/Game/Cards/Buffer/Buffer Variant.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: efccb6a1389a4e443b569cfdabbd7d29
+    m_Address: Assets/Textures/CardThemes/Default/D5/D5_ambient.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f048025720c5796469331d5094d21f6a
+    m_Address: Assets/Prefabs/Game/Cards/PinkCard.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f074e4f07d39c024bb46185f6f666ef3
+    m_Address: Assets/Textures/CardThemes/Fruits/F5/F5.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f12217c47854c104db61cf3dd6df56e6
+    m_Address: Assets/Graphics/CardFactoryUiAssets/LifeReward.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f2c09b9f5a719d8489fe7ae034656b54
+    m_Address: Assets/Prefabs/Game/Cards/TestCard.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f70730f04b5dab946a51b87fd356be90
+    m_Address: Assets/Textures/CardThemes/Animals/A1/A1.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f75e1b7738359d24c8e8f5ddaf2342ab
+    m_Address: Assets/Prefabs/Game/System/Canvas.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f788e2f0110bf0946becfac60134e2d4
+    m_Address: Assets/Textures/CardThemes/Medieval Weapons/MW3/MW3_normal.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f867cc235d0c08b46a3f8b7c5113d11c
+    m_Address: Assets/Textures/RibbonTexture/rubber_normal.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f9f4adce17b342944bc0ad27348a0b12
+    m_Address: Assets/Graphics/CardFactoryUiAssets/BuySkipGemBG.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fab27e718310c7a4fbf9facec802c7a1
+    m_Address: Assets/Graphics/CardFactoryUiAssets/RewardedAdBG.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fc596923e922c3941af4860ac13b73e9
+    m_Address: Assets/Textures/CardThemes/Crystals/C1/C1_normal.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fc7124e9da1385b41b605214ffe2f8ab
+    m_Address: Assets/Prefabs/Game/Hangar/Hangar (1) Variant.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fd7e47e14e9926544adbb3b08b7557d3
+    m_Address: Assets/Graphics/CardFactoryUiAssets/RewardAvailableBG.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fe2a792eede6a474393b9bec93119fae
+    m_Address: Assets/Textures/CardThemes/Pets/P3/P3.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fffa0ad270eaed843a582958fce7c555
+    m_Address: Assets/Animations/Highlighted.anim
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 902e3018b22e1464aa4208efbe8a3af1, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: a079ab9324a03014b805d974adb25378, type: 2}
+    - {fileID: 11400000, guid: 58e034aca992b4c43bf2a731857d1116, type: 2}

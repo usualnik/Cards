@@ -17,9 +17,9 @@ MonoBehaviour:
   Index: 0
   Price: 5
   Sprites:
-  - {fileID: 21300000, guid: 0d9b33c3a78060641888de5f789dd4bc, type: 3}
-  - {fileID: 21300000, guid: 0d9b33c3a78060641888de5f789dd4bc, type: 3}
-  - {fileID: 21300000, guid: 0d9b33c3a78060641888de5f789dd4bc, type: 3}
-  - {fileID: 21300000, guid: 0d9b33c3a78060641888de5f789dd4bc, type: 3}
-  - {fileID: 21300000, guid: 0d9b33c3a78060641888de5f789dd4bc, type: 3}
-  - {fileID: 21300000, guid: 0d9b33c3a78060641888de5f789dd4bc, type: 3}
+  - {fileID: 21300000, guid: c47047f7c30d3a04cacb567d128ea784, type: 3}
+  - {fileID: 21300000, guid: cfb34c748981be34497d87419fad8581, type: 3}
+  - {fileID: 21300000, guid: 3f0a84ee9920963479c639532b9d1651, type: 3}
+  - {fileID: 21300000, guid: c23a2e4f37141174696a446d4c42e215, type: 3}
+  - {fileID: 21300000, guid: 7f8ea1e4cff59584db6e86e89bcfe286, type: 3}
+  - {fileID: 21300000, guid: 1dbcca756e5e4354dbcb34e7d820be2e, type: 3}

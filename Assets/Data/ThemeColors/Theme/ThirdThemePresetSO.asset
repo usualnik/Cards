@@ -17,9 +17,9 @@ MonoBehaviour:
   Index: 2
   Price: 15
   Sprites:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 21300000, guid: 63134c854289ed74e920275524ceb79c, type: 3}
+  - {fileID: 21300000, guid: 0c0347374b5f82c49b4b4b970e55f503, type: 3}
+  - {fileID: 21300000, guid: ebd41fbcb25ee2843a474dfef4d6f159, type: 3}
+  - {fileID: 21300000, guid: 450d2f097631a9f4da259936d8db63c1, type: 3}
+  - {fileID: 21300000, guid: f074e4f07d39c024bb46185f6f666ef3, type: 3}
+  - {fileID: 21300000, guid: bfe09fef14eca6f47ace92c552c6e45d, type: 3}

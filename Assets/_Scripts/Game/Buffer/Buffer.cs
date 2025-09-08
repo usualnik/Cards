@@ -19,7 +19,7 @@ public class Buffer : MonoBehaviour
 
 
 
-    private const int MAX_CARDS_IN_BUFFER = 20;
+    private const int MAX_CARDS_IN_BUFFER = 18;
 
     private void Awake()
     {

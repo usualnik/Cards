@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bb8c78dbec3bb048b82f689f4736b0e, type: 3}
   m_Name: FourthColorPresetSO
   m_EditorClassIdentifier: 
-  Name: Fourth
-  RuName: "\u0427\u0435\u0442\u0432\u0435\u0440\u0442\u044B\u0439"
+  Name: Fuchsia Branches
+  RuName: "\u0412\u0435\u0442\u043A\u0438 \u0424\u0443\u043A\u0441\u0438\u0438"
   Index: 3
   Price: 20
   Colors:

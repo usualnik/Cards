@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bb8c78dbec3bb048b82f689f4736b0e, type: 3}
   m_Name: FifthColorPresetSO
   m_EditorClassIdentifier: 
-  Name: Fifth
-  RuName: "\u041F\u044F\u0442\u044B\u0439"
+  Name: Desert Evening
+  RuName: "\u0412\u0435\u0447\u0435\u0440 \u0432 \u041F\u0443\u0441\u0442\u044B\u043D\u0435"
   Index: 4
   Price: 25
   Colors:

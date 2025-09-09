@@ -1,6 +1,7 @@
 using TMPro;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using YG;
 
 
 public class ActivityPrize : MonoBehaviour, IPointerClickHandler
@@ -32,7 +33,7 @@ public class ActivityPrize : MonoBehaviour, IPointerClickHandler
     {
         if (ActivityPrizesTimer.Instance.ActivityTimer >= _timeToBeClaimed)
         {
-            _claimedText.text = "CLAIM";
+            _claimedText.text = YG2.envir.language == "ru" ? "ÇÀÁÐÀÒÜ" : "CLAIM";
             _readyToBeClaimed = true;
         }
         else
@@ -54,6 +55,9 @@ public class ActivityPrize : MonoBehaviour, IPointerClickHandler
 
         if (_readyToBeClaimed)
         {
+
+            ActivityPrizesHandler.Instance.RemoveActivityPrizeFromList(this);   
+
             GiveReward();
 
             gameObject.SetActive(false);
@@ -84,5 +88,6 @@ public class ActivityPrize : MonoBehaviour, IPointerClickHandler
         }
     }
 
-
+    public bool IsReadyToBeClaimed() => _readyToBeClaimed;
+    public float GetClaimedTimer() => _timeToBeClaimed;
 }

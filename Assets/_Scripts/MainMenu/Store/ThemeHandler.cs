@@ -26,7 +26,7 @@ public class ThemeHandler : MonoBehaviour
         _prevButton?.onClick.AddListener(ShowPrevTheme);
         _buyButton?.onClick.AddListener(BuyTheme);
 
-        InitCurrentChosenTheme();
+        Invoke("ShowCurrentChosenTheme",0.1f);
 
     }
     private void OnDestroy()
@@ -36,11 +36,17 @@ public class ThemeHandler : MonoBehaviour
         _buyButton?.onClick.RemoveListener(BuyTheme);
     }
 
-    private void InitCurrentChosenTheme()
+    
+
+    private void OnEnable()
+    {
+        //ShowCurrentChosenTheme();
+    }
+    private void ShowCurrentChosenTheme()
     {
         _themeIndex = ColorThemeManager.Instance.GetCurrentThemeSO().Index;
 
-        _themeName.text =  YG2.envir.language == "ru" ? ColorThemeManager.Instance.GetCurrentThemeSO().RuName 
+        _themeName.text = YG2.envir.language == "ru" ? ColorThemeManager.Instance.GetCurrentThemeSO().RuName
             : ColorThemeManager.Instance.GetCurrentThemeSO().Name;
 
         _themePriceText.text = string.Empty;
@@ -93,10 +99,14 @@ public class ThemeHandler : MonoBehaviour
             _themePriceText.text = string.Empty;
                         
             ColorThemeManager.Instance.UnlockTheme(_themeIndex);
+        }else if(_themes[_themeIndex].Price > PlayerData.Instance.GetGems() 
+            && !ColorThemeManager.Instance.GetOpenedThemes().Contains(_themes[_themeIndex]))
+        {
+            WindowManager.Instance.OpenWindow(INSUFFICIENT_RESOURCES_WINDOW_INDEX);
         }
         else
         {
-            WindowManager.Instance.OpenWindow(INSUFFICIENT_RESOURCES_WINDOW_INDEX);
+
         }
     }
 

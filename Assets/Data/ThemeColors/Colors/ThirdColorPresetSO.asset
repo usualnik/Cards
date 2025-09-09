@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bb8c78dbec3bb048b82f689f4736b0e, type: 3}
   m_Name: ThirdColorPresetSO
   m_EditorClassIdentifier: 
-  Name: Third
-  RuName: "\u0422\u0440\u0435\u0442\u0438\u0439"
+  Name: Lilac Dawn
+  RuName: "\u0421\u0438\u0440\u0435\u043D\u0435\u0432\u044B\u0439 \u0420\u0430\u0441\u0441\u0432\u0435\u0442"
   Index: 2
   Price: 15
   Colors:

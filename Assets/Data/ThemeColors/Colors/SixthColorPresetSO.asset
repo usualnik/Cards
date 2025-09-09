@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bb8c78dbec3bb048b82f689f4736b0e, type: 3}
   m_Name: SixthColorPresetSO
   m_EditorClassIdentifier: 
-  Name: Sixth
-  RuName: "\u0428\u0435\u0441\u0442\u043E\u0439"
+  Name: Vibrant Coral
+  RuName: "\u041D\u0430\u0441\u044B\u0449\u0435\u043D\u043D\u044B\u0439 \u041A\u043E\u0440\u0430\u043B\u043B"
   Index: 5
   Price: 30
   Colors:

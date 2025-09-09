@@ -12,14 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 22fe559424da6644eb0072e83a57b41f, type: 3}
   m_Name: FourthThemePresetSO
   m_EditorClassIdentifier: 
-  Name: Fourth
-  RuName: "\u0427\u0435\u0442\u0432\u0435\u0440\u0442\u044B\u0439"
+  Name: Food
+  RuName: "\u0415\u0434\u0430"
   Index: 3
   Price: 20
   Sprites:
-  - {fileID: 21300000, guid: 7e26972843f763a418d2833699875b49, type: 3}
-  - {fileID: 21300000, guid: bc5e3cef024d2604e8e544b572d003c6, type: 3}
-  - {fileID: 21300000, guid: 01d0c94942856a24cbeab863a727da55, type: 3}
-  - {fileID: 21300000, guid: 321c4c5f90d45d9458f699a5a9b94c28, type: 3}
-  - {fileID: 21300000, guid: 26d8db8d9e3050440b72d13a725910d6, type: 3}
-  - {fileID: 21300000, guid: 15c179f0a268f094b9ab60c81f84a552, type: 3}
+  - {fileID: 21300000, guid: 23a0639b5f2d7d64c8a41663940f36b8, type: 3}
+  - {fileID: 21300000, guid: 31f4eba71d290564f8422bf5d75c4955, type: 3}
+  - {fileID: 21300000, guid: 465503df1379d4a46913c070d4b5a91f, type: 3}
+  - {fileID: 21300000, guid: 04a8a46128c1afd44bef544b7027b322, type: 3}
+  - {fileID: 21300000, guid: 5193461e8dc6f4d44835fb117647d750, type: 3}
+  - {fileID: 21300000, guid: fc8d3f0a073e5c948acc97ee95aaa647, type: 3}

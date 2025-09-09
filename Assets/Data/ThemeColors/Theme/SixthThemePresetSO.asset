@@ -12,14 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 22fe559424da6644eb0072e83a57b41f, type: 3}
   m_Name: SixthThemePresetSO
   m_EditorClassIdentifier: 
-  Name: Sixth
-  RuName: "\u0428\u0435\u0441\u0442\u043E\u0439"
+  Name: Animals
+  RuName: "\u0416\u0438\u0432\u043E\u0442\u043D\u044B\u0435"
   Index: 5
   Price: 30
   Sprites:
-  - {fileID: 21300000, guid: f70730f04b5dab946a51b87fd356be90, type: 3}
-  - {fileID: 21300000, guid: 77f1dc4fe6bf32d448a681fb082787d6, type: 3}
-  - {fileID: 21300000, guid: d58c441ed00509349935aabf6d2281cf, type: 3}
-  - {fileID: 21300000, guid: d4e803ff05c0a14479df1cc1242ca440, type: 3}
-  - {fileID: 21300000, guid: 69a99005b559a4342a1e21efc473d7d7, type: 3}
-  - {fileID: 21300000, guid: 2476868754ed3c54daba967fcbbf42f8, type: 3}
+  - {fileID: 21300000, guid: 636c7f430b462c347bb578a201ad24ca, type: 3}
+  - {fileID: 21300000, guid: 42eb6b84d00d1aa4686760201f989778, type: 3}
+  - {fileID: 21300000, guid: 76e5b5367304fbc48bd407848f85988c, type: 3}
+  - {fileID: 21300000, guid: 3eda17062ca5b0444bcd4f187cd937e2, type: 3}
+  - {fileID: 21300000, guid: 88383786ee0df10438d3496ad891ea0b, type: 3}
+  - {fileID: 21300000, guid: 99e7a91722a582340bdefcc4391dd3fb, type: 3}

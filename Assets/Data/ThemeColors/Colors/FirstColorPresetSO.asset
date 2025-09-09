@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bb8c78dbec3bb048b82f689f4736b0e, type: 3}
   m_Name: FirstColorPresetSO
   m_EditorClassIdentifier: 
-  Name: First
-  RuName: "\u041F\u0435\u0440\u0432\u044B\u0439"
+  Name: Standart
+  RuName: "\u0421\u0442\u0430\u043D\u0434\u0430\u0440\u0442"
   Index: 0
-  Price: 5
+  Price: 0
   Colors:
   - {r: 1, g: 0.28235295, b: 0, a: 0}
   - {r: 0.11685467, g: 1, b: 0, a: 0}

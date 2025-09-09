@@ -12,14 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 22fe559424da6644eb0072e83a57b41f, type: 3}
   m_Name: SecondThemePresetSO
   m_EditorClassIdentifier: 
-  Name: Second
-  RuName: "\u0412\u0442\u043E\u0440\u043E\u0439"
+  Name: Crystals
+  RuName: "\u041A\u0440\u0438\u0441\u0442\u0430\u043B\u043B\u044B"
   Index: 1
   Price: 10
   Sprites:
-  - {fileID: 21300000, guid: afdd5ad361e6ee445aee2f46459c71d2, type: 3}
-  - {fileID: 21300000, guid: dca54e2d758aea448ad269a410495431, type: 3}
-  - {fileID: 21300000, guid: 4efbdb08c66dca84cbad8cf1b44f43a7, type: 3}
-  - {fileID: 21300000, guid: 2d2aeadb09d079f4daa34cfc3879809d, type: 3}
-  - {fileID: 21300000, guid: 0188627aec75261408a82b1c390fef14, type: 3}
-  - {fileID: 21300000, guid: 305e0aae9c7892b448c4e7bb6ad98ad9, type: 3}
+  - {fileID: 21300000, guid: 65ae989e3f447c54a8f6bf1f8cb1e19d, type: 3}
+  - {fileID: 21300000, guid: e9529215902ccf6459d23c96ecb422b0, type: 3}
+  - {fileID: 21300000, guid: c661b1f9076795b408d279997cc0a2dd, type: 3}
+  - {fileID: 21300000, guid: f6d80315c242fd741bdcfe95d060a5f7, type: 3}
+  - {fileID: 21300000, guid: e9074f8c56a587a4ab7556ab399f96df, type: 3}
+  - {fileID: 21300000, guid: b67b94f6e7ce16c40a6ad699ac5f1696, type: 3}

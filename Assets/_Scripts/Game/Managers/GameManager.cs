@@ -14,6 +14,8 @@ public class GameManager : MonoBehaviour
 
     private const int MAIN_MENU_BUILD_INDEX = 1;
 
+    private bool _isWinGame = false;
+
     private void Awake()
     {
         if (Instance == null)
@@ -77,6 +79,7 @@ public class GameManager : MonoBehaviour
     private void WinGame()
     {
         OnWinGame?.Invoke();
+        _isWinGame = true;
         Time.timeScale = 0f;
     }
 
@@ -101,7 +104,10 @@ public class GameManager : MonoBehaviour
 
     public void LoadMainMenu()
     {
-        PlayerData.Instance.SetCurrentLevel(PlayerData.Instance.GetCurrentLevel() + 1);
+        if (_isWinGame)
+        {
+            PlayerData.Instance.SetCurrentLevel(PlayerData.Instance.GetCurrentLevel() + 1);
+        }      
 
         SceneManager.LoadScene(MAIN_MENU_BUILD_INDEX);
     }

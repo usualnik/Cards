@@ -26,7 +26,8 @@ public class ColorHandler : MonoBehaviour
         _prevButton?.onClick.AddListener(ShowPrevColor);
         _buyButton?.onClick.AddListener(BuyColor);
 
-        InitCurrentChosenColor();
+        Invoke("ShowCurrentChosenColor", 0.1f);
+                
     }
 
 
@@ -37,7 +38,12 @@ public class ColorHandler : MonoBehaviour
         _buyButton?.onClick.RemoveListener(BuyColor);
     }
 
-    private void InitCurrentChosenColor()
+    private void OnEnable()
+    {
+       // ShowCurrentChosenColor();
+    }
+
+    private void ShowCurrentChosenColor()
     {
         _colorIndex = ColorThemeManager.Instance.GetCurrentColorSO().Index;
 
@@ -97,10 +103,14 @@ public class ColorHandler : MonoBehaviour
             _colorPriceText.text = string.Empty;
 
             ColorThemeManager.Instance.UnlockColor(_colorIndex);
+        } else if (_colors[_colorIndex].Price >= PlayerData.Instance.GetCoins() &&
+            !ColorThemeManager.Instance.GetOpenedColors().Contains(_colors[_colorIndex]))
+        {
+            WindowManager.Instance.OpenWindow(INSUFFICIENT_RESOURCES_WINDOW_INDEX);
         }
         else
         {
-            WindowManager.Instance.OpenWindow(INSUFFICIENT_RESOURCES_WINDOW_INDEX);
+
         }
     }
 }

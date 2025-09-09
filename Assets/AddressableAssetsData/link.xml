@@ -24,10 +24,13 @@
     <type fullname="Dumper" preserve="all" />
     <type fullname="GameManager" preserve="all" />
     <type fullname="Hangar" preserve="all" />
+    <type fullname="LevelReward" preserve="all" />
     <type fullname="QuitToMenuButton" preserve="all" />
     <type fullname="Receiver" preserve="all" />
     <type fullname="RepositionCardInBufferAnimation" preserve="all" />
     <type fullname="SetBackgroundMusic" preserve="all" />
+    <type fullname="ShowInterstitialAfterLose" preserve="all" />
+    <type fullname="ShowInterstitialAfterWin" preserve="all" />
     <type fullname="TeleportIN" preserve="all" />
     <type fullname="ThemeSO" preserve="all" />
     <type fullname="UI_MusicButton" preserve="all" />

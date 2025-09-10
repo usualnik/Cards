@@ -66,7 +66,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d1a510ec7b9cc9d4d88c5706c2894af5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  boxType: 0
+  _boxType: 0
 --- !u!1 &5845784047179334566
 GameObject:
   m_ObjectHideFlags: 0
@@ -270,6 +270,10 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -1461304994638716399, guid: 05ea496363f8c594388212cb6e33215d, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 5e91ddbe47ab9cd448629dc78ba253a8, type: 2}
     - target: {fileID: 919132149155446097, guid: 05ea496363f8c594388212cb6e33215d, type: 3}
       propertyPath: m_Name
       value: ContainerTemplate

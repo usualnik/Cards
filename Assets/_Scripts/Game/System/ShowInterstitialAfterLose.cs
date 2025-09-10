@@ -7,9 +7,7 @@ public class ShowInterstitialAfterLose : MonoBehaviour
 
     private void Start()
     {
-        Buffer.Instance.OnBufferFull += Buffer_OnBufferFull;
-
-        Debug.Log(_loseCounter);
+        Buffer.Instance.OnBufferFull += Buffer_OnBufferFull;               
     }
 
    

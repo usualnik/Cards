@@ -28,8 +28,7 @@ public class Loader : MonoBehaviour
         {19 , "Assets/Scenes/Game/Level 19.unity"}
     };
 
-    [SerializeField] private GameObject _loadingScreen;
-
+    private const int LOADING_SCREEN_WINDOW_INDEX = 5;
    public void LoadGameScene()
    {
         var nextSceneIndex = PlayerData.Instance.GetCurrentLevel();
@@ -37,7 +36,7 @@ public class Loader : MonoBehaviour
         if (PlayerData.Instance.GetHearts() > 0 
             && _adressableLevelsPaths.TryGetValue(nextSceneIndex, out string path))
         {
-            _loadingScreen.SetActive(true);
+            WindowManager.Instance.OpenWindow(LOADING_SCREEN_WINDOW_INDEX);
             LoadLevelWithAdressables(path);
         }           
    }

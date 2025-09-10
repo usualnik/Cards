@@ -22,7 +22,7 @@ GameObject:
   - component: {fileID: 2959922366618464042}
   - component: {fileID: 5606464923619794917}
   - component: {fileID: 3924907489804364141}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: TestCard
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -604,7 +604,7 @@ GameObject:
   - component: {fileID: 401552330366899393}
   - component: {fileID: 2478410306468183405}
   - component: {fileID: 566533170760780802}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Decal
   m_TagString: Untagged
   m_Icon: {fileID: 0}

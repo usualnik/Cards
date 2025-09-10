@@ -210,6 +210,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3ae06979f6732c346beb8ee90227aa84
+    m_Address: Assets/Graphics/Tutorial/TutorialsRU/Tutorial1RU.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 3bdeebdf714600245877fcfffec5c345
     m_Address: Assets/Data/ThemeColors/Colors/FirstColorPresetSO.asset
     m_ReadOnly: 0
@@ -340,6 +345,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6c3eda0148cc8e646be350744e596936
+    m_Address: Assets/Graphics/Tutorial/TutorialsEN/Tutorial4EN.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 6f2b7089ec17fbd469ef6397c86771cc
     m_Address: Assets/Graphics/CardFactoryUiAssets/LevelCountBG.png
     m_ReadOnly: 0
@@ -360,6 +370,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7613e1e20a3e70d4aaefcbdad36adcc9
+    m_Address: Assets/Graphics/Tutorial/TutorialsEN/Tutorial1EN.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 76e5b5367304fbc48bd407848f85988c
     m_Address: Assets/Textures/CardThemes/Animals/A3.png
     m_ReadOnly: 0
@@ -370,6 +385,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 79ee713ffdb33e149855e0cbcb61394f
+    m_Address: Assets/Graphics/Tutorial/TutorialsRU/Tutorial4RU.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 7ba569b6b2422a34bbf294c97fb6c845
     m_Address: Assets/Materials/Cards/RedCard.mat
     m_ReadOnly: 0
@@ -377,6 +397,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 7cf654be34dbd2c4aa7f225980afcdba
     m_Address: Assets/Models/CardTemplate.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7fa96b8d98a99dd4db209ea8d0ec0707
+    m_Address: Assets/Graphics/Tutorial/TutorialsRU/Tutorial3RU.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -470,6 +495,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9c982369ac89edf4097dd7d61e0bb958
+    m_Address: Assets/Graphics/Tutorial/TutorialsRU/Tutorial2RU.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: a55b89122e1b08c4fb742d7114f77b31
     m_Address: Assets/Prefabs/Game/Cards/CyanCard.prefab
     m_ReadOnly: 0
@@ -502,6 +532,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: ae0bfda71e76bed47af2aacd3336b051
     m_Address: Assets/Textures/MetalTexture/metal_metallic.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: af791482237c45c46bf4156b9c345960
+    m_Address: Assets/Graphics/Tutorial/TutorialsEN/Tutorial2EN.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -550,11 +585,6 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: ba61dfc27ad412141b10a7bf61a7178c
-    m_Address: Assets/Materials/Hangar.mat
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: bdb3b68d20daf6640b2eb724cb446c4c
     m_Address: Assets/Graphics/CardFactoryUiAssets/SkipReward.png
     m_ReadOnly: 0
@@ -585,6 +615,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c44b3496cc1fa7841bb9993b6290f2f5
+    m_Address: Assets/Graphics/Tutorial/TutorialsEN/Tutorial3EN.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: c45b04c57842b854cae3b7cd0228bc78
     m_Address: Assets/Graphics/CardFactoryUiAssets/ActivityPrizesButton.png
     m_ReadOnly: 0
@@ -602,11 +637,6 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: c661b1f9076795b408d279997cc0a2dd
     m_Address: Assets/Textures/CardThemes/Crystals/C3.png
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: c6703db4641177a48a0abdb0ba5d3432
-    m_Address: Assets/Materials/LentArrowMaterial.mat
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0

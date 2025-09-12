@@ -60,8 +60,7 @@ MonoBehaviour:
   - m_GUID: 4a749625b9d721146be7c9a518061647
     m_Address: Assets/Scenes/Game/Level 1.unity
     m_ReadOnly: 0
-    m_SerializedLabels:
-    - Scene
+    m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 5c184234fa7d94a42a11496a380f921e
     m_Address: Assets/Scenes/Game/Level 11.unity
@@ -126,8 +125,7 @@ MonoBehaviour:
   - m_GUID: fa152b6217aaa984bab16fd840db65dc
     m_Address: Assets/Scenes/Game/Level 2.unity
     m_ReadOnly: 0
-    m_SerializedLabels:
-    - Scene
+    m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: 902e3018b22e1464aa4208efbe8a3af1, type: 2}

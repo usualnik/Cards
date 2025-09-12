@@ -13,9 +13,9 @@
         false,
         false
     ],
-    "idSave": 9,
+    "idSave": 13,
     "YandexServerData": {
-        "Coins": 18,
+        "Coins": 3,
         "Gems": 0,
         "Hearts": 4,
         "Skips": 0,
@@ -25,7 +25,8 @@
             0
         ],
         "_openedColorsIndexes": [
-            0
+            0,
+            2
         ],
         "CurrentChosenThemeIndex": 0,
         "CurrentChosenColorIndex": 0

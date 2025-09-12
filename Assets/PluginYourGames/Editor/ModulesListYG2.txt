@@ -17,6 +17,6 @@ QuitGameEvent v1.001
 RedefinePlayerPrefs v1.001
 Review v1.0
 RewardedAdv v1.01
-ServerTime v1.01
+ServerTime v1.02
 StickyAdv v1.0
 Storage v1.021

@@ -10173,6 +10173,10 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: -6.74
       objectReference: {fileID: 0}
+    - target: {fileID: 3966691039256450330, guid: 688364601a1c3ae41a0b5997b6bb5b6e, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4550806689267828955, guid: 688364601a1c3ae41a0b5997b6bb5b6e, type: 3}
       propertyPath: m_Splines.Array.data[0].m_Knots.Array.size
       value: 2
@@ -10239,6 +10243,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8114672552016118023, guid: 688364601a1c3ae41a0b5997b6bb5b6e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8267966442512150958, guid: 688364601a1c3ae41a0b5997b6bb5b6e, type: 3}
+      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8333165228889097579, guid: 688364601a1c3ae41a0b5997b6bb5b6e, type: 3}

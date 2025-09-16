@@ -23,3 +23,8 @@ MonoBehaviour:
   - {r: 1, g: 0.9160461, b: 0, a: 0}
   - {r: 1, g: 0, b: 0.7455859, a: 0}
   - {r: 0.2320754, g: 1, b: 0.8555378, a: 0}
+  BigPropsColor: {r: 1, g: 1, b: 1, a: 0}
+  MiddlePropsRibbonBufferColor: {r: 0.984807, g: 1, b: 0.514151, a: 0}
+  SmallPropsMetalColor: {r: 1, g: 0.5518868, b: 0.5518868, a: 0}
+  FloorColor: {r: 0.65284276, g: 1, b: 0.5424528, a: 0}
+  SendingRecievingLanesColor: {r: 0.495283, g: 1, b: 0.9565503, a: 0}

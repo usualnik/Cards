@@ -8,4 +8,12 @@ public class ColorSO : ScriptableObject
     public int Index;
     public int Price;
     public Color[] Colors;
+
+    [Space(20f)]
+    [Header("Envir Colors")]
+    public Color BigPropsColor;
+    public Color MiddlePropsRibbonBufferColor;
+    public Color SmallPropsMetalColor;
+    public Color FloorColor;
+    public Color SendingRecievingLanesColor;
 }

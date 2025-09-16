@@ -25,6 +25,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 03baae67e4e4c664c94b7f59ca3e3f4e
+    m_Address: Assets/PROPS/Food Pack - Low Poly Assets/Materials/PaletteAssets.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 03f0cda2e63248f4291cc09eb836bc8a
     m_Address: Assets/Data/ThemeColors/Theme/FirstThemePresetSO.asset
     m_ReadOnly: 0
@@ -32,6 +37,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 043027838d950a34badf2ac6f2a3a762
     m_Address: Assets/Data/RedCardData.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 046f06b34fe325f47930d18f1378f182
+    m_Address: Assets/Materials/FloorMat.mat
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -70,6 +80,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0e7d7ca07cb859444b33057722c2087d
+    m_Address: Assets/Materials/TeleporterRubberMat.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 0f016876c71d56647b633ed421e7a469
     m_Address: Assets/Data/ThemeColors/Theme/SecondThemePresetSO.asset
     m_ReadOnly: 0
@@ -100,6 +115,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 19440a098b8f50e429fbb35a2cc040e3
+    m_Address: Assets/Materials/PlasticMat.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 1956558957e3f4340b25a1c9d8ee5070
     m_Address: Assets/Graphics/CardFactoryUiAssets/BuySkipCoinBG.png
     m_ReadOnly: 0
@@ -107,6 +127,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 1b5d02421dac9654a8c747fd39a67347
     m_Address: Assets/Textures/CardThemes/Medieval Weapons/MW3.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1c8a70af8d8ff4d43b0647586df854df
+    m_Address: Assets/Materials/TeleporterMetalMat.mat
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -255,6 +280,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4c402981a9329d640bd9b132115c7fba
+    m_Address: Assets/Materials/Ground.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 4eb56b383583e934a8ef75033d9b7850
     m_Address: Assets/Materials/RibbonMat.mat
     m_ReadOnly: 0
@@ -307,6 +337,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 5cbb5f1e7c4f9444a886459baedc2f34
     m_Address: Assets/Prefabs/Game/System/Global Volume.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5e91ddbe47ab9cd448629dc78ba253a8
+    m_Address: Assets/Materials/Box.mat
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -640,6 +675,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c9c64e5a624962440b80b1333f900f7d
+    m_Address: Assets/Materials/Buffer.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: ca228b198330a664cb0fe746f7b4e26a
     m_Address: Assets/Graphics/CardFactoryUiAssets/Close+WatchAds.png
     m_ReadOnly: 0
@@ -817,6 +857,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: f9f4adce17b342944bc0ad27348a0b12
     m_Address: Assets/Graphics/CardFactoryUiAssets/BuySkipGemBG.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: faad21af5878bf946b8e1d2b97db3967
+    m_Address: Assets/Materials/TeleporterShadow.mat
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0

@@ -175,6 +175,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GreenCard (43)
       objectReference: {fileID: 0}
+    - target: {fileID: 7468516800475979912, guid: 5b03ac9b7da6e1d429554125b6013973, type: 3}
+      propertyPath: horizontalOffset
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -204,6 +208,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1543709331}
     m_Modifications:
+    - target: {fileID: 1776685966407017304, guid: 5aedfe70aecd37c419db0adf9de6b350, type: 3}
+      propertyPath: horizontalOffset
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4404939282172322901, guid: 5aedfe70aecd37c419db0adf9de6b350, type: 3}
       propertyPath: m_Name
       value: BlueCard (15)
@@ -332,6 +340,10 @@ PrefabInstance:
     - target: {fileID: 4768453272736327557, guid: 569f446896bfc8640b9658b74a0ab7c4, type: 3}
       propertyPath: m_Name
       value: RedCard (53)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7468516800475979912, guid: 569f446896bfc8640b9658b74a0ab7c4, type: 3}
+      propertyPath: horizontalOffset
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -680,6 +692,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GreenCard (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 7468516800475979912, guid: 5b03ac9b7da6e1d429554125b6013973, type: 3}
+      propertyPath: horizontalOffset
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -939,6 +955,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: RedCard (42)
       objectReference: {fileID: 0}
+    - target: {fileID: 7468516800475979912, guid: 569f446896bfc8640b9658b74a0ab7c4, type: 3}
+      propertyPath: horizontalOffset
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1011,6 +1031,10 @@ PrefabInstance:
     - target: {fileID: 4768453272736327557, guid: 5b03ac9b7da6e1d429554125b6013973, type: 3}
       propertyPath: m_Name
       value: GreenCard (30)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7468516800475979912, guid: 5b03ac9b7da6e1d429554125b6013973, type: 3}
+      propertyPath: horizontalOffset
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1116,6 +1140,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GreenCard (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 7468516800475979912, guid: 5b03ac9b7da6e1d429554125b6013973, type: 3}
+      propertyPath: horizontalOffset
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1196,6 +1224,10 @@ PrefabInstance:
     - target: {fileID: 4768453272736327557, guid: 569f446896bfc8640b9658b74a0ab7c4, type: 3}
       propertyPath: m_Name
       value: RedCard (35)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7468516800475979912, guid: 569f446896bfc8640b9658b74a0ab7c4, type: 3}
+      propertyPath: horizontalOffset
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1278,6 +1310,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: RedCard (30)
       objectReference: {fileID: 0}
+    - target: {fileID: 7468516800475979912, guid: 569f446896bfc8640b9658b74a0ab7c4, type: 3}
+      propertyPath: horizontalOffset
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1307,6 +1343,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1543709331}
     m_Modifications:
+    - target: {fileID: 1776685966407017304, guid: 5aedfe70aecd37c419db0adf9de6b350, type: 3}
+      propertyPath: horizontalOffset
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4404939282172322901, guid: 5aedfe70aecd37c419db0adf9de6b350, type: 3}
       propertyPath: m_Name
       value: BlueCard (8)
@@ -1436,6 +1476,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: RedCard (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 7468516800475979912, guid: 569f446896bfc8640b9658b74a0ab7c4, type: 3}
+      propertyPath: horizontalOffset
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1517,6 +1561,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: RedCard (37)
       objectReference: {fileID: 0}
+    - target: {fileID: 7468516800475979912, guid: 569f446896bfc8640b9658b74a0ab7c4, type: 3}
+      propertyPath: horizontalOffset
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1546,6 +1594,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1543709331}
     m_Modifications:
+    - target: {fileID: 1776685966407017304, guid: 5aedfe70aecd37c419db0adf9de6b350, type: 3}
+      propertyPath: horizontalOffset
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4404939282172322901, guid: 5aedfe70aecd37c419db0adf9de6b350, type: 3}
       propertyPath: m_Name
       value: BlueCard (10)
@@ -1675,6 +1727,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: RedCard (46)
       objectReference: {fileID: 0}
+    - target: {fileID: 7468516800475979912, guid: 569f446896bfc8640b9658b74a0ab7c4, type: 3}
+      propertyPath: horizontalOffset
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1751,6 +1807,10 @@ PrefabInstance:
     - target: {fileID: 4768453272736327557, guid: 5b03ac9b7da6e1d429554125b6013973, type: 3}
       propertyPath: m_Name
       value: GreenCard (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7468516800475979912, guid: 5b03ac9b7da6e1d429554125b6013973, type: 3}
+      propertyPath: horizontalOffset
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1833,6 +1893,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: RedCard (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 7468516800475979912, guid: 569f446896bfc8640b9658b74a0ab7c4, type: 3}
+      propertyPath: horizontalOffset
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1862,6 +1926,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1543709331}
     m_Modifications:
+    - target: {fileID: 1776685966407017304, guid: 5aedfe70aecd37c419db0adf9de6b350, type: 3}
+      propertyPath: horizontalOffset
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4404939282172322901, guid: 5aedfe70aecd37c419db0adf9de6b350, type: 3}
       propertyPath: m_Name
       value: BlueCard (26)
@@ -1939,6 +2007,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1543709331}
     m_Modifications:
+    - target: {fileID: 1776685966407017304, guid: 5aedfe70aecd37c419db0adf9de6b350, type: 3}
+      propertyPath: horizontalOffset
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4404939282172322901, guid: 5aedfe70aecd37c419db0adf9de6b350, type: 3}
       propertyPath: m_Name
       value: BlueCard (46)
@@ -2016,6 +2088,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1015636072}
     m_Modifications:
+    - target: {fileID: 1776685966407017304, guid: 5aedfe70aecd37c419db0adf9de6b350, type: 3}
+      propertyPath: horizontalOffset
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4404939282172322901, guid: 5aedfe70aecd37c419db0adf9de6b350, type: 3}
       propertyPath: m_Name
       value: BlueCard (37)
@@ -2182,6 +2258,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1543709331}
     m_Modifications:
+    - target: {fileID: 1776685966407017304, guid: 5aedfe70aecd37c419db0adf9de6b350, type: 3}
+      propertyPath: horizontalOffset
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4404939282172322901, guid: 5aedfe70aecd37c419db0adf9de6b350, type: 3}
       propertyPath: m_Name
       value: BlueCard (7)
@@ -2311,6 +2391,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: RedCard (48)
       objectReference: {fileID: 0}
+    - target: {fileID: 7468516800475979912, guid: 569f446896bfc8640b9658b74a0ab7c4, type: 3}
+      propertyPath: horizontalOffset
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2391,6 +2475,10 @@ PrefabInstance:
     - target: {fileID: 4768453272736327557, guid: 569f446896bfc8640b9658b74a0ab7c4, type: 3}
       propertyPath: m_Name
       value: RedCard (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7468516800475979912, guid: 569f446896bfc8640b9658b74a0ab7c4, type: 3}
+      propertyPath: horizontalOffset
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2736,6 +2824,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: RedCard (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 7468516800475979912, guid: 569f446896bfc8640b9658b74a0ab7c4, type: 3}
+      propertyPath: horizontalOffset
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2902,6 +2994,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GreenCard (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 7468516800475979912, guid: 5b03ac9b7da6e1d429554125b6013973, type: 3}
+      propertyPath: horizontalOffset
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2996,6 +3092,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1145689824}
     m_Modifications:
+    - target: {fileID: 1776685966407017304, guid: 5aedfe70aecd37c419db0adf9de6b350, type: 3}
+      propertyPath: horizontalOffset
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4404939282172322901, guid: 5aedfe70aecd37c419db0adf9de6b350, type: 3}
       propertyPath: m_Name
       value: BlueCard (35)
@@ -3116,6 +3216,10 @@ PrefabInstance:
     - target: {fileID: 4768453272736327557, guid: 5b03ac9b7da6e1d429554125b6013973, type: 3}
       propertyPath: m_Name
       value: GreenCard (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7468516800475979912, guid: 5b03ac9b7da6e1d429554125b6013973, type: 3}
+      propertyPath: horizontalOffset
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3336,6 +3440,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: RedCard (31)
       objectReference: {fileID: 0}
+    - target: {fileID: 7468516800475979912, guid: 569f446896bfc8640b9658b74a0ab7c4, type: 3}
+      propertyPath: horizontalOffset
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3427,6 +3535,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1145689824}
     m_Modifications:
+    - target: {fileID: 1776685966407017304, guid: 5aedfe70aecd37c419db0adf9de6b350, type: 3}
+      propertyPath: horizontalOffset
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4404939282172322901, guid: 5aedfe70aecd37c419db0adf9de6b350, type: 3}
       propertyPath: m_Name
       value: BlueCard (29)
@@ -3552,6 +3664,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: RedCard (27)
       objectReference: {fileID: 0}
+    - target: {fileID: 7468516800475979912, guid: 569f446896bfc8640b9658b74a0ab7c4, type: 3}
+      propertyPath: horizontalOffset
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3624,6 +3740,10 @@ PrefabInstance:
     - target: {fileID: 4768453272736327557, guid: 5b03ac9b7da6e1d429554125b6013973, type: 3}
       propertyPath: m_Name
       value: GreenCard (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7468516800475979912, guid: 5b03ac9b7da6e1d429554125b6013973, type: 3}
+      propertyPath: horizontalOffset
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3743,6 +3863,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1543709331}
     m_Modifications:
+    - target: {fileID: 1776685966407017304, guid: 5aedfe70aecd37c419db0adf9de6b350, type: 3}
+      propertyPath: horizontalOffset
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4404939282172322901, guid: 5aedfe70aecd37c419db0adf9de6b350, type: 3}
       propertyPath: m_Name
       value: BlueCard (14)
@@ -3868,6 +3992,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GreenCard (38)
       objectReference: {fileID: 0}
+    - target: {fileID: 7468516800475979912, guid: 5b03ac9b7da6e1d429554125b6013973, type: 3}
+      propertyPath: horizontalOffset
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3945,6 +4073,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GreenCard (50)
       objectReference: {fileID: 0}
+    - target: {fileID: 7468516800475979912, guid: 5b03ac9b7da6e1d429554125b6013973, type: 3}
+      propertyPath: horizontalOffset
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3974,6 +4106,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1543709331}
     m_Modifications:
+    - target: {fileID: 1776685966407017304, guid: 5aedfe70aecd37c419db0adf9de6b350, type: 3}
+      propertyPath: horizontalOffset
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4404939282172322901, guid: 5aedfe70aecd37c419db0adf9de6b350, type: 3}
       propertyPath: m_Name
       value: BlueCard (45)
@@ -4051,6 +4187,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1145689824}
     m_Modifications:
+    - target: {fileID: 1776685966407017304, guid: 5aedfe70aecd37c419db0adf9de6b350, type: 3}
+      propertyPath: horizontalOffset
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4404939282172322901, guid: 5aedfe70aecd37c419db0adf9de6b350, type: 3}
       propertyPath: m_Name
       value: BlueCard (28)
@@ -4265,6 +4405,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: RedCard (36)
       objectReference: {fileID: 0}
+    - target: {fileID: 7468516800475979912, guid: 569f446896bfc8640b9658b74a0ab7c4, type: 3}
+      propertyPath: horizontalOffset
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4377,6 +4521,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: RedCard (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 7468516800475979912, guid: 569f446896bfc8640b9658b74a0ab7c4, type: 3}
+      propertyPath: horizontalOffset
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4458,6 +4606,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: RedCard (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 7468516800475979912, guid: 569f446896bfc8640b9658b74a0ab7c4, type: 3}
+      propertyPath: horizontalOffset
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4535,6 +4687,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GreenCard (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 7468516800475979912, guid: 5b03ac9b7da6e1d429554125b6013973, type: 3}
+      propertyPath: horizontalOffset
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4564,6 +4720,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1145689824}
     m_Modifications:
+    - target: {fileID: 1776685966407017304, guid: 5aedfe70aecd37c419db0adf9de6b350, type: 3}
+      propertyPath: horizontalOffset
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4404939282172322901, guid: 5aedfe70aecd37c419db0adf9de6b350, type: 3}
       propertyPath: m_Name
       value: BlueCard (32)
@@ -4685,6 +4845,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GreenCard (45)
       objectReference: {fileID: 0}
+    - target: {fileID: 7468516800475979912, guid: 5b03ac9b7da6e1d429554125b6013973, type: 3}
+      propertyPath: horizontalOffset
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4799,6 +4963,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1015636072}
     m_Modifications:
+    - target: {fileID: 1776685966407017304, guid: 5aedfe70aecd37c419db0adf9de6b350, type: 3}
+      propertyPath: horizontalOffset
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4404939282172322901, guid: 5aedfe70aecd37c419db0adf9de6b350, type: 3}
       propertyPath: m_Name
       value: BlueCard (18)
@@ -4920,6 +5088,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GreenCard
       objectReference: {fileID: 0}
+    - target: {fileID: 7468516800475979912, guid: 5b03ac9b7da6e1d429554125b6013973, type: 3}
+      propertyPath: horizontalOffset
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4949,6 +5121,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1015636072}
     m_Modifications:
+    - target: {fileID: 1776685966407017304, guid: 5aedfe70aecd37c419db0adf9de6b350, type: 3}
+      propertyPath: horizontalOffset
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4404939282172322901, guid: 5aedfe70aecd37c419db0adf9de6b350, type: 3}
       propertyPath: m_Name
       value: BlueCard (39)
@@ -5026,6 +5202,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1543709331}
     m_Modifications:
+    - target: {fileID: 1776685966407017304, guid: 5aedfe70aecd37c419db0adf9de6b350, type: 3}
+      propertyPath: horizontalOffset
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4404939282172322901, guid: 5aedfe70aecd37c419db0adf9de6b350, type: 3}
       propertyPath: m_Name
       value: BlueCard (4)
@@ -5103,6 +5283,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1543709331}
     m_Modifications:
+    - target: {fileID: 1776685966407017304, guid: 5aedfe70aecd37c419db0adf9de6b350, type: 3}
+      propertyPath: horizontalOffset
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4404939282172322901, guid: 5aedfe70aecd37c419db0adf9de6b350, type: 3}
       propertyPath: m_Name
       value: BlueCard (40)
@@ -5228,6 +5412,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GreenCard (44)
       objectReference: {fileID: 0}
+    - target: {fileID: 7468516800475979912, guid: 5b03ac9b7da6e1d429554125b6013973, type: 3}
+      propertyPath: horizontalOffset
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5257,6 +5445,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1543709331}
     m_Modifications:
+    - target: {fileID: 1776685966407017304, guid: 5aedfe70aecd37c419db0adf9de6b350, type: 3}
+      propertyPath: horizontalOffset
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4404939282172322901, guid: 5aedfe70aecd37c419db0adf9de6b350, type: 3}
       propertyPath: m_Name
       value: BlueCard (47)
@@ -5334,6 +5526,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1015636072}
     m_Modifications:
+    - target: {fileID: 1776685966407017304, guid: 5aedfe70aecd37c419db0adf9de6b350, type: 3}
+      propertyPath: horizontalOffset
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4404939282172322901, guid: 5aedfe70aecd37c419db0adf9de6b350, type: 3}
       propertyPath: m_Name
       value: BlueCard (50)
@@ -5459,6 +5655,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GreenCard (24)
       objectReference: {fileID: 0}
+    - target: {fileID: 7468516800475979912, guid: 5b03ac9b7da6e1d429554125b6013973, type: 3}
+      propertyPath: horizontalOffset
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5540,6 +5740,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: RedCard (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 7468516800475979912, guid: 569f446896bfc8640b9658b74a0ab7c4, type: 3}
+      propertyPath: horizontalOffset
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5569,6 +5773,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1543709331}
     m_Modifications:
+    - target: {fileID: 1776685966407017304, guid: 5aedfe70aecd37c419db0adf9de6b350, type: 3}
+      propertyPath: horizontalOffset
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4404939282172322901, guid: 5aedfe70aecd37c419db0adf9de6b350, type: 3}
       propertyPath: m_Name
       value: BlueCard (9)
@@ -5646,6 +5854,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1543709331}
     m_Modifications:
+    - target: {fileID: 1776685966407017304, guid: 5aedfe70aecd37c419db0adf9de6b350, type: 3}
+      propertyPath: horizontalOffset
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4404939282172322901, guid: 5aedfe70aecd37c419db0adf9de6b350, type: 3}
       propertyPath: m_Name
       value: BlueCard (12)
@@ -5780,6 +5992,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: RedCard (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 7468516800475979912, guid: 569f446896bfc8640b9658b74a0ab7c4, type: 3}
+      propertyPath: horizontalOffset
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5856,6 +6072,10 @@ PrefabInstance:
     - target: {fileID: 4768453272736327557, guid: 5b03ac9b7da6e1d429554125b6013973, type: 3}
       propertyPath: m_Name
       value: GreenCard (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7468516800475979912, guid: 5b03ac9b7da6e1d429554125b6013973, type: 3}
+      propertyPath: horizontalOffset
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5934,6 +6154,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GreenCard (37)
       objectReference: {fileID: 0}
+    - target: {fileID: 7468516800475979912, guid: 5b03ac9b7da6e1d429554125b6013973, type: 3}
+      propertyPath: horizontalOffset
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5963,6 +6187,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1543709331}
     m_Modifications:
+    - target: {fileID: 1776685966407017304, guid: 5aedfe70aecd37c419db0adf9de6b350, type: 3}
+      propertyPath: horizontalOffset
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4404939282172322901, guid: 5aedfe70aecd37c419db0adf9de6b350, type: 3}
       propertyPath: m_Name
       value: BlueCard (44)
@@ -6125,6 +6353,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1015636072}
     m_Modifications:
+    - target: {fileID: 1776685966407017304, guid: 5aedfe70aecd37c419db0adf9de6b350, type: 3}
+      propertyPath: horizontalOffset
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4404939282172322901, guid: 5aedfe70aecd37c419db0adf9de6b350, type: 3}
       propertyPath: m_Name
       value: BlueCard (20)
@@ -6202,6 +6434,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1543709331}
     m_Modifications:
+    - target: {fileID: 1776685966407017304, guid: 5aedfe70aecd37c419db0adf9de6b350, type: 3}
+      propertyPath: horizontalOffset
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4404939282172322901, guid: 5aedfe70aecd37c419db0adf9de6b350, type: 3}
       propertyPath: m_Name
       value: BlueCard (41)
@@ -6327,6 +6563,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GreenCard (53)
       objectReference: {fileID: 0}
+    - target: {fileID: 7468516800475979912, guid: 5b03ac9b7da6e1d429554125b6013973, type: 3}
+      propertyPath: horizontalOffset
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6356,6 +6596,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1015636072}
     m_Modifications:
+    - target: {fileID: 1776685966407017304, guid: 5aedfe70aecd37c419db0adf9de6b350, type: 3}
+      propertyPath: horizontalOffset
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4404939282172322901, guid: 5aedfe70aecd37c419db0adf9de6b350, type: 3}
       propertyPath: m_Name
       value: BlueCard (17)
@@ -6481,6 +6725,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GreenCard (33)
       objectReference: {fileID: 0}
+    - target: {fileID: 7468516800475979912, guid: 5b03ac9b7da6e1d429554125b6013973, type: 3}
+      propertyPath: horizontalOffset
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6510,6 +6758,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1543709331}
     m_Modifications:
+    - target: {fileID: 1776685966407017304, guid: 5aedfe70aecd37c419db0adf9de6b350, type: 3}
+      propertyPath: horizontalOffset
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4404939282172322901, guid: 5aedfe70aecd37c419db0adf9de6b350, type: 3}
       propertyPath: m_Name
       value: BlueCard (52)
@@ -6639,6 +6891,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: RedCard (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 7468516800475979912, guid: 569f446896bfc8640b9658b74a0ab7c4, type: 3}
+      propertyPath: horizontalOffset
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6719,6 +6975,10 @@ PrefabInstance:
     - target: {fileID: 4768453272736327557, guid: 569f446896bfc8640b9658b74a0ab7c4, type: 3}
       propertyPath: m_Name
       value: RedCard (29)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7468516800475979912, guid: 569f446896bfc8640b9658b74a0ab7c4, type: 3}
+      propertyPath: horizontalOffset
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6874,6 +7134,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: RedCard (26)
       objectReference: {fileID: 0}
+    - target: {fileID: 7468516800475979912, guid: 569f446896bfc8640b9658b74a0ab7c4, type: 3}
+      propertyPath: horizontalOffset
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6950,6 +7214,10 @@ PrefabInstance:
     - target: {fileID: 4768453272736327557, guid: 5b03ac9b7da6e1d429554125b6013973, type: 3}
       propertyPath: m_Name
       value: GreenCard (40)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7468516800475979912, guid: 5b03ac9b7da6e1d429554125b6013973, type: 3}
+      propertyPath: horizontalOffset
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7032,6 +7300,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: RedCard (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 7468516800475979912, guid: 569f446896bfc8640b9658b74a0ab7c4, type: 3}
+      propertyPath: horizontalOffset
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7061,6 +7333,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1543709331}
     m_Modifications:
+    - target: {fileID: 1776685966407017304, guid: 5aedfe70aecd37c419db0adf9de6b350, type: 3}
+      propertyPath: horizontalOffset
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4404939282172322901, guid: 5aedfe70aecd37c419db0adf9de6b350, type: 3}
       propertyPath: m_Name
       value: BlueCard (27)
@@ -7361,6 +7637,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: RedCard (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 7468516800475979912, guid: 569f446896bfc8640b9658b74a0ab7c4, type: 3}
+      propertyPath: horizontalOffset
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7438,6 +7718,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GreenCard (36)
       objectReference: {fileID: 0}
+    - target: {fileID: 7468516800475979912, guid: 5b03ac9b7da6e1d429554125b6013973, type: 3}
+      propertyPath: horizontalOffset
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7467,6 +7751,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1145689824}
     m_Modifications:
+    - target: {fileID: 1776685966407017304, guid: 5aedfe70aecd37c419db0adf9de6b350, type: 3}
+      propertyPath: horizontalOffset
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4404939282172322901, guid: 5aedfe70aecd37c419db0adf9de6b350, type: 3}
       propertyPath: m_Name
       value: BlueCard (34)
@@ -7584,6 +7872,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GreenCard (28)
       objectReference: {fileID: 0}
+    - target: {fileID: 7468516800475979912, guid: 5b03ac9b7da6e1d429554125b6013973, type: 3}
+      propertyPath: horizontalOffset
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7660,6 +7952,10 @@ PrefabInstance:
     - target: {fileID: 4768453272736327557, guid: 5b03ac9b7da6e1d429554125b6013973, type: 3}
       propertyPath: m_Name
       value: GreenCard (46)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7468516800475979912, guid: 5b03ac9b7da6e1d429554125b6013973, type: 3}
+      propertyPath: horizontalOffset
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7752,6 +8048,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1015636072}
     m_Modifications:
+    - target: {fileID: 1776685966407017304, guid: 5aedfe70aecd37c419db0adf9de6b350, type: 3}
+      propertyPath: horizontalOffset
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4404939282172322901, guid: 5aedfe70aecd37c419db0adf9de6b350, type: 3}
       propertyPath: m_Name
       value: BlueCard (51)
@@ -7877,6 +8177,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GreenCard (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 7468516800475979912, guid: 5b03ac9b7da6e1d429554125b6013973, type: 3}
+      propertyPath: horizontalOffset
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7957,6 +8261,10 @@ PrefabInstance:
     - target: {fileID: 4768453272736327557, guid: 569f446896bfc8640b9658b74a0ab7c4, type: 3}
       propertyPath: m_Name
       value: RedCard (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7468516800475979912, guid: 569f446896bfc8640b9658b74a0ab7c4, type: 3}
+      propertyPath: horizontalOffset
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8039,6 +8347,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: RedCard (32)
       objectReference: {fileID: 0}
+    - target: {fileID: 7468516800475979912, guid: 569f446896bfc8640b9658b74a0ab7c4, type: 3}
+      propertyPath: horizontalOffset
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8068,6 +8380,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1543709331}
     m_Modifications:
+    - target: {fileID: 1776685966407017304, guid: 5aedfe70aecd37c419db0adf9de6b350, type: 3}
+      propertyPath: horizontalOffset
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4404939282172322901, guid: 5aedfe70aecd37c419db0adf9de6b350, type: 3}
       propertyPath: m_Name
       value: BlueCard (6)
@@ -8372,6 +8688,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: RedCard (39)
       objectReference: {fileID: 0}
+    - target: {fileID: 7468516800475979912, guid: 569f446896bfc8640b9658b74a0ab7c4, type: 3}
+      propertyPath: horizontalOffset
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8453,6 +8773,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: RedCard (52)
       objectReference: {fileID: 0}
+    - target: {fileID: 7468516800475979912, guid: 569f446896bfc8640b9658b74a0ab7c4, type: 3}
+      propertyPath: horizontalOffset
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8526,6 +8850,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GreenCard (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 7468516800475979912, guid: 5b03ac9b7da6e1d429554125b6013973, type: 3}
+      propertyPath: horizontalOffset
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8555,6 +8883,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1015636072}
     m_Modifications:
+    - target: {fileID: 1776685966407017304, guid: 5aedfe70aecd37c419db0adf9de6b350, type: 3}
+      propertyPath: horizontalOffset
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4404939282172322901, guid: 5aedfe70aecd37c419db0adf9de6b350, type: 3}
       propertyPath: m_Name
       value: BlueCard (19)
@@ -8632,6 +8964,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1145689824}
     m_Modifications:
+    - target: {fileID: 1776685966407017304, guid: 5aedfe70aecd37c419db0adf9de6b350, type: 3}
+      propertyPath: horizontalOffset
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4404939282172322901, guid: 5aedfe70aecd37c419db0adf9de6b350, type: 3}
       propertyPath: m_Name
       value: BlueCard (33)
@@ -8757,6 +9093,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: RedCard (33)
       objectReference: {fileID: 0}
+    - target: {fileID: 7468516800475979912, guid: 569f446896bfc8640b9658b74a0ab7c4, type: 3}
+      propertyPath: horizontalOffset
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8830,6 +9170,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GreenCard (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 7468516800475979912, guid: 5b03ac9b7da6e1d429554125b6013973, type: 3}
+      propertyPath: horizontalOffset
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8902,6 +9246,10 @@ PrefabInstance:
     - target: {fileID: 4768453272736327557, guid: 5b03ac9b7da6e1d429554125b6013973, type: 3}
       propertyPath: m_Name
       value: GreenCard (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7468516800475979912, guid: 5b03ac9b7da6e1d429554125b6013973, type: 3}
+      propertyPath: horizontalOffset
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8984,6 +9332,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: RedCard (41)
       objectReference: {fileID: 0}
+    - target: {fileID: 7468516800475979912, guid: 569f446896bfc8640b9658b74a0ab7c4, type: 3}
+      propertyPath: horizontalOffset
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9013,6 +9365,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1543709331}
     m_Modifications:
+    - target: {fileID: 1776685966407017304, guid: 5aedfe70aecd37c419db0adf9de6b350, type: 3}
+      propertyPath: horizontalOffset
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4404939282172322901, guid: 5aedfe70aecd37c419db0adf9de6b350, type: 3}
       propertyPath: m_Name
       value: BlueCard (42)
@@ -9142,6 +9498,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: RedCard (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 7468516800475979912, guid: 569f446896bfc8640b9658b74a0ab7c4, type: 3}
+      propertyPath: horizontalOffset
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9222,6 +9582,10 @@ PrefabInstance:
     - target: {fileID: 4768453272736327557, guid: 569f446896bfc8640b9658b74a0ab7c4, type: 3}
       propertyPath: m_Name
       value: RedCard (34)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7468516800475979912, guid: 569f446896bfc8640b9658b74a0ab7c4, type: 3}
+      propertyPath: horizontalOffset
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -9304,6 +9668,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: RedCard (24)
       objectReference: {fileID: 0}
+    - target: {fileID: 7468516800475979912, guid: 569f446896bfc8640b9658b74a0ab7c4, type: 3}
+      propertyPath: horizontalOffset
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9381,6 +9749,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GreenCard (27)
       objectReference: {fileID: 0}
+    - target: {fileID: 7468516800475979912, guid: 5b03ac9b7da6e1d429554125b6013973, type: 3}
+      propertyPath: horizontalOffset
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9410,6 +9782,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1145689824}
     m_Modifications:
+    - target: {fileID: 1776685966407017304, guid: 5aedfe70aecd37c419db0adf9de6b350, type: 3}
+      propertyPath: horizontalOffset
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4404939282172322901, guid: 5aedfe70aecd37c419db0adf9de6b350, type: 3}
       propertyPath: m_Name
       value: BlueCard
@@ -9535,6 +9911,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: RedCard (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 7468516800475979912, guid: 569f446896bfc8640b9658b74a0ab7c4, type: 3}
+      propertyPath: horizontalOffset
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9564,6 +9944,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1145689824}
     m_Modifications:
+    - target: {fileID: 1776685966407017304, guid: 5aedfe70aecd37c419db0adf9de6b350, type: 3}
+      propertyPath: horizontalOffset
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4404939282172322901, guid: 5aedfe70aecd37c419db0adf9de6b350, type: 3}
       propertyPath: m_Name
       value: BlueCard (1)
@@ -9680,6 +10064,10 @@ PrefabInstance:
     - target: {fileID: 4768453272736327557, guid: 5b03ac9b7da6e1d429554125b6013973, type: 3}
       propertyPath: m_Name
       value: GreenCard (31)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7468516800475979912, guid: 5b03ac9b7da6e1d429554125b6013973, type: 3}
+      propertyPath: horizontalOffset
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -9980,6 +10368,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GreenCard (35)
       objectReference: {fileID: 0}
+    - target: {fileID: 7468516800475979912, guid: 5b03ac9b7da6e1d429554125b6013973, type: 3}
+      propertyPath: horizontalOffset
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10061,6 +10453,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: RedCard (44)
       objectReference: {fileID: 0}
+    - target: {fileID: 7468516800475979912, guid: 569f446896bfc8640b9658b74a0ab7c4, type: 3}
+      propertyPath: horizontalOffset
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10134,6 +10530,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GreenCard (49)
       objectReference: {fileID: 0}
+    - target: {fileID: 7468516800475979912, guid: 5b03ac9b7da6e1d429554125b6013973, type: 3}
+      propertyPath: horizontalOffset
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10163,6 +10563,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1543709331}
     m_Modifications:
+    - target: {fileID: 1776685966407017304, guid: 5aedfe70aecd37c419db0adf9de6b350, type: 3}
+      propertyPath: horizontalOffset
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4404939282172322901, guid: 5aedfe70aecd37c419db0adf9de6b350, type: 3}
       propertyPath: m_Name
       value: BlueCard (25)
@@ -10302,6 +10706,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1543709331}
     m_Modifications:
+    - target: {fileID: 1776685966407017304, guid: 5aedfe70aecd37c419db0adf9de6b350, type: 3}
+      propertyPath: horizontalOffset
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4404939282172322901, guid: 5aedfe70aecd37c419db0adf9de6b350, type: 3}
       propertyPath: m_Name
       value: BlueCard (5)
@@ -10431,6 +10839,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: RedCard (40)
       objectReference: {fileID: 0}
+    - target: {fileID: 7468516800475979912, guid: 569f446896bfc8640b9658b74a0ab7c4, type: 3}
+      propertyPath: horizontalOffset
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10511,6 +10923,10 @@ PrefabInstance:
     - target: {fileID: 4768453272736327557, guid: 569f446896bfc8640b9658b74a0ab7c4, type: 3}
       propertyPath: m_Name
       value: RedCard (50)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7468516800475979912, guid: 569f446896bfc8640b9658b74a0ab7c4, type: 3}
+      propertyPath: horizontalOffset
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -10598,6 +11014,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1543709331}
     m_Modifications:
+    - target: {fileID: 1776685966407017304, guid: 5aedfe70aecd37c419db0adf9de6b350, type: 3}
+      propertyPath: horizontalOffset
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4404939282172322901, guid: 5aedfe70aecd37c419db0adf9de6b350, type: 3}
       propertyPath: m_Name
       value: BlueCard (53)
@@ -10675,6 +11095,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1015636072}
     m_Modifications:
+    - target: {fileID: 1776685966407017304, guid: 5aedfe70aecd37c419db0adf9de6b350, type: 3}
+      propertyPath: horizontalOffset
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4404939282172322901, guid: 5aedfe70aecd37c419db0adf9de6b350, type: 3}
       propertyPath: m_Name
       value: BlueCard (49)
@@ -10796,6 +11220,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GreenCard (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 7468516800475979912, guid: 5b03ac9b7da6e1d429554125b6013973, type: 3}
+      propertyPath: horizontalOffset
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10876,6 +11304,10 @@ PrefabInstance:
     - target: {fileID: 4768453272736327557, guid: 569f446896bfc8640b9658b74a0ab7c4, type: 3}
       propertyPath: m_Name
       value: RedCard (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7468516800475979912, guid: 569f446896bfc8640b9658b74a0ab7c4, type: 3}
+      propertyPath: horizontalOffset
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -10960,6 +11392,10 @@ PrefabInstance:
     - target: {fileID: 4768453272736327557, guid: 5b03ac9b7da6e1d429554125b6013973, type: 3}
       propertyPath: m_Name
       value: GreenCard (29)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7468516800475979912, guid: 5b03ac9b7da6e1d429554125b6013973, type: 3}
+      propertyPath: horizontalOffset
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -11231,6 +11667,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: RedCard (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 7468516800475979912, guid: 569f446896bfc8640b9658b74a0ab7c4, type: 3}
+      propertyPath: horizontalOffset
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11346,6 +11786,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1015636072}
     m_Modifications:
+    - target: {fileID: 1776685966407017304, guid: 5aedfe70aecd37c419db0adf9de6b350, type: 3}
+      propertyPath: horizontalOffset
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4404939282172322901, guid: 5aedfe70aecd37c419db0adf9de6b350, type: 3}
       propertyPath: m_Name
       value: BlueCard (21)
@@ -11423,6 +11867,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1543709331}
     m_Modifications:
+    - target: {fileID: 1776685966407017304, guid: 5aedfe70aecd37c419db0adf9de6b350, type: 3}
+      propertyPath: horizontalOffset
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4404939282172322901, guid: 5aedfe70aecd37c419db0adf9de6b350, type: 3}
       propertyPath: m_Name
       value: BlueCard (24)
@@ -11609,6 +12057,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GreenCard (48)
       objectReference: {fileID: 0}
+    - target: {fileID: 7468516800475979912, guid: 5b03ac9b7da6e1d429554125b6013973, type: 3}
+      propertyPath: horizontalOffset
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11686,6 +12138,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GreenCard (47)
       objectReference: {fileID: 0}
+    - target: {fileID: 7468516800475979912, guid: 5b03ac9b7da6e1d429554125b6013973, type: 3}
+      propertyPath: horizontalOffset
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11715,6 +12171,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1543709331}
     m_Modifications:
+    - target: {fileID: 1776685966407017304, guid: 5aedfe70aecd37c419db0adf9de6b350, type: 3}
+      propertyPath: horizontalOffset
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4404939282172322901, guid: 5aedfe70aecd37c419db0adf9de6b350, type: 3}
       propertyPath: m_Name
       value: BlueCard (11)
@@ -11962,6 +12422,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1015636072}
     m_Modifications:
+    - target: {fileID: 1776685966407017304, guid: 5aedfe70aecd37c419db0adf9de6b350, type: 3}
+      propertyPath: horizontalOffset
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4404939282172322901, guid: 5aedfe70aecd37c419db0adf9de6b350, type: 3}
       propertyPath: m_Name
       value: BlueCard (22)
@@ -12091,6 +12555,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: RedCard (38)
       objectReference: {fileID: 0}
+    - target: {fileID: 7468516800475979912, guid: 569f446896bfc8640b9658b74a0ab7c4, type: 3}
+      propertyPath: horizontalOffset
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12120,6 +12588,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1145689824}
     m_Modifications:
+    - target: {fileID: 1776685966407017304, guid: 5aedfe70aecd37c419db0adf9de6b350, type: 3}
+      propertyPath: horizontalOffset
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4404939282172322901, guid: 5aedfe70aecd37c419db0adf9de6b350, type: 3}
       propertyPath: m_Name
       value: BlueCard (3)
@@ -12241,6 +12713,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GreenCard (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 7468516800475979912, guid: 5b03ac9b7da6e1d429554125b6013973, type: 3}
+      propertyPath: horizontalOffset
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12317,6 +12793,10 @@ PrefabInstance:
     - target: {fileID: 4768453272736327557, guid: 5b03ac9b7da6e1d429554125b6013973, type: 3}
       propertyPath: m_Name
       value: GreenCard (42)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7468516800475979912, guid: 5b03ac9b7da6e1d429554125b6013973, type: 3}
+      propertyPath: horizontalOffset
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -12398,6 +12878,10 @@ PrefabInstance:
     - target: {fileID: 4768453272736327557, guid: 569f446896bfc8640b9658b74a0ab7c4, type: 3}
       propertyPath: m_Name
       value: RedCard (28)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7468516800475979912, guid: 569f446896bfc8640b9658b74a0ab7c4, type: 3}
+      propertyPath: horizontalOffset
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -12485,6 +12969,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1145689824}
     m_Modifications:
+    - target: {fileID: 1776685966407017304, guid: 5aedfe70aecd37c419db0adf9de6b350, type: 3}
+      propertyPath: horizontalOffset
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4404939282172322901, guid: 5aedfe70aecd37c419db0adf9de6b350, type: 3}
       propertyPath: m_Name
       value: BlueCard (30)
@@ -12558,6 +13046,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1145689824}
     m_Modifications:
+    - target: {fileID: 1776685966407017304, guid: 5aedfe70aecd37c419db0adf9de6b350, type: 3}
+      propertyPath: horizontalOffset
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4404939282172322901, guid: 5aedfe70aecd37c419db0adf9de6b350, type: 3}
       propertyPath: m_Name
       value: BlueCard (31)
@@ -12679,6 +13171,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GreenCard (32)
       objectReference: {fileID: 0}
+    - target: {fileID: 7468516800475979912, guid: 5b03ac9b7da6e1d429554125b6013973, type: 3}
+      propertyPath: horizontalOffset
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12760,6 +13256,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: RedCard (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 7468516800475979912, guid: 569f446896bfc8640b9658b74a0ab7c4, type: 3}
+      propertyPath: horizontalOffset
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12789,6 +13289,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1015636072}
     m_Modifications:
+    - target: {fileID: 1776685966407017304, guid: 5aedfe70aecd37c419db0adf9de6b350, type: 3}
+      propertyPath: horizontalOffset
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4404939282172322901, guid: 5aedfe70aecd37c419db0adf9de6b350, type: 3}
       propertyPath: m_Name
       value: BlueCard (38)
@@ -13847,6 +14351,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.y
       value: 43.529
       objectReference: {fileID: 0}
+    - target: {fileID: 9049527203227040235, guid: cac2a53e92b3885488282aeb079ad5ef, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.46
+      objectReference: {fileID: 0}
+    - target: {fileID: 9049527203227040235, guid: cac2a53e92b3885488282aeb079ad5ef, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.46
+      objectReference: {fileID: 0}
     - target: {fileID: 9198283152136137994, guid: cac2a53e92b3885488282aeb079ad5ef, type: 3}
       propertyPath: m_LocalPosition.x
       value: 4.22
@@ -13951,6 +14463,10 @@ PrefabInstance:
     - target: {fileID: 4768453272736327557, guid: 5b03ac9b7da6e1d429554125b6013973, type: 3}
       propertyPath: m_Name
       value: GreenCard (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7468516800475979912, guid: 5b03ac9b7da6e1d429554125b6013973, type: 3}
+      propertyPath: horizontalOffset
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -14122,6 +14638,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: RedCard (45)
       objectReference: {fileID: 0}
+    - target: {fileID: 7468516800475979912, guid: 569f446896bfc8640b9658b74a0ab7c4, type: 3}
+      propertyPath: horizontalOffset
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -14151,6 +14671,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1015636072}
     m_Modifications:
+    - target: {fileID: 1776685966407017304, guid: 5aedfe70aecd37c419db0adf9de6b350, type: 3}
+      propertyPath: horizontalOffset
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4404939282172322901, guid: 5aedfe70aecd37c419db0adf9de6b350, type: 3}
       propertyPath: m_Name
       value: BlueCard (16)
@@ -14276,6 +14800,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GreenCard (39)
       objectReference: {fileID: 0}
+    - target: {fileID: 7468516800475979912, guid: 5b03ac9b7da6e1d429554125b6013973, type: 3}
+      propertyPath: horizontalOffset
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -14305,6 +14833,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1543709331}
     m_Modifications:
+    - target: {fileID: 1776685966407017304, guid: 5aedfe70aecd37c419db0adf9de6b350, type: 3}
+      propertyPath: horizontalOffset
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4404939282172322901, guid: 5aedfe70aecd37c419db0adf9de6b350, type: 3}
       propertyPath: m_Name
       value: BlueCard (13)
@@ -14434,6 +14966,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: RedCard (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 7468516800475979912, guid: 569f446896bfc8640b9658b74a0ab7c4, type: 3}
+      propertyPath: horizontalOffset
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -14514,6 +15050,10 @@ PrefabInstance:
     - target: {fileID: 4768453272736327557, guid: 569f446896bfc8640b9658b74a0ab7c4, type: 3}
       propertyPath: m_Name
       value: RedCard (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7468516800475979912, guid: 569f446896bfc8640b9658b74a0ab7c4, type: 3}
+      propertyPath: horizontalOffset
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -14596,6 +15136,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: RedCard (43)
       objectReference: {fileID: 0}
+    - target: {fileID: 7468516800475979912, guid: 569f446896bfc8640b9658b74a0ab7c4, type: 3}
+      propertyPath: horizontalOffset
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -14672,6 +15216,10 @@ PrefabInstance:
     - target: {fileID: 4768453272736327557, guid: 5b03ac9b7da6e1d429554125b6013973, type: 3}
       propertyPath: m_Name
       value: GreenCard (41)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7468516800475979912, guid: 5b03ac9b7da6e1d429554125b6013973, type: 3}
+      propertyPath: horizontalOffset
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -14754,6 +15302,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: RedCard (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 7468516800475979912, guid: 569f446896bfc8640b9658b74a0ab7c4, type: 3}
+      propertyPath: horizontalOffset
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -14783,6 +15335,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1015636072}
     m_Modifications:
+    - target: {fileID: 1776685966407017304, guid: 5aedfe70aecd37c419db0adf9de6b350, type: 3}
+      propertyPath: horizontalOffset
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4404939282172322901, guid: 5aedfe70aecd37c419db0adf9de6b350, type: 3}
       propertyPath: m_Name
       value: BlueCard (36)
@@ -14912,6 +15468,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: RedCard (47)
       objectReference: {fileID: 0}
+    - target: {fileID: 7468516800475979912, guid: 569f446896bfc8640b9658b74a0ab7c4, type: 3}
+      propertyPath: horizontalOffset
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -14988,6 +15548,10 @@ PrefabInstance:
     - target: {fileID: 4768453272736327557, guid: 5b03ac9b7da6e1d429554125b6013973, type: 3}
       propertyPath: m_Name
       value: GreenCard (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7468516800475979912, guid: 5b03ac9b7da6e1d429554125b6013973, type: 3}
+      propertyPath: horizontalOffset
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -15066,6 +15630,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GreenCard (51)
       objectReference: {fileID: 0}
+    - target: {fileID: 7468516800475979912, guid: 5b03ac9b7da6e1d429554125b6013973, type: 3}
+      propertyPath: horizontalOffset
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -15143,6 +15711,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GreenCard (52)
       objectReference: {fileID: 0}
+    - target: {fileID: 7468516800475979912, guid: 5b03ac9b7da6e1d429554125b6013973, type: 3}
+      propertyPath: horizontalOffset
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -15215,6 +15787,10 @@ PrefabInstance:
     - target: {fileID: 4768453272736327557, guid: 5b03ac9b7da6e1d429554125b6013973, type: 3}
       propertyPath: m_Name
       value: GreenCard (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7468516800475979912, guid: 5b03ac9b7da6e1d429554125b6013973, type: 3}
+      propertyPath: horizontalOffset
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -15334,6 +15910,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1015636072}
     m_Modifications:
+    - target: {fileID: 1776685966407017304, guid: 5aedfe70aecd37c419db0adf9de6b350, type: 3}
+      propertyPath: horizontalOffset
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4404939282172322901, guid: 5aedfe70aecd37c419db0adf9de6b350, type: 3}
       propertyPath: m_Name
       value: BlueCard (48)
@@ -15459,6 +16039,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GreenCard (25)
       objectReference: {fileID: 0}
+    - target: {fileID: 7468516800475979912, guid: 5b03ac9b7da6e1d429554125b6013973, type: 3}
+      propertyPath: horizontalOffset
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -15536,6 +16120,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GreenCard (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 7468516800475979912, guid: 5b03ac9b7da6e1d429554125b6013973, type: 3}
+      propertyPath: horizontalOffset
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -15565,6 +16153,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1543709331}
     m_Modifications:
+    - target: {fileID: 1776685966407017304, guid: 5aedfe70aecd37c419db0adf9de6b350, type: 3}
+      propertyPath: horizontalOffset
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4404939282172322901, guid: 5aedfe70aecd37c419db0adf9de6b350, type: 3}
       propertyPath: m_Name
       value: BlueCard (43)
@@ -15686,6 +16278,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GreenCard (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 7468516800475979912, guid: 5b03ac9b7da6e1d429554125b6013973, type: 3}
+      propertyPath: horizontalOffset
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -15758,6 +16354,10 @@ PrefabInstance:
     - target: {fileID: 4768453272736327557, guid: 5b03ac9b7da6e1d429554125b6013973, type: 3}
       propertyPath: m_Name
       value: GreenCard (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7468516800475979912, guid: 5b03ac9b7da6e1d429554125b6013973, type: 3}
+      propertyPath: horizontalOffset
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -15840,6 +16440,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: RedCard (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 7468516800475979912, guid: 569f446896bfc8640b9658b74a0ab7c4, type: 3}
+      propertyPath: horizontalOffset
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -15921,6 +16525,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: RedCard (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 7468516800475979912, guid: 569f446896bfc8640b9658b74a0ab7c4, type: 3}
+      propertyPath: horizontalOffset
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -15950,6 +16558,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1015636072}
     m_Modifications:
+    - target: {fileID: 1776685966407017304, guid: 5aedfe70aecd37c419db0adf9de6b350, type: 3}
+      propertyPath: horizontalOffset
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4404939282172322901, guid: 5aedfe70aecd37c419db0adf9de6b350, type: 3}
       propertyPath: m_Name
       value: BlueCard (23)
@@ -16071,6 +16683,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GreenCard (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 7468516800475979912, guid: 5b03ac9b7da6e1d429554125b6013973, type: 3}
+      propertyPath: horizontalOffset
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -16151,6 +16767,10 @@ PrefabInstance:
     - target: {fileID: 4768453272736327557, guid: 569f446896bfc8640b9658b74a0ab7c4, type: 3}
       propertyPath: m_Name
       value: RedCard
+      objectReference: {fileID: 0}
+    - target: {fileID: 7468516800475979912, guid: 569f446896bfc8640b9658b74a0ab7c4, type: 3}
+      propertyPath: horizontalOffset
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -16286,6 +16906,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GreenCard (34)
       objectReference: {fileID: 0}
+    - target: {fileID: 7468516800475979912, guid: 5b03ac9b7da6e1d429554125b6013973, type: 3}
+      propertyPath: horizontalOffset
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -16367,6 +16991,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: RedCard (25)
       objectReference: {fileID: 0}
+    - target: {fileID: 7468516800475979912, guid: 569f446896bfc8640b9658b74a0ab7c4, type: 3}
+      propertyPath: horizontalOffset
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -16447,6 +17075,10 @@ PrefabInstance:
     - target: {fileID: 4768453272736327557, guid: 569f446896bfc8640b9658b74a0ab7c4, type: 3}
       propertyPath: m_Name
       value: RedCard (51)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7468516800475979912, guid: 569f446896bfc8640b9658b74a0ab7c4, type: 3}
+      propertyPath: horizontalOffset
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -16562,6 +17194,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1145689824}
     m_Modifications:
+    - target: {fileID: 1776685966407017304, guid: 5aedfe70aecd37c419db0adf9de6b350, type: 3}
+      propertyPath: horizontalOffset
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4404939282172322901, guid: 5aedfe70aecd37c419db0adf9de6b350, type: 3}
       propertyPath: m_Name
       value: BlueCard (2)
@@ -16893,6 +17529,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GreenCard (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 7468516800475979912, guid: 5b03ac9b7da6e1d429554125b6013973, type: 3}
+      propertyPath: horizontalOffset
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -17059,6 +17699,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GreenCard (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 7468516800475979912, guid: 5b03ac9b7da6e1d429554125b6013973, type: 3}
+      propertyPath: horizontalOffset
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -17139,6 +17783,10 @@ PrefabInstance:
     - target: {fileID: 4768453272736327557, guid: 569f446896bfc8640b9658b74a0ab7c4, type: 3}
       propertyPath: m_Name
       value: RedCard (49)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7468516800475979912, guid: 569f446896bfc8640b9658b74a0ab7c4, type: 3}
+      propertyPath: horizontalOffset
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -17306,6 +17954,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GreenCard (26)
       objectReference: {fileID: 0}
+    - target: {fileID: 7468516800475979912, guid: 5b03ac9b7da6e1d429554125b6013973, type: 3}
+      propertyPath: horizontalOffset
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -17386,6 +18038,10 @@ PrefabInstance:
     - target: {fileID: 4768453272736327557, guid: 569f446896bfc8640b9658b74a0ab7c4, type: 3}
       propertyPath: m_Name
       value: RedCard (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7468516800475979912, guid: 569f446896bfc8640b9658b74a0ab7c4, type: 3}
+      propertyPath: horizontalOffset
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -19332,11 +19988,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4352067106370385611, guid: a5c8db7ec2435e84bb181d0cf68c2b75, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 5
+      value: 8.29
       objectReference: {fileID: 0}
     - target: {fileID: 4352067106370385611, guid: a5c8db7ec2435e84bb181d0cf68c2b75, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -10
+      value: -13.29
       objectReference: {fileID: 0}
     - target: {fileID: 4352067106370385611, guid: a5c8db7ec2435e84bb181d0cf68c2b75, type: 3}
       propertyPath: m_LocalRotation.w

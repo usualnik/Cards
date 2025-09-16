@@ -172,6 +172,8 @@ MonoBehaviour:
     CurrentLevel: 1
     _openedThemesIndexes: 
     _openedColorsIndexes: 
+    CurrentChosenThemeIndex: 0
+    CurrentChosenColorIndex: 0
 --- !u!1 &1911334233
 GameObject:
   m_ObjectHideFlags: 0

@@ -15,6 +15,11 @@ MonoBehaviour:
   m_GroupName: Packed Assets
   m_GUID: 69921240a4f1e474b9cadde270c05df7
   m_SerializeEntries:
+  - m_GUID: 00c650761353afc4284645ce73261c8b
+    m_Address: Assets/PROPS/FastMesh/Meshs/Armchair-1.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 02975e9cb67c16346ba166864ccdcad8
     m_Address: Assets/Materials/Cards/Decals/DecalMaterial.mat
     m_ReadOnly: 0
@@ -50,8 +55,23 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 04cc4f7a5d8e3b84dbd71bf6a304eadc
+    m_Address: Assets/PROPS/Garage_props/Textures/Furniture_garage_Height.tga
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 05ea496363f8c594388212cb6e33215d
     m_Address: Assets/Models/ContainerTemplate.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0887ce614e19d9d4e866d68a373177f9
+    m_Address: Assets/Textures/PlasticTexture/plastic_height.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 098b1c66a6843d14492c79ac318e43f3
+    m_Address: Assets/PROPS/Weapon Crate/Prefabs/SM_WeaponCrate_02.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -62,6 +82,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 0c26f4b0b8da9244b881f0ebdb9dc258
     m_Address: Assets/Graphics/CardFactoryUiAssets/GemReward.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0d09fe7f1d532b74cb39b287ad47c416
+    m_Address: Assets/PROPS/Garage_props/Materials/Furniture_garage.mat
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -95,6 +120,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 11954da71b3ae3b4ab871c548e844110
+    m_Address: Assets/PROPS/HEXXX/Hyper Casual Urban Asset Pack/Texture/palette.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 13ae560b15d470141af4108ff1125c78
     m_Address: Assets/Prefabs/Game/Hangar/Hangar Variant.prefab
     m_ReadOnly: 0
@@ -115,6 +145,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 16cb512cb0149e644a3e5929b3266a44
+    m_Address: Assets/PROPS/LowPolyOfficeProps_LITE/Materials/LPOP_TextureAtlas1.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 19440a098b8f50e429fbb35a2cc040e3
     m_Address: Assets/Materials/PlasticMat.mat
     m_ReadOnly: 0
@@ -122,6 +157,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 1956558957e3f4340b25a1c9d8ee5070
     m_Address: Assets/Graphics/CardFactoryUiAssets/BuySkipCoinBG.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 19b108abcb204404ca165f2241e5a2b9
+    m_Address: Assets/PROPS/FastMesh/Materials/Black 1.mat
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -135,6 +175,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1d30c8ccdb2e8314fbb8c30637edece5
+    m_Address: Assets/PROPS/waste bin lowpoly/Models/materials/waste bin_002_map.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 1d3376bcdcf39c743a3bda0abcc3b015
     m_Address: Assets/Audio/SlotFilled.mp3
     m_ReadOnly: 0
@@ -145,8 +190,18 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1dbf4bc725d208542a1b3be6076dce04
+    m_Address: Assets/PROPS/GoldenFrame_Terminal_FREE/Textures/GoldenFrame_Terminal_FREE_Texture.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 1dde141f50253fd469d64e1e3433ce5c
     m_Address: Assets/Graphics/CardFactoryUiAssets/WatchAdBG.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1e9394ef4ce8cd348a7a1fe9cad898f0
+    m_Address: Assets/PROPS/Weapon Crate/Model/SM_WeaponCrate_05.fbx
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -175,6 +230,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 294160149d936fb4892c1cdd8d320968
+    m_Address: Assets/Graphics/UI/Background/5.jpg
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 2a0fd42bfd5b1774ca8ffb64e21fa1f9
     m_Address: Assets/Textures/MetalTexture/metal_height.png
     m_ReadOnly: 0
@@ -182,6 +242,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 2d7a6ed2bf15dff4a835e130ac51e8a3
     m_Address: Assets/Graphics/CardFactoryUiAssets/SoundDisabled.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2e77c6e655b38ef4192709540b5bf630
+    m_Address: Assets/PROPS/ithappy/Furniture_FREE/Meshes/lamp_002.fbx
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -220,6 +285,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 34933fba6d673f148973253038fbc46e
+    m_Address: Assets/Graphics/UI/Background/3.jpg
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 37e46e2c74da2fe4e8000b3e15403399
     m_Address: Assets/Graphics/CardFactoryUiAssets/MusicDisabled.png
     m_ReadOnly: 0
@@ -240,6 +310,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3b174108ff7dff440bb6783b5736b76e
+    m_Address: Assets/PROPS/LowPolyOfficeProps_LITE/Textures/LPOP_TextureAtlas1_FULL-MetalGloss.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 3bdeebdf714600245877fcfffec5c345
     m_Address: Assets/Data/ThemeColors/Colors/FirstColorPresetSO.asset
     m_ReadOnly: 0
@@ -255,6 +330,16 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4185b328d4b08204bb929ff34f16a956
+    m_Address: Assets/PROPS/Food Pack - Low Poly Assets/Prefabs/Coffee.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 41f0becb11d63cf46bf526826443712f
+    m_Address: Assets/PROPS/Food Pack - Low Poly Assets/Food/Coffee.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 4232aa3083741b347ae78efa3876ba8b
     m_Address: Assets/Graphics/CardFactoryUiAssets/ActivityCoundownBG.png
     m_ReadOnly: 0
@@ -265,8 +350,18 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 451ad7b6440cd784194034e8d663d4db
+    m_Address: Assets/PROPS/HEXXX/Hyper Casual Urban Asset Pack/Material/Floor_mat.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 465503df1379d4a46913c070d4b5a91f
     m_Address: Assets/Textures/CardThemes/Fruits/F3.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 46e635d288eda724fb7f88c81a6ecbfc
+    m_Address: Assets/PROPS/Weapon Crate/Materials/Plane_M.mat
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -280,8 +375,28 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4b46373ced144de46ad9a0db1bb99f47
+    m_Address: Assets/PROPS/LowPolyLivingRoomPack_URP_FREE/Prefabs/PottedPlant_Small_1.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 4c402981a9329d640bd9b132115c7fba
     m_Address: Assets/Materials/Ground.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4c407642dd6ec5e4cb4c6ff3b742a84e
+    m_Address: Assets/PROPS/FastMesh/Materials/Steel 1.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4d1deb72e048c904c8392191cb531d6b
+    m_Address: Assets/PROPS/Weapon Crate/Model/SM_WeaponCrate_01.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4e7d47c1cb9a85045899d2fd0048bd8a
+    m_Address: Assets/PROPS/LowPolyLivingRoomPack_URP_FREE/Meshes/PottedPlant_Small_1.fbx
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -305,6 +420,16 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 508a2ec75f89b704cb7070a99697e019
+    m_Address: Assets/PROPS/Food Pack - Low Poly Assets/Food/Can.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 50faf22efa53ca743814fed9c1b0b22c
+    m_Address: Assets/Graphics/UI/Background/2.jpg
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 516ef0fbc9b4bb54e90cbd1f5caad075
     m_Address: Assets/Materials/Cards/YellowCard.mat
     m_ReadOnly: 0
@@ -320,8 +445,28 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 55d17127c7436c94e9a4371344e993d7
+    m_Address: Assets/PROPS/Food Pack - Low Poly Assets/Prefabs/PizzaBox.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 563d13e24c6390e46aaebe5100c13f77
+    m_Address: Assets/PROPS/Food Pack - Low Poly Assets/Prefabs/Pizza.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 566ddb3b37124384b8e4d665bf30a6d0
+    m_Address: Assets/PROPS/waste bin lowpoly/Textures/waste bin_002_map.tga
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 569f446896bfc8640b9658b74a0ab7c4
     m_Address: Assets/Prefabs/Game/Cards/RedCard.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 58141de65f91f3b43a59c5ad3869e698
+    m_Address: Assets/PROPS/GoldenFrame_Terminal_FREE/Textures/GoldenFrame_Terminal_FREE_Emissive.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -335,8 +480,18 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5be774b403bac7e479a911c191edb0cb
+    m_Address: Assets/PROPS/VNB - Office Set/Textures/Paintings2.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 5cbb5f1e7c4f9444a886459baedc2f34
     m_Address: Assets/Prefabs/Game/System/Global Volume.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5d32dfab81ab9a441bade9807085676a
+    m_Address: Assets/Textures/PlasticTexture/plastic_ao.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -345,8 +500,23 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5f7693d3af0d3884292dac28baaa53fa
+    m_Address: Assets/PROPS/VNB - Office Set/Textures/Rug_1.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 5f82bfc40ee38af46912e406539988c9
     m_Address: Assets/Materials/Prototyping.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 603e625780e443c4882485e6a675948b
+    m_Address: Assets/PROPS/LowPolyLivingRoomPack_URP_FREE/Materials/M_LowPolyLivingRoomFree.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 615ce3c203f94de4fac6533c8d5f9369
+    m_Address: Assets/PROPS/VNB - Office Set/Textures/palette6.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -360,6 +530,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 655bd399676aeb44587110314f6dc5b7
+    m_Address: Assets/PROPS/VNB - Office Set/Textures/Paintings3.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 65ae989e3f447c54a8f6bf1f8cb1e19d
     m_Address: Assets/Textures/CardThemes/Crystals/C1.png
     m_ReadOnly: 0
@@ -370,8 +545,18 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 66755b61a0b1e1c4ba63904961e55732
+    m_Address: Assets/PROPS/Garage_props/Textures/Furniture_garage_Normal.tga
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 688364601a1c3ae41a0b5997b6bb5b6e
     m_Address: Assets/Prefabs/Game/Conveyor/Conveyor Variant.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 68a4b164aaf6cf04f97a759c0d2e5bf3
+    m_Address: Assets/Graphics/UI/Background/1.jpg
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -382,6 +567,26 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 6c3eda0148cc8e646be350744e596936
     m_Address: Assets/Graphics/Tutorial/TutorialsEN/Tutorial4EN.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6c8c9b21992104543965f855b37dc73a
+    m_Address: Assets/Textures/Floor/Floor_Normal.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6da61c3eb67ea9c4999ca651dee16e9b
+    m_Address: Assets/PROPS/Food Pack - Low Poly Assets/Prefabs/PizzaSlice.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6e3c57a0c70736f489c4ed55e6fe8ed9
+    m_Address: Assets/PROPS/VNB - Office Set/Textures/palette4.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6e6b4f634ea88f347ac49519e1e92401
+    m_Address: Assets/PROPS/VNB - Office Set/Textures/Paintings.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -397,6 +602,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 7359998ccfd77ce42b2eceffb59c4f09
     m_Address: Assets/Textures/RibbonTexture/rubber_ao.jpg
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7470d98aa5cda6e4dab342e4ff1b4ea8
+    m_Address: Assets/PROPS/GoldenFrame_Terminal_FREE/Models/Cosmic_Retro_Computer2_13.fbx
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -430,8 +640,33 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7c24fc020a963e140a38db61e602ff30
+    m_Address: Assets/PROPS/VNB - Office Set/Textures/DocBoard3.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 7cf654be34dbd2c4aa7f225980afcdba
     m_Address: Assets/Models/CardTemplate.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7d465d1344476a44c8848a70625d539e
+    m_Address: Assets/PROPS/VNB - Office Set/Textures/DocBoard2.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7e86f6c0e726035449575d9ccac1f6c2
+    m_Address: Assets/PROPS/Food Pack - Low Poly Assets/Food/Pizza.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7eb1df4fcbfc19c42ba0cedb12a877bd
+    m_Address: Assets/PROPS/FastMesh/Materials/Steel 2.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7f56d3b3b0df8424db9802d40d5151ac
+    m_Address: Assets/Textures/Floor/Floor_Occlusion.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -440,8 +675,23 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 814e176f25a80634e9ff0d7a7c0d0c47
+    m_Address: Assets/PROPS/Weapon Crate/Materials/Weapon Crate_M.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 819299874ac538d47a8188a5cac414b5
     m_Address: Assets/Textures/CardThemes/Default/D3.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 825bec9378b367144bdd8b1bd7d91292
+    m_Address: Assets/PROPS/GoldenFrame_Terminal_FREE/Materials/GoldenFrame_Terminal_FREE.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 82686e8e979a25548a728c17a154d1e6
+    m_Address: Assets/PROPS/Garage_props/Textures/Furniture_garage_Metallic.tga
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -465,6 +715,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 89f6c2e5c02733241bb71951f84cb01d
+    m_Address: Assets/PROPS/VNB - Office Set/Textures/palette3.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 8ac55b12f8db05d4a9cba84e0f4d62d1
     m_Address: Assets/Graphics/CardFactoryUiAssets/GemsBG.png
     m_ReadOnly: 0
@@ -482,6 +737,16 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 8bf712072a24b3b488a1d3079863810e
     m_Address: Assets/Textures/CardThemes/Default/D4.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8e84ca73543071240ba2039c509d539c
+    m_Address: Assets/PROPS/VNB - Office Set/Prefabs/Office/pile_of_paper_small.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8ee7b8fabdfb16f459b8ce633abe2950
+    m_Address: Assets/PROPS/Weapon Crate/Prefabs/SM_WeaponCrate_03.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -505,8 +770,23 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 95d7dcfcb3189ab4c86b35b6c76dd40e
+    m_Address: Assets/PROPS/VNB - Office Set/Prefabs/Office/phone.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 95ef747e719583641a850a86e35b616f
+    m_Address: Assets/Textures/Floor/Floor_Height.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 978aaa9e6a7eee548bc9f5216084f22a
     m_Address: Assets/Audio/MusicGame.mp3
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 992ab158f5bd1fd4c9472087900e822f
+    m_Address: Assets/PROPS/HEXXX/Hyper Casual Urban Asset Pack/Material/HyperCasualStreetEnvironment_mat.mat
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -535,6 +815,16 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9d30a79d0df4caa478d5a88985af90ba
+    m_Address: Assets/PROPS/Garage_props/Textures/Furniture_garage_Mixed_AO.tga
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9eec45ee9853a864aa18d2515ed600c4
+    m_Address: Assets/PROPS/Weapon Crate/Model/SM_WeaponCrate_04.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: a55b89122e1b08c4fb742d7114f77b31
     m_Address: Assets/Prefabs/Game/Cards/CyanCard.prefab
     m_ReadOnly: 0
@@ -555,8 +845,23 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a88ec864e1a9c704f901b331887e870c
+    m_Address: Assets/PROPS/ithappy/Furniture_FREE/Materials/Material.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a8b30dd5300c3f24e946864a2647487f
+    m_Address: Assets/PROPS/Garage_props/Prefabs/rack.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: ab5ee9c602f95714dac6c94b6396d9d0
     m_Address: Assets/Data/ThemeColors/Theme/ThirdThemePresetSO.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ab9f9ceec5d21e24c9e03cadab93d5ca
+    m_Address: Assets/PROPS/LowPolyOfficeProps_LITE/Textures/LPOP_TextureAtlas1_FULL.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -570,8 +875,33 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ae4812b4085471e4d9fa91c480747f82
+    m_Address: Assets/PROPS/waste bin lowpoly/prefabs/waste bin_002.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: af791482237c45c46bf4156b9c345960
     m_Address: Assets/Graphics/Tutorial/TutorialsEN/Tutorial2EN.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: afeb7406ab41f53478dbf17d79f9dd3c
+    m_Address: Assets/PROPS/HEXXX/Hyper Casual Urban Asset Pack/Prefab/Fencing.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b0124f4e07bf8494ba0b4802b4284a91
+    m_Address: Assets/PROPS/Sayantan/Container Model/Container20F.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b08259bb4dc1eb94a933e36a0fe2dc8a
+    m_Address: Assets/PROPS/Food Pack - Low Poly Assets/Materials/PaletteAssets.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b10fa16559c0a7b4db8a76716cf165ce
+    m_Address: Assets/PROPS/LowPolyOfficeProps_LITE/Textures/LPOP_TextureAtlas1_FULL-Emissive.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -582,6 +912,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: b29eeff66c770b042a742734a3bc51fc
     m_Address: Assets/Graphics/CardFactoryUiAssets/MusicBG.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b3ec71d6d2cc0f24199dd8377d90344b
+    m_Address: Assets/PROPS/Food Pack - Low Poly Assets/Food/PizzaBox.fbx
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -635,6 +970,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c00fc11ebcd45a94cb3ba086341ffec4
+    m_Address: Assets/PROPS/ithappy/Furniture_FREE/Textures/Texture.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: c10d7c1276e012146b2e09d01a4179d1
     m_Address: Assets/Materials/Cards/PinkCard.mat
     m_ReadOnly: 0
@@ -670,8 +1010,18 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c5f00f9fe87068048a150981ba00e9cc
+    m_Address: Assets/PROPS/VNB - Office Set/Textures/palette2.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: c661b1f9076795b408d279997cc0a2dd
     m_Address: Assets/Textures/CardThemes/Crystals/C3.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c90a5ff38e5dba446815f11cab89f710
+    m_Address: Assets/PROPS/HEXXX/Hyper Casual Urban Asset Pack/Model/fencing.fbx
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -690,8 +1040,43 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cce71e2a27619d046a3a2c3dd565e391
+    m_Address: Assets/PROPS/GoldenFrame_Terminal_FREE/Materials/GoldenFrame_Terminal_FREE_Emissive.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cd74bf6cea4234840b01646a5b3f339a
+    m_Address: Assets/PROPS/LowPolyOfficeProps_LITE/Prefabs/Table_OfficeDesk2.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cdb1a1ec3a96389419e1d2e2b6067462
+    m_Address: Assets/PROPS/Garage_props/Meshes/rack.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cec0beb2c44e60c44ba81ff50286dcbb
+    m_Address: Assets/PROPS/VNB - Office Set/Textures/palette5.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: cf5a93fb11dc270468ec1e373616fc04
     m_Address: Assets/Graphics/CardFactoryUiAssets/LifeCountdownBG.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cf9558d3554dd06449542d3fe7ebc88b
+    m_Address: Assets/PROPS/FastMesh/Materials/Purple.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cffc0b528f2c46742a8ca2aa142694b3
+    m_Address: Assets/PROPS/LowPolyLivingRoomPack_URP_FREE/Textures/T_Palette_LivingRoomFree.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d192d1e5fd3b193428ce958a96e070d3
+    m_Address: Assets/PROPS/FastMesh/Meshs/Chair-6.fbx
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -702,6 +1087,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: d25b9601158fa6a46a9f57ebad602397
     m_Address: Assets/Graphics/CardFactoryUiAssets/Previous.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d295e9e8a8c5b8f4886c5b3c21609552
+    m_Address: Assets/PROPS/Food Pack - Low Poly Assets/Food/OpenPizzaBox.fbx
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -725,6 +1115,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d539f96edc6eb5946b2ce0269eb1bd88
+    m_Address: Assets/Textures/PlasticTexture/plastic_roughness.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: d55bd16fcd519ea43b6bb51327bbacd1
     m_Address: Assets/Materials/Cards/GreenCard.mat
     m_ReadOnly: 0
@@ -737,6 +1132,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: d57ccb54b3b15134c9990741064271ff
     m_Address: Assets/Data/ThemeColors/Colors/ThirdColorPresetSO.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d586cdda16abbf74e84b1e76b588d8bf
+    m_Address: Assets/PROPS/ithappy/Furniture_FREE/Prefabs/lamp_002.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -755,6 +1155,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: db6c1db9092c75e449dd9cd4243a194a
+    m_Address: Assets/PROPS/Garage_props/Textures/Furniture_garage_Roughness.tga
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: de2d4e45756a66d419a17e506974d1cd
     m_Address: Assets/Graphics/CardFactoryUiAssets/GetCoinButton.png
     m_ReadOnly: 0
@@ -770,6 +1175,21 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e0baeedd04650b64bac1a20ec12905df
+    m_Address: Assets/PROPS/waste bin lowpoly/Textures/waste bin_002_spe.tga
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e4350d034bd18d94ca00771bce1524b9
+    m_Address: Assets/PROPS/Weapon Crate/Texture/T_Weapon Crate_v01.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e5dd649203287194e84324a2cd36abd9
+    m_Address: Assets/Graphics/UI/Background/4.jpg
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: e5f08f3fceea76549a9c5b72f6cfd448
     m_Address: Assets/Audio/Sent.mp3
     m_ReadOnly: 0
@@ -777,6 +1197,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: e735a2181017cd141b03e12ec5a2b588
     m_Address: Assets/Graphics/CardFactoryUiAssets/BuyCoinBG.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e7c4fd6a26d255f4aa3f7a7f0793851d
+    m_Address: Assets/PROPS/FastMesh/Prefabs/Armchair-1.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -795,8 +1220,58 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e98caf04e78223549845f0aca1dd10d4
+    m_Address: Assets/PROPS/FastMesh/Prefabs/Chair-6.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e9b2a18cdc7aba444b850a20e32ead0e
+    m_Address: Assets/PROPS/Food Pack - Low Poly Assets/Food/PizzaSlice.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ea16aef1a881f2341a5360a7606bc841
+    m_Address: Assets/PROPS/Weapon Crate/Model/SM_WeaponCrate_02.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: ea57e7590b6c3f3468a3765d68561f09
     m_Address: Assets/Animations/TestCard.controller
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ea5d8872bd23d6f4da881954fc3bd247
+    m_Address: Assets/PROPS/Food Pack - Low Poly Assets/Prefabs/Can.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ea8342b391baecb4cb31eede5e8e420c
+    m_Address: Assets/PROPS/VNB - Office Set/Textures/DocBoard.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: eb70ce600d1d80641bf565e5d7f9297e
+    m_Address: Assets/PROPS/Food Pack - Low Poly Assets/Prefabs/OpenPizzaBox.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: eb82be3f5abe0454d97fdbdd124c6ec8
+    m_Address: Assets/PROPS/VNB - Office Set/Textures/Rug_2.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ed0c1ec5833081b4697e922b2b3a55b6
+    m_Address: Assets/PROPS/Garage_props/Textures/Furniture_garage_Base_Color.tga
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: edb29208e4922d14098d285fd68f807a
+    m_Address: Assets/PROPS/Weapon Crate/Prefabs/SM_WeaponCrate_04.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ee278633add2d514ba56a3b6b5f64f68
+    m_Address: Assets/PROPS/VNB - Office Set/Textures/screens.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -825,13 +1300,38 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f1cd6800d51724d4291ee22764292e86
+    m_Address: Assets/PROPS/VNB - Office Set/Models/office_set_vnb.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: f2c09b9f5a719d8489fe7ae034656b54
     m_Address: Assets/Prefabs/Game/Cards/TestCard.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f3182fc6b6d4ca641827f62d00d08376
+    m_Address: Assets/PROPS/Weapon Crate/Prefabs/SM_WeaponCrate_05.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f545116a0c5c6244b8d9a33d2c8813d9
+    m_Address: Assets/PROPS/VNB - Office Set/Textures/palette1.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f5b9afe1c6e8adc4984ec3c97c3a8c10
+    m_Address: Assets/PROPS/Weapon Crate/Prefabs/SM_WeaponCrate_01.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: f5e77059871a3b84890abe57a9967916
     m_Address: Assets/Textures/CardThemes/Default/D2.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f6008182cadd0874c9cfcbfb0049505b
+    m_Address: Assets/PROPS/GoldenFrame_Terminal_FREE/Prefabs/Cosmic_Retro_Computer2_13.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -847,6 +1347,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: f75e1b7738359d24c8e8f5ddaf2342ab
     m_Address: Assets/Prefabs/Game/System/Canvas.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f79b4d7e618b0f14691e67441e5060a0
+    m_Address: Assets/PROPS/Food Pack - Low Poly Assets/Materials/New Material.mat
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -870,6 +1375,21 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fb046d0d5090fa6449dbb0e978bbcab7
+    m_Address: Assets/PROPS/VNB - Office Set/Textures/Paintings4.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fb2a38969b4a5f8438df320da260d08f
+    m_Address: Assets/Textures/PlasticTexture/plastic_normal.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fc312e40b49051249852eb94d4a3c3e2
+    m_Address: Assets/PROPS/Weapon Crate/Model/SM_WeaponCrate_03.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: fc7124e9da1385b41b605214ffe2f8ab
     m_Address: Assets/Prefabs/Game/Hangar/Hangar (1) Variant.prefab
     m_ReadOnly: 0
@@ -877,6 +1397,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: fc8d3f0a073e5c948acc97ee95aaa647
     m_Address: Assets/Textures/CardThemes/Fruits/F6.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fd3f28898aa4320409895499ca6515fe
+    m_Address: Assets/PROPS/VNB - Office Set/Materials/palette_1.mat
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0

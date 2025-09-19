@@ -44,10 +44,10 @@ Light:
   serializedVersion: 11
   m_Type: 0
   m_Color: {r: 1, g: 0, b: 0.69722795, a: 1}
-  m_Intensity: 5
+  m_Intensity: 6
   m_Range: 10
-  m_SpotAngle: 98.24457
-  m_InnerSpotAngle: 26
+  m_SpotAngle: 179
+  m_InnerSpotAngle: 106.75542
   m_CookieSize: 10
   m_Shadows:
     m_Type: 0

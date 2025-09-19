@@ -75,6 +75,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0992bad4f8e8d8646a2198be76adde0e
+    m_Address: Assets/Materials/ColorPacks/Card/Color6.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 0b108fc9ca4d57546bdde89acb7ad58c
     m_Address: Assets/Prefabs/Game/Cards/Buffer/Buffer.prefab
     m_ReadOnly: 0
@@ -142,6 +147,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 15982fca8d7c6ed4191c27f5be513086
     m_Address: Assets/Graphics/CardFactoryUiAssets/CoinBG.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 16487965f9f179d4b826ee7afc4b8728
+    m_Address: Assets/Materials/ColorPacks/Environment/Floor.mat
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -237,6 +247,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 2a0fd42bfd5b1774ca8ffb64e21fa1f9
     m_Address: Assets/Textures/MetalTexture/metal_height.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2aacc5d2a0d4ae34bb45bce4c71af4c9
+    m_Address: Assets/Materials/ColorPacks/Environment/MainDark.mat
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -342,6 +357,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 4232aa3083741b347ae78efa3876ba8b
     m_Address: Assets/Graphics/CardFactoryUiAssets/ActivityCoundownBG.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 424f78f80af08f34bbf4a81082297dd4
+    m_Address: Assets/Materials/ColorPacks/Card/Color3.mat
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -470,6 +490,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 591eb953f81df3848bc3c4e946b4aa42
+    m_Address: Assets/Materials/ColorPacks/Card/Color5.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 5aedfe70aecd37c419db0adf9de6b350
     m_Address: Assets/Prefabs/Game/Cards/BlueCard.prefab
     m_ReadOnly: 0
@@ -575,6 +600,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6d1884bbe4aade1458c73dadc4e388ac
+    m_Address: Assets/Materials/ColorPacks/Environment/MainBright.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 6da61c3eb67ea9c4999ca651dee16e9b
     m_Address: Assets/PROPS/Food Pack - Low Poly Assets/Prefabs/PizzaSlice.prefab
     m_ReadOnly: 0
@@ -642,6 +672,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 7c24fc020a963e140a38db61e602ff30
     m_Address: Assets/PROPS/VNB - Office Set/Textures/DocBoard3.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7c902c08fd0364c4fbf7eb656bb0eb3d
+    m_Address: Assets/Materials/ColorPacks/Card/Color4.mat
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -772,6 +807,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 95ef747e719583641a850a86e35b616f
     m_Address: Assets/Textures/Floor/Floor_Height.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 973e0504139ca4f4385251bc868a93ec
+    m_Address: Assets/Materials/ColorPacks/Environment/Metal.mat
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -1010,6 +1050,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c637bb1d8cf0f854287c973fd6de5999
+    m_Address: Assets/Materials/ColorPacks/Card/Color2.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: c661b1f9076795b408d279997cc0a2dd
     m_Address: Assets/Textures/CardThemes/Crystals/C3.png
     m_ReadOnly: 0
@@ -1135,6 +1180,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d6889d8e21eb2e141a85aff7ee05e68e
+    m_Address: Assets/Materials/ColorPacks/Card/Color1.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: d8d61d8d541404645b9883838723415d
     m_Address: Assets/Audio/MusicUI.mp3
     m_ReadOnly: 0
@@ -1152,6 +1202,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: db6c1db9092c75e449dd9cd4243a194a
     m_Address: Assets/PROPS/Garage_props/Textures/Furniture_garage_Roughness.tga
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dcf04665bb2084643a281271ccc39206
+    m_Address: Assets/Materials/Container.mat
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -1200,6 +1255,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e7d1c2ef88497354b8e8b2e78316e084
+    m_Address: Assets/Materials/ColorPacks/Environment/Rubber.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: e8be88ba9d0b9e74592133d7a32c3c44
     m_Address: Assets/Textures/CardThemes/Pets/P5.png
     m_ReadOnly: 0
@@ -1222,6 +1282,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: e9b2a18cdc7aba444b850a20e32ead0e
     m_Address: Assets/PROPS/Food Pack - Low Poly Assets/Food/PizzaSlice.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e9ba01f4796cbca4fbf7989acb8440ae
+    m_Address: Assets/Materials/ColorPacks/Environment/Secondary.mat
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0

@@ -23,8 +23,9 @@ MonoBehaviour:
   - {r: 1, g: 0.9160461, b: 0, a: 0}
   - {r: 1, g: 0, b: 0.7455859, a: 0}
   - {r: 0.2320754, g: 1, b: 0.8555378, a: 0}
-  BigPropsColor: {r: 1, g: 1, b: 1, a: 0}
-  MiddlePropsRibbonBufferColor: {r: 0.984807, g: 1, b: 0.514151, a: 0}
-  SmallPropsMetalColor: {r: 1, g: 0.5518868, b: 0.5518868, a: 0}
-  FloorColor: {r: 0.65284276, g: 1, b: 0.5424528, a: 0}
-  SendingRecievingLanesColor: {r: 0.495283, g: 1, b: 0.9565503, a: 0}
+  EnvironmentBright: {r: 0.2509804, g: 0.49803922, b: 0.8666667, a: 0}
+  EnvironmentDark: {r: 0.08627451, g: 0.32941177, b: 0.6901961, a: 0}
+  SecondaryEnvironment: {r: 0.9019608, g: 0.6745098, b: 0.11764706, a: 0}
+  Floor: {r: 0.7411765, g: 0.5921569, b: 0.6039216, a: 0}
+  Rubber: {r: 0.08627451, g: 0.7607843, b: 0.9529412, a: 0}
+  Metal: {r: 0.54901963, g: 0.23921569, b: 0.3764706, a: 0}

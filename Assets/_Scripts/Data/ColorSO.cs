@@ -11,9 +11,11 @@ public class ColorSO : ScriptableObject
 
     [Space(20f)]
     [Header("Envir Colors")]
-    public Color BigPropsColor;
-    public Color MiddlePropsRibbonBufferColor;
-    public Color SmallPropsMetalColor;
-    public Color FloorColor;
-    public Color SendingRecievingLanesColor;
+    public Color EnvironmentBright;
+    public Color EnvironmentDark;   
+    public Color SecondaryEnvironment;
+    public Color Floor;
+    public Color Rubber;
+    public Color Metal;
+
 }

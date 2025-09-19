@@ -4,15 +4,12 @@ public class ColorizeObject : MonoBehaviour
 {
     private enum ObjectType
     {
-        BigProps,
-        MiddleProps,
-        SmallProps,
-        Ribbon,
-        Metal,
-        Buffer,   
+        EnvironmentBright,
+        EnvironmentDark,
+        SecondaryEnvironment,
         Floor,
-        SendingLane,
-        RecievingLane
+        Rubber,
+        Metal
     }
     [SerializeField] private ObjectType _type;
     private MeshRenderer _meshRenderer;
@@ -27,40 +24,29 @@ public class ColorizeObject : MonoBehaviour
         switch (_type)
         {
             //1
-            case ObjectType.BigProps:
-                _meshRenderer.material.color = ColorThemeManager.Instance.GetCurrentColorSO().BigPropsColor;
-
+            case ObjectType.EnvironmentDark:
+                _meshRenderer.material.color = ColorThemeManager.Instance.GetCurrentColorSO().EnvironmentDark;
                 break;
-
             //2
-            case ObjectType.MiddleProps:               
-            case ObjectType.Ribbon:                
-            case ObjectType.Buffer:
-                _meshRenderer.material.color = ColorThemeManager.Instance.GetCurrentColorSO().MiddlePropsRibbonBufferColor;
-
+            case ObjectType.EnvironmentBright:             
+                 _meshRenderer.material.color = ColorThemeManager.Instance.GetCurrentColorSO().EnvironmentBright;
                 break;
-            
             //3
-            case ObjectType.SmallProps:              
-            case ObjectType.Metal:
-                _meshRenderer.material.color = ColorThemeManager.Instance.GetCurrentColorSO().SmallPropsMetalColor;
-
+            case ObjectType.SecondaryEnvironment:           
+                 _meshRenderer.material.color = ColorThemeManager.Instance.GetCurrentColorSO().SecondaryEnvironment;
                 break;
-           
             //4
             case ObjectType.Floor:
-                _meshRenderer.material.color = ColorThemeManager.Instance.GetCurrentColorSO().FloorColor;
-
+                _meshRenderer.material.color = ColorThemeManager.Instance.GetCurrentColorSO().Floor;
                 break;
-
             //5
-            case ObjectType.SendingLane:                
-            case ObjectType.RecievingLane:
-                _meshRenderer.material.color = ColorThemeManager.Instance.GetCurrentColorSO().SendingRecievingLanesColor;
-
-                break;     
-                
-
+            case ObjectType.Rubber:
+                _meshRenderer.material.color = ColorThemeManager.Instance.GetCurrentColorSO().Rubber;
+                break;
+            //6
+            case ObjectType.Metal:
+                _meshRenderer.material.color = ColorThemeManager.Instance.GetCurrentColorSO().Metal;
+                break; 
             default:
                 break;
         }

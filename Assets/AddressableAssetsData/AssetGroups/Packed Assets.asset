@@ -685,11 +685,6 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 825bec9378b367144bdd8b1bd7d91292
-    m_Address: Assets/PROPS/GoldenFrame_Terminal_FREE/Materials/GoldenFrame_Terminal_FREE.mat
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 82686e8e979a25548a728c17a154d1e6
     m_Address: Assets/PROPS/Garage_props/Textures/Furniture_garage_Metallic.tga
     m_ReadOnly: 0

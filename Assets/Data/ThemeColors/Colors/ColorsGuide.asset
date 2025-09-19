@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29cf38ef858373d458065a6d67df84db, type: 3}
+  m_Name: ColorsGuide
+  m_EditorClassIdentifier: 
+  _AF1: {r: 0.99215686, g: 0.6, b: 0.84313726, a: 1}
+  _AF2: {r: 0.4509804, g: 0.38039216, b: 0.7647059, a: 1}
+  _AF3: {r: 0.40784314, g: 0.7529412, b: 0.44313726, a: 1}
+  _AF4: {r: 0.78039217, g: 0.9607843, b: 0, a: 1}
+  _AF5: {r: 1, g: 0.93333334, b: 0, a: 1}
+  _AF6: {r: 0.7647059, g: 0.27058825, b: 0.6901961, a: 1}
+  _AF_Floor: {r: 0.42745098, g: 0.61960787, b: 0.61960787, a: 1}
+  _AF_MainBright: {r: 0.21960784, g: 0.67058825, b: 0.5647059, a: 1}
+  _AF_MainDark: {r: 0.32156864, g: 0.4117647, b: 0.41568628, a: 1}
+  _AF_Metal: {r: 0.3529412, g: 0.3137255, b: 0.5372549, a: 1}
+  _AF_Rubber: {r: 0.38431373, g: 0.7176471, b: 0.69411767, a: 1}
+  _AF_Secondary: {r: 0.7529412, g: 0.5882353, b: 0.6901961, a: 1}
+  _D1: {r: 0.69803923, g: 0.16078432, b: 0.4, a: 1}
+  _D2: {r: 0.08627451, g: 0.32941177, b: 0.6901961, a: 1}
+  _D3: {r: 0.22745098, g: 0.7058824, b: 0.30588236, a: 1}
+  _D4: {r: 0.9254902, g: 0.6627451, b: 0.101960786, a: 1}
+  _D5: {r: 0.6784314, g: 0.18431373, b: 0.9137255, a: 1}
+  _D6: {r: 0.08235294, g: 0.6392157, b: 0.654902, a: 1}
+  _D_Floor: {r: 0.7411765, g: 0.5921569, b: 0.6039216, a: 1}
+  _D_MainBright: {r: 0.2509804, g: 0.49803922, b: 0.8666667, a: 1}
+  _D_MainDark: {r: 0.08627451, g: 0.32941177, b: 0.6901961, a: 1}
+  _D_Metal: {r: 0.54901963, g: 0.23921569, b: 0.3764706, a: 1}
+  _D_Rubber: {r: 0.08627451, g: 0.7607843, b: 0.9529412, a: 1}
+  _D_Secondary: {r: 0.9019608, g: 0.6745098, b: 0.11764706, a: 1}
+  _DE1: {r: 0, g: 0, b: 0, a: 0}
+  _DE2: {r: 0, g: 0, b: 0, a: 0}
+  _DE3: {r: 0, g: 0, b: 0, a: 0}
+  _DE4: {r: 0, g: 0, b: 0, a: 0}
+  _DE5: {r: 0, g: 0, b: 0, a: 0}
+  _DE6: {r: 0, g: 0, b: 0, a: 0}
+  _DE_Floor: {r: 0, g: 0, b: 0, a: 0}
+  _DE_MainBright: {r: 0, g: 0, b: 0, a: 0}
+  _DE_MainDark: {r: 0, g: 0, b: 0, a: 0}
+  _DE_Metal: {r: 0, g: 0, b: 0, a: 0}
+  _DE_Rubber: {r: 0, g: 0, b: 0, a: 0}
+  _DE_Secondary: {r: 0, g: 0, b: 0, a: 0}
+  _FB1: {r: 0, g: 0, b: 0, a: 0}
+  _FB2: {r: 0, g: 0, b: 0, a: 0}
+  _FB3: {r: 0, g: 0, b: 0, a: 0}
+  _FB4: {r: 0, g: 0, b: 0, a: 0}
+  _FB5: {r: 0, g: 0, b: 0, a: 0}
+  _FB6: {r: 0, g: 0, b: 0, a: 0}
+  _FB_Floor: {r: 0, g: 0, b: 0, a: 0}
+  _FB_MainBright: {r: 0, g: 0, b: 0, a: 0}
+  _FB_MainDark: {r: 0, g: 0, b: 0, a: 0}
+  _FB_Metal: {r: 0, g: 0, b: 0, a: 0}
+  _FB_Rubber: {r: 0, g: 0, b: 0, a: 0}
+  _FB_Secondary: {r: 0, g: 0, b: 0, a: 0}
+  _LD1: {r: 0, g: 0, b: 0, a: 0}
+  _LD2: {r: 0, g: 0, b: 0, a: 0}
+  _LD3: {r: 0, g: 0, b: 0, a: 0}
+  _LD4: {r: 0, g: 0, b: 0, a: 0}
+  _LD5: {r: 0, g: 0, b: 0, a: 0}
+  _LD6: {r: 0, g: 0, b: 0, a: 0}
+  _LD_Floor: {r: 0, g: 0, b: 0, a: 0}
+  _LD_MainBright: {r: 0, g: 0, b: 0, a: 0}
+  _LD_MainDark: {r: 0, g: 0, b: 0, a: 0}
+  _LD_Metal: {r: 0, g: 0, b: 0, a: 0}
+  _LD_Rubber: {r: 0, g: 0, b: 0, a: 0}
+  _LD_Secondary: {r: 0, g: 0, b: 0, a: 0}
+  _VC1: {r: 0, g: 0, b: 0, a: 0}
+  _VC2: {r: 0, g: 0, b: 0, a: 0}
+  _VC3: {r: 0, g: 0, b: 0, a: 0}
+  _VC4: {r: 0, g: 0, b: 0, a: 0}
+  _VC5: {r: 0, g: 0, b: 0, a: 0}
+  _VC6: {r: 0, g: 0, b: 0, a: 0}
+  _VC_Floor: {r: 0, g: 0, b: 0, a: 0}
+  _VC_MainBright: {r: 0, g: 0, b: 0, a: 0}
+  _VC_MainDark: {r: 0, g: 0, b: 0, a: 0}
+  _VC_Metal: {r: 0, g: 0, b: 0, a: 0}
+  _VC_Rubber: {r: 0, g: 0, b: 0, a: 0}
+  _VC_Secondary: {r: 0, g: 0, b: 0, a: 0}

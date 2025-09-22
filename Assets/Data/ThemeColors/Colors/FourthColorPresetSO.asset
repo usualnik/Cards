@@ -15,7 +15,7 @@ MonoBehaviour:
   Name: Fuchsia Branches
   RuName: "\u0412\u0435\u0442\u043A\u0438 \u0424\u0443\u043A\u0441\u0438\u0438"
   Index: 3
-  Price: 20
+  Price: 800
   Colors:
   - {r: 0.627451, g: 0.38823533, b: 0.49411768, a: 1}
   - {r: 0.98823535, g: 0.7176471, b: 0.8078432, a: 1}

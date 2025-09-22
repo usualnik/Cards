@@ -15,7 +15,7 @@ MonoBehaviour:
   Name: Amazon Feathers
   RuName: "\u041F\u0435\u0440\u044C\u044F \u0410\u043C\u0430\u0437\u043E\u043D\u0430"
   Index: 1
-  Price: 10
+  Price: 200
   Colors:
   - {r: 0.9921569, g: 0.6, b: 0.8431373, a: 1}
   - {r: 0.45098042, g: 0.3803922, b: 0.76470596, a: 1}

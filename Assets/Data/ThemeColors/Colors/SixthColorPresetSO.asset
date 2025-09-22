@@ -15,7 +15,7 @@ MonoBehaviour:
   Name: Vibrant Coral
   RuName: "\u041D\u0430\u0441\u044B\u0449\u0435\u043D\u043D\u044B\u0439 \u041A\u043E\u0440\u0430\u043B\u043B"
   Index: 5
-  Price: 30
+  Price: 1200
   Colors:
   - {r: 0.7176471, g: 0.24313727, b: 0.7607844, a: 1}
   - {r: 0.7019608, g: 0.16862746, b: 0.20784315, a: 1}

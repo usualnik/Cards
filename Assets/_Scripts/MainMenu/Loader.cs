@@ -48,10 +48,26 @@ public class Loader : MonoBehaviour
     };
 
     private const int LOADING_SCREEN_WINDOW_INDEX = 5;
+    private const int SECOND_LEVEL_INDEX = 2;
+
    public void LoadGameScene()
    {
-        var nextSceneIndex = PlayerData.Instance.GetCurrentLevel();
+        int nextSceneIndex = PlayerData.Instance.GetCurrentLevel();
 
+
+        //Check if we above developed levels
+        if (PlayerData.Instance.GetCurrentLevel() <= _adressableLevelsPaths.Count)
+        {
+            nextSceneIndex = PlayerData.Instance.GetCurrentLevel();
+        }
+        // if we are - load random level
+        else 
+        {
+            nextSceneIndex = Random.Range(SECOND_LEVEL_INDEX, _adressableLevelsPaths.Count + 1);
+        }
+
+
+        //Load level
         if (PlayerData.Instance.GetHearts() > 0 
             && _adressableLevelsPaths.TryGetValue(nextSceneIndex, out string path))
         {
@@ -61,7 +77,7 @@ public class Loader : MonoBehaviour
    }
 
     private void LoadLevelWithAdressables(string path)
-    {
+    {        
         Addressables.LoadSceneAsync(path,
           LoadSceneMode.Single);
     }

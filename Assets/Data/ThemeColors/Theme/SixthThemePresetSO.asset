@@ -15,7 +15,7 @@ MonoBehaviour:
   Name: Animals
   RuName: "\u0416\u0438\u0432\u043E\u0442\u043D\u044B\u0435"
   Index: 5
-  Price: 30
+  Price: 78
   Sprites:
   - {fileID: 21300000, guid: 636c7f430b462c347bb578a201ad24ca, type: 3}
   - {fileID: 21300000, guid: 42eb6b84d00d1aa4686760201f989778, type: 3}

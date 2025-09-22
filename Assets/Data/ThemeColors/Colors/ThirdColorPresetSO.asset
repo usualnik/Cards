@@ -15,7 +15,7 @@ MonoBehaviour:
   Name: Lilac Dawn
   RuName: "\u0421\u0438\u0440\u0435\u043D\u0435\u0432\u044B\u0439 \u0420\u0430\u0441\u0441\u0432\u0435\u0442"
   Index: 2
-  Price: 15
+  Price: 600
   Colors:
   - {r: 1, g: 0.68235296, b: 0.47058827, a: 1}
   - {r: 0.654902, g: 0.5803922, b: 1, a: 1}

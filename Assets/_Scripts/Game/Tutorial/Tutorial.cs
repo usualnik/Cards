@@ -16,7 +16,9 @@ public class Tutorial : MonoBehaviour
     private Image _tutorialImage;
     private bool _ruTutorial = false;
     private const int DEFAULT_RENDER_LAYER = 0;
-    private const int HIGHLIGHTED_RENDER_LAYER = 6;
+       
+    private const int HIGHLIGHTED_RENDER_LAYER = 7;
+
 
 
 
@@ -74,29 +76,27 @@ public class Tutorial : MonoBehaviour
 
     private void CheckWhatsNeedToBeHighlighted()
     {
-        var boxVisual = _boxHighlighted.GetComponentInChildren<MeshRenderer>();
-        var bufferVisual = _bufferHighlighted.GetComponentInChildren<MeshRenderer>();
+        var boxVisual = _boxHighlighted?.GetComponentInChildren<MeshRenderer>();
+        var bufferVisual = _bufferHighlighted?.GetComponentInChildren<MeshRenderer>();
 
 
         switch (_tutorialStep)
         {
             case 1:
 
-                foreach (var card in _cardsHighlighted)
+                if (boxVisual)
                 {
-                    var cardVisuals = card.GetComponentsInChildren<MeshRenderer>();
-                    foreach (var cardVisual in cardVisuals)
-                    {
-                        cardVisual.gameObject.layer = 0;
-                    }
+                    boxVisual.gameObject.layer = HIGHLIGHTED_RENDER_LAYER;
                 }
-
-                boxVisual.gameObject.layer = HIGHLIGHTED_RENDER_LAYER;
 
                 break;
 
             case 2:
+
+                if (boxVisual)
                 boxVisual.gameObject.layer = DEFAULT_RENDER_LAYER;
+
+                if(bufferVisual)
                 bufferVisual.gameObject.layer = HIGHLIGHTED_RENDER_LAYER;
 
                 break;

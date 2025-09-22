@@ -12973,7 +12973,7 @@ PrefabInstance:
     - target: {fileID: 7009452666696425041, guid: efa0a90790431bd448a0d5a2f8dbdb08, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: 6d1884bbe4aade1458c73dadc4e388ac, type: 2}
+      objectReference: {fileID: 2100000, guid: 973e0504139ca4f4385251bc868a93ec, type: 2}
     - target: {fileID: 7304182227093353402, guid: efa0a90790431bd448a0d5a2f8dbdb08, type: 3}
       propertyPath: m_Name
       value: Buffer

@@ -24,7 +24,8 @@ public class CardClick : MonoBehaviour
             case Card.CardState.InBuffer:
                 if (_card != null && Buffer.Instance != null && Receiver.Instance.GetCanAcceptCards())
                 {
-                    Buffer.Instance.SendPackToConveyor(_card);                    
+                    Buffer.Instance.SendPackToConveyor(_card);           
+                   
                 }
                 break;
             case Card.CardState.InBox:

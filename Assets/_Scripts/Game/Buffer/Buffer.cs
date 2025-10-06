@@ -16,6 +16,7 @@ public class Buffer : MonoBehaviour
 
     private List<Card> _cardsInBuffer = new List<Card>(); // MAX capacity - 20 card
     private Vector3 _bufferCardOffset = new Vector3(0.2f,0,0);
+    private float _bufferHeadOffsetX = 0.05f;
 
 
 
@@ -68,7 +69,7 @@ public class Buffer : MonoBehaviour
 
         if (_cardsInBuffer.Contains(clickedCard))
         {
-            StartCoroutine(SendMatchingCardsWithDelay(targetCardName));
+            StartCoroutine(SendMatchingCardsWithDelay(targetCardName));           
         }
         else
         {
@@ -85,8 +86,9 @@ public class Buffer : MonoBehaviour
             if (card.GetCardDataSO().name == targetName && Receiver.Instance.GetCanAcceptMore(cardsToSend.Count))
             {
                 cardsToSend.Add(card);
-            }else
-                break;
+            }
+            else
+                 yield return null;                
         }
 
         OnSendCardsToConveyor?.Invoke(cardsToSend);
@@ -117,8 +119,10 @@ public class Buffer : MonoBehaviour
             }
 
             // Настраиваем параметры анимации
-            animationComponent.animationDuration = 0.6f;
-            animationComponent.jumpHeight = 1.2f;
+            animationComponent.animationDuration = 0.5f;
+            //animationComponent.jumpHeight = 1.2f;
+            animationComponent.jumpHeight = 0.5f;
+
             animationComponent.horizontalOffset = 0f;
 
             // Запускаем анимацию
@@ -133,7 +137,7 @@ public class Buffer : MonoBehaviour
     private Vector3 CalculateCardOffset(int index)
     {
         // Например, смещение по оси X для каждой следующей карты
-        return new Vector3(index * 0.2f, 0, 0);
+        return new Vector3(index * 0.15f - _bufferHeadOffsetX, 0, 0);
     }
 
     private bool AllBufferAnimationsComplete()

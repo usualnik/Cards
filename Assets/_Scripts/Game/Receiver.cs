@@ -89,7 +89,14 @@ public class Receiver : MonoBehaviour
     private void UpdateReceiverText()
     {
         CleanNullCardsFromConveyor();
-        _receiverCardsAmountText.text = string.Format("{0} / {1}", _cardsOnConveyor.Count, MAX_CARDS_ON_CONVEYOR);
+        if (_cardsOnConveyor.Count > 20)
+        {
+            _receiverCardsAmountText.text = string.Format("{0} / {1}", MAX_CARDS_ON_CONVEYOR, MAX_CARDS_ON_CONVEYOR);
+        }
+        else
+        {
+            _receiverCardsAmountText.text = string.Format("{0} / {1}", _cardsOnConveyor.Count, MAX_CARDS_ON_CONVEYOR);
+        }
     }
 
     private void CleanNullCardsFromConveyor()

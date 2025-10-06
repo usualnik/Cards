@@ -116,7 +116,6 @@ MonoBehaviour:
   _headPos: {fileID: 2114177012939130310}
   _delayBetweenCards: 0.2
   _speedAfterBuffer: 0.2
-  _XcardOffset: 0.05
 --- !u!54 &759562979048213257
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -166,7 +165,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 13b030754dc36c049bf65b17264da38f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 13b030754dc36c049bf65b17264da38f, type: 3}
       propertyPath: m_LocalPosition.z

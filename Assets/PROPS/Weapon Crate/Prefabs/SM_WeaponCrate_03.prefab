@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 6053853246272135639}
   - component: {fileID: 2641596107417106851}
   - component: {fileID: 9106464119059349875}
+  - component: {fileID: 8633192594222815900}
   m_Layer: 0
   m_Name: SM_WeaponCrate_03_L
   m_TagString: Untagged
@@ -86,6 +87,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &8633192594222815900
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1477468178599295250}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c455eff34c042824fbe2d8512490e50b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _type: 0
 --- !u!1 &6863449875752428640
 GameObject:
   m_ObjectHideFlags: 0

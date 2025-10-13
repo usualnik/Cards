@@ -13,21 +13,24 @@
         false,
         false
     ],
-    "idSave": 8,
+    "idSave": 342,
     "YandexServerData": {
-        "Coins": 25,
-        "Gems": 0,
-        "Hearts": 3,
-        "Skips": 0,
+        "Coins": 7215,
+        "Gems": 17,
+        "Hearts": 4,
+        "Skips": 6,
         "SkipsProgress": 1,
-        "CurrentLevel": 10,
+        "CurrentLevel": 36,
         "_openedThemesIndexes": [
             0
         ],
         "_openedColorsIndexes": [
-            0
+            0,
+            3,
+            5,
+            4
         ],
         "CurrentChosenThemeIndex": 0,
-        "CurrentChosenColorIndex": 0
+        "CurrentChosenColorIndex": 4
     }
 }

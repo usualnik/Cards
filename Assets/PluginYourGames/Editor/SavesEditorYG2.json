@@ -13,14 +13,14 @@
         false,
         false
     ],
-    "idSave": 3,
+    "idSave": 4,
     "YandexServerData": {
-        "Coins": 0,
+        "Coins": 20,
         "Gems": 0,
-        "Hearts": 2,
+        "Hearts": 5,
         "Skips": 0,
         "SkipsProgress": 1,
-        "CurrentLevel": 36,
+        "CurrentLevel": 3,
         "_openedThemesIndexes": [
             0
         ],

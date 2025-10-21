@@ -2,8 +2,7 @@ using UnityEngine;
 
 public class LevelReward : MonoBehaviour
 {
-	public static LevelReward Instance { get; private set; }
-
+	//public static LevelReward Instance { get; private set; }
   
 
     public enum LevelRewardType
@@ -17,13 +16,13 @@ public class LevelReward : MonoBehaviour
 
 	[SerializeField] private int _levelRewardAmount;
 
-    private void Awake()
-    {
-        if (Instance == null)
-            Instance = this;
-        else
-            Debug.LogError("More than one instance of LevelReward");
-    }
+    //private void Awake()
+    //{
+    //    if (Instance == null)
+    //        Instance = this;
+    //    else
+    //        Debug.LogError("More than one instance of LevelReward");
+    //}
 
     private void Start()
     {

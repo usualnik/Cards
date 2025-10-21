@@ -415,6 +415,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4da9b160b5b35904d910edeab3f34839
+    m_Address: Assets/Materials/CardsBackdropMat.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 4e7d47c1cb9a85045899d2fd0048bd8a
     m_Address: Assets/PROPS/LowPolyLivingRoomPack_URP_FREE/Meshes/PottedPlant_Small_1.fbx
     m_ReadOnly: 0

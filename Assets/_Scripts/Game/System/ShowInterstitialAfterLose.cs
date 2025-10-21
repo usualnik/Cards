@@ -1,21 +1,18 @@
+using System;
 using UnityEngine;
 using YG;
 
 public class ShowInterstitialAfterLose : MonoBehaviour
-{
-    private static int _loseCounter = 0;
+{ 
 
     private void Start()
     {
         Buffer.Instance.OnBufferFull += Buffer_OnBufferFull;               
-    }
-
-   
+    }   
 
     private void OnDestroy()
     {
         Buffer.Instance.OnBufferFull -= Buffer_OnBufferFull;
-
     }
 
     private void Buffer_OnBufferFull()
@@ -23,23 +20,16 @@ public class ShowInterstitialAfterLose : MonoBehaviour
         if (Buffer.Instance == null)
         {
             return;
-        }
+        }       
 
-        _loseCounter++;
-        
-        bool shouldShowAdEveryLose = PlayerData.Instance.GetCurrentLevel() <= 5;
+        DateTime now = DateTime.Now;
+        DateTime showAfterDate = new DateTime(2025, 10, 23);
 
-        if (shouldShowAdEveryLose)
+        if (now >= showAfterDate)
         {
             YG2.InterstitialAdvShow();
         }
-        else
-        {
-            if (_loseCounter % 2 == 0)
-            {
-                YG2.InterstitialAdvShow();
-            }
-        }    
+
     }
 
 

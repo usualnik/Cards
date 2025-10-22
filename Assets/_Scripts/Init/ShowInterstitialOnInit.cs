@@ -7,6 +7,5 @@ public class ShowInterstitialOnInit : MonoBehaviour
     {
         YG2.InterstitialAdvShow();
     }
-
   
 }

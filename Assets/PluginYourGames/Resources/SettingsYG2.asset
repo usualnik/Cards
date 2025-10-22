@@ -142,7 +142,7 @@ MonoBehaviour:
   Flags:
     flags: []
   InterstitialAdv:
-    showFirstAdv: 0
+    showFirstAdv: 1
     interAdvInterval: 60
     postponeCallByFail: 0
     postponeCallTimer: 10

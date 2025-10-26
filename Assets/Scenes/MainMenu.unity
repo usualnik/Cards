@@ -5996,6 +5996,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1310423873}
     m_Modifications:
+    - target: {fileID: 1375610974802027274, guid: 9fe9a927134e99348aae9b2d41b782a4, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3644022619213253019, guid: 9fe9a927134e99348aae9b2d41b782a4, type: 3}
       propertyPath: m_fontAsset
       value: 
@@ -11685,7 +11689,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1192532476
 RectTransform:
   m_ObjectHideFlags: 0
@@ -15055,6 +15059,10 @@ PrefabInstance:
     - target: {fileID: 1683010788719989153, guid: e50299dbe8123a24a83fc3baf8c67ab9, type: 3}
       propertyPath: m_Name
       value: 'GemsText (TMP) '
+      objectReference: {fileID: 0}
+    - target: {fileID: 3362903731748045501, guid: e50299dbe8123a24a83fc3baf8c67ab9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3740484620314091231, guid: e50299dbe8123a24a83fc3baf8c67ab9, type: 3}
       propertyPath: m_fontAsset
